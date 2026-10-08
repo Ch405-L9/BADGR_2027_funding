@@ -1,0 +1,10 @@
+line,year_1,year_2,year_3,assumption_or_evidence
+operating_revenue,,,,"owner to set from pipeline; 2025 actual $5,550 (C-FIN-02)"
+cost_of_services,,,,owner input
+software_and_hosting,,,,owner input
+equipment_capex,,,,quotes in finance/equipment_quote_register.csv (A-EQ-01)
+workspace,,,,quotes needed (A-WS-01)
+vehicle_and_travel,,,,trip log needed (A-TR-01)
+debt_service,,,,from chosen loan scenario (finance/loan_offer_comparison.csv)
+owner_contribution,,,,owner input
+grants_awarded,,,,awarded only; pending awards excluded

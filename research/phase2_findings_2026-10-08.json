@@ -1,0 +1,901 @@
+{
+  "about": "Phase 2 research pass 2026-10-08 (America/New_York). source_checked_at/checked_at times are approximate (rounded to the fetch batch). Each row's official URL was fetched that day. WebFetch returns a model summary of the page, not raw text, so excerpts are summary-derived and eligibility confidence is capped at medium. Effort hours are planning estimates. Nothing here is an approval, award or eligibility determination.",
+  "opportunities": [
+    {
+      "id": "verizon",
+      "sponsor": "Verizon / LISC",
+      "program": "Verizon Small Business Digital Ready Grant",
+      "cycle": "2026",
+      "funding_type": "grant",
+      "official_url": "https://digitalready.verizonwireless.com/funding/details",
+      "geography": "US, PR, USVI",
+      "for_profit_eligible": "yes",
+      "prerequisite_tier": "NONE",
+      "amount_min": "$10,000",
+      "amount_max": "$10,000",
+      "rolling": "unknown",
+      "uses_allowed": "Not stated on funding page",
+      "fees": "none",
+      "source_status": "VERIFIED_OPEN",
+      "source_checked_at": "2026-10-08T05:20:00-04:00",
+      "source_checked_tz": "America/New_York",
+      "effort_hours": 6,
+      "required_documents": "Digital Ready account; two completed courses/events; W-9 and ACH verification if selected as finalist",
+      "next_action": "Create Digital Ready account; finish any two courses/events (hard stop 2026-12-07); apply as soon as the application unlocks. Applications stay under consideration for the rest of 2026",
+      "notes": "Reviewed monthly Jun-Dec 2026 (10 grants/month); one application per year; final decisions by 2027-01-12. No explicit application close date published; course prerequisite closes 2026-12-07. Finalists must provide W-9 and ACH details.",
+      "criteria": [
+        {
+          "criterion": "For-profit business in US",
+          "status": "yes",
+          "evidence": "C-BIZ-01; page: for-profit, US"
+        },
+        {
+          "criterion": "Owner 18 or older",
+          "status": "yes",
+          "evidence": "owner is an adult (transcript record; not stored)"
+        },
+        {
+          "criterion": "Two Digital Ready courses/events completed 2026-01-01 to 2026-12-07",
+          "status": "unknown",
+          "evidence": "owner to complete/confirm"
+        },
+        {
+          "criterion": "Not a prior Digital Ready grant recipient",
+          "evidence": "owner-screened (private)",
+          "private_key": "prior_digital_ready_grant",
+          "pass_when": "false"
+        },
+        {
+          "criterion": "Digital Ready platform account",
+          "status": "unknown",
+          "evidence": "owner to create/confirm"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://digitalready.verizonwireless.com/funding/details",
+          "kind": "official",
+          "method": "WebFetch summary",
+          "checked_at": "2026-10-08T05:20:00-04:00",
+          "excerpt": "$10,000 national grant; 10 businesses monthly Jun-Dec 2026; complete two courses/events between Jan 1 and Dec 7, 2026"
+        },
+        {
+          "url": "https://www.lisc.org/our-initiatives/small-business/our-work/verizon-small-business-digital-ready/grant-program/",
+          "kind": "official",
+          "method": "WebSearch result summary (program administrator page)",
+          "checked_at": "2026-10-08T06:05:00-04:00",
+          "excerpt": "Applications reviewed monthly June through December 2026; final decision by January 12, 2027"
+        }
+      ],
+      "followup_date": "2026-10-22"
+    },
+    {
+      "id": "nase",
+      "sponsor": "National Association for the Self-Employed",
+      "program": "NASE Growth Grant",
+      "cycle": "2026 Q4",
+      "funding_type": "grant",
+      "official_url": "https://www.nase.org/become-a-member/member-benefits/business-resources/growth-grants",
+      "geography": "US",
+      "for_profit_eligible": "unknown",
+      "prerequisite_tier": "NONE",
+      "amount_max": "$4,000",
+      "deadline_date": "2026-12-31",
+      "rolling": "no",
+      "uses_allowed": "Marketing, equipment/software, office repairs, websites, furniture, training, trade shows, part-time hires",
+      "uses_disallowed": "Existing debt, rent/mortgage payments",
+      "fees": "NASE membership required (cost not stated on page)",
+      "required_documents": "Grant-use statement; business plan; recent tax return or P&L; photo",
+      "source_status": "VERIFIED_OPEN",
+      "source_checked_at": "2026-10-08T05:20:00-04:00",
+      "source_checked_tz": "America/New_York",
+      "effort_hours": 8,
+      "next_action": "Parked: owner declined NASE membership (2026-10-08). Revisit only if that changes",
+      "notes": "Quarterly: Oct-Dec submissions reviewed in January. 2026-12-31 is the quarter end, inferred from the review schedule, not a published cutoff time.",
+      "criteria": [
+        {
+          "criterion": "NASE member in good standing (annual: immediate; monthly: 90-day wait)",
+          "status": "no",
+          "evidence": "owner declined NASE membership 2026-10-08; see private/screening.json"
+        },
+        {
+          "criterion": "Has tax return or P&L",
+          "status": "yes",
+          "evidence": "C-FIN-02 / C-FIN-03 2025 return filed"
+        },
+        {
+          "criterion": "Use fits allowed list (e.g. equipment/software/website)",
+          "status": "unknown",
+          "evidence": "owner to choose use of funds"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.nase.org/become-a-member/member-benefits/business-resources/growth-grants",
+          "kind": "official",
+          "method": "WebFetch summary",
+          "checked_at": "2026-10-08T05:20:00-04:00",
+          "excerpt": "Up to $4,000; annual members eligible immediately; monthly members wait 90 days; quarterly review"
+        }
+      ],
+      "reason": "owner screening answers"
+    },
+    {
+      "id": "gwinnett_sbg",
+      "sponsor": "Gwinnett County",
+      "program": "Gwinnett Small Business Grant (ARPA)",
+      "cycle": "2023",
+      "funding_type": "grant",
+      "official_url": "https://www.gwinnettcounty.com/government/departments/planning-development/economic-development/small-business-grant",
+      "geography": "Gwinnett County, GA",
+      "prerequisite_tier": "UNKNOWN",
+      "amount_min": "$3,000",
+      "amount_max": "$15,000",
+      "source_status": "VERIFIED_CLOSED",
+      "source_checked_at": "2026-10-08T05:30:00-04:00",
+      "source_checked_tz": "America/New_York",
+      "next_action": "None. Watch Gwinnett economic development news for any new program",
+      "notes": "One-time ARPA program (2023). The county news release title says 100% of funds were distributed. The program page body could not be read, so confidence is low.",
+      "criteria": [
+        {
+          "criterion": "Program currently accepting applications",
+          "status": "no",
+          "evidence": "county release: funds fully distributed"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.gwinnettcounty.com/-/news-events/news-releases/news-details/gwinnett-small-business-grant-distributes-100-of-funds-to-small-businesses",
+          "kind": "official",
+          "method": "WebSearch result title (body not fetched)",
+          "checked_at": "2026-10-08T05:30:00-04:00"
+        }
+      ]
+    },
+    {
+      "id": "comcast_rise",
+      "sponsor": "Comcast",
+      "program": "Comcast RISE",
+      "cycle": null,
+      "funding_type": "grant",
+      "official_url": "https://corporate.comcast.com/company/impact/project-up",
+      "prerequisite_tier": "UNKNOWN",
+      "source_status": "CHANGED",
+      "source_checked_at": "2026-10-08T05:40:00-04:00",
+      "source_checked_tz": "America/New_York",
+      "next_action": "Check the Project UP page for any current small-business grant cycle and Atlanta eligibility",
+      "notes": "comcastrise.com now redirects (301) to Comcast's Project UP page. Program status unknown.",
+      "sources": [
+        {
+          "url": "https://www.comcastrise.com/",
+          "kind": "official",
+          "method": "WebFetch (301 redirect observed)",
+          "checked_at": "2026-10-08T05:40:00-04:00"
+        }
+      ]
+    },
+    {
+      "id": "kiva",
+      "sponsor": "Kiva",
+      "program": "Kiva US 0% Loan",
+      "cycle": null,
+      "funding_type": "loan",
+      "official_url": "https://www.kiva.org/borrow",
+      "geography": "US (not NV or ND)",
+      "for_profit_eligible": "yes",
+      "prerequisite_tier": "NONE",
+      "amount_min": "$1,000",
+      "amount_max": "$15,000",
+      "rolling": "yes",
+      "rate_apr": "0%",
+      "fees": "none",
+      "collateral": "none",
+      "guarantee": "none",
+      "term_months": 36,
+      "uses_allowed": "Business purposes",
+      "uses_disallowed": "Refinancing debt; purchasing stock or equity",
+      "source_status": "ROLLING_CONFIRMED",
+      "source_checked_at": "2026-10-08T05:20:00-04:00",
+      "source_checked_tz": "America/New_York",
+      "effort_hours": 10,
+      "next_action": "Owner confirms screening items, then run a repayment check; plan who to invite for the 10-15 day private lending period",
+      "notes": "Typical term 12-36 months. Character-based; no minimum credit score. PayPal account required.",
+      "criteria": [
+        {
+          "criterion": "Resides and operates in US (not NV/ND)",
+          "status": "yes",
+          "evidence": "C-BIZ-03"
+        },
+        {
+          "criterion": "Owner 18 or older",
+          "status": "yes",
+          "evidence": "owner adult"
+        },
+        {
+          "criterion": "Business type not excluded (crypto, MLM, gig-platform contracting, etc.)",
+          "status": "yes",
+          "evidence": "software services (C-OFF-01)"
+        },
+        {
+          "criterion": "No foreclosure, bankruptcy or liens",
+          "evidence": "owner-screened (private)",
+          "private_key": "bankruptcy_liens_convictions_5yr",
+          "pass_when": "false"
+        },
+        {
+          "criterion": "No disqualifying convictions in past 5 years",
+          "evidence": "owner-screened (private)",
+          "private_key": "bankruptcy_liens_convictions_5yr",
+          "pass_when": "false"
+        },
+        {
+          "criterion": "PayPal account",
+          "evidence": "owner-screened (private)",
+          "private_key": "paypal_account",
+          "pass_when": "true"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.kiva.org/borrow",
+          "kind": "official",
+          "method": "WebFetch summary",
+          "checked_at": "2026-10-08T05:20:00-04:00",
+          "excerpt": "$1,000-$15,000; 0% interest; no fees; 12-36 months; invite friends/family during 10-15 day private period"
+        }
+      ]
+    },
+    {
+      "id": "ace",
+      "sponsor": "Access to Capital for Entrepreneurs (ACE)",
+      "program": "ACE Small Business Loan",
+      "cycle": null,
+      "funding_type": "loan",
+      "official_url": "https://aceloans.org/apply-for-a-loan/small-business-loans/",
+      "geography": "Georgia (Gwinnett served per state list)",
+      "for_profit_eligible": "yes",
+      "prerequisite_tier": "HISTORY_MIN",
+      "min_months_in_business": 24,
+      "amount_min": "$15,000",
+      "amount_max": "$50,000",
+      "rolling": "yes",
+      "rate_apr": "7.75% fixed",
+      "fees": "$100 application + 3% origination",
+      "term_months": 60,
+      "collateral": "UCC filing on business assets/equipment/vehicles",
+      "guarantee": "Personal guarantee from 20%+ owners",
+      "uses_allowed": "Working capital, inventory, equipment, vehicles",
+      "required_documents": "Business tax return; YTD balance sheet and P&L; personal returns; W-2s; driver's license; personal financial statement; operating agreement",
+      "source_status": "ROLLING_CONFIRMED",
+      "source_checked_at": "2026-10-08T05:20:00-04:00",
+      "source_checked_tz": "America/New_York",
+      "effort_hours": 20,
+      "revisit_date": "2027-01-05",
+      "caution": "D16: tax follow-up pending before lender/federal review (details in private/tax_2025_summary.md)",
+      "next_action": "Revisit on 2027-01-05. Ask ACE whether a single-member LLC's Schedule C counts as the business return. Prepare YTD P&L and a personal financial statement",
+      "notes": "No startup loans; 2+ years in operation required (met 2027-01-20 if operations are continuous). The page lists 2024 returns, which may be out of date.",
+      "criteria": [
+        {
+          "criterion": "Georgia-based for-profit",
+          "status": "yes",
+          "evidence": "C-BIZ-01, C-BIZ-03"
+        },
+        {
+          "criterion": "Active GA SOS filings in good standing",
+          "status": "yes",
+          "evidence": "C-OWN-05 2026 annual registration filed"
+        },
+        {
+          "criterion": "Repayment capacity for $15k+ at 7.75%",
+          "status": "unknown",
+          "evidence": "2025 Schedule C net loss (C-FIN-02); needs cash-flow analysis"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://aceloans.org/apply-for-a-loan/small-business-loans/",
+          "kind": "official",
+          "method": "WebFetch summary",
+          "checked_at": "2026-10-08T05:20:00-04:00",
+          "excerpt": "$15,000 to $50,000; 7.75% fixed; up to 60 months; 2+ years in operation; no startup loans"
+        }
+      ]
+    },
+    {
+      "id": "sbamicro",
+      "sponsor": "U.S. Small Business Administration",
+      "program": "SBA Microloan (via intermediary)",
+      "cycle": null,
+      "funding_type": "loan",
+      "official_url": "https://www.sba.gov/funding-programs/loans/microloans",
+      "geography": "US; Georgia intermediaries per state list (dated 2016): ACE, Accion, LiftFund, SBAC, Atlanta Micro Fund",
+      "for_profit_eligible": "yes",
+      "prerequisite_tier": "COLLATERAL_REPAYMENT",
+      "amount_max": "$50,000",
+      "rolling": "yes",
+      "rate_apr": "Generally 8%-13%",
+      "term_months": 84,
+      "uses_allowed": "Working capital, inventory, supplies, furniture, fixtures, machinery, equipment",
+      "uses_disallowed": "Existing debt; real estate",
+      "source_status": "ROLLING_CONFIRMED",
+      "source_checked_at": "2026-10-08T05:25:00-04:00",
+      "source_checked_tz": "America/New_York",
+      "effort_hours": 20,
+      "caution": "D16: tax follow-up pending before lender/federal review (details in private/tax_2025_summary.md)",
+      "next_action": "Ask SBDC which Gwinnett-serving intermediary lends to businesses under 2 years old",
+      "notes": "Average loan about $13,000. Intermediary-specific rules apply (ACE requires 2+ years).",
+      "criteria": [
+        {
+          "criterion": "For-profit, US, small under SBA size standards",
+          "status": "yes",
+          "evidence": "C-BIZ-01, C-BIZ-05"
+        },
+        {
+          "criterion": "A Gwinnett-serving intermediary accepts businesses under 2 years old",
+          "status": "unknown",
+          "evidence": "research queue"
+        },
+        {
+          "criterion": "Repayment capacity",
+          "status": "unknown",
+          "evidence": "needs cash-flow analysis"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.sba.gov/funding-programs/loans/microloans",
+          "kind": "official",
+          "method": "WebFetch summary",
+          "checked_at": "2026-10-08T05:25:00-04:00",
+          "excerpt": "Up to $50,000; average about $13,000; max term seven years; generally 8%-13%; no real estate or existing debt"
+        }
+      ]
+    },
+    {
+      "id": "accion_of",
+      "sponsor": "Accion Opportunity Fund",
+      "program": "Accion Opportunity Fund Small Business Term Loan",
+      "cycle": null,
+      "funding_type": "loan",
+      "official_url": "https://aofund.org/",
+      "geography": "45 states (excludes DC, MT, ND, SD, TN); Georgia not excluded",
+      "prerequisite_tier": "UNKNOWN",
+      "rolling": "yes",
+      "source_status": "ROLLING_CONFIRMED",
+      "source_checked_at": "2026-10-08T05:35:00-04:00",
+      "source_checked_tz": "America/New_York",
+      "effort_hours": 10,
+      "next_action": "Find minimum time in business and revenue on the loan product page or by phone",
+      "notes": "Products named: term loan, SBA 7(a), equipment leasing, truck financing. Amounts, rates and minimums not on homepage.",
+      "criteria": [
+        {
+          "criterion": "Operates in a served state (GA)",
+          "status": "yes",
+          "evidence": "page lists excluded states; GA not among them"
+        },
+        {
+          "criterion": "Minimum time in business / revenue",
+          "status": "unknown",
+          "evidence": "not on homepage"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://aofund.org/",
+          "kind": "official",
+          "method": "WebFetch summary",
+          "checked_at": "2026-10-08T05:35:00-04:00"
+        }
+      ]
+    },
+    {
+      "id": "ssbci",
+      "sponsor": "Georgia Department of Community Affairs",
+      "program": "Georgia SSBCI (loan participation, credit guaranty, CDFI)",
+      "cycle": null,
+      "funding_type": "loan_support",
+      "official_url": "https://dca.georgia.gov/financing-tools/small-business/state-small-business-credit-initiative-ssbci",
+      "geography": "Georgia",
+      "prerequisite_tier": "COLLATERAL_REPAYMENT",
+      "rolling": "yes",
+      "source_status": "ROLLING_CONFIRMED",
+      "source_checked_at": "2026-10-08T05:25:00-04:00",
+      "source_checked_tz": "America/New_York",
+      "effort_hours": 4,
+      "next_action": "Ask SBDC (which advises on SSBCI) which participating lender or GA CDFI fits a sub-2-year, under-10-employee business",
+      "notes": "Not a grant. Participation (up to 25% of a lender's loan), 50% guaranty, and CDFI gap financing. Targets very small businesses (<10 employees) with SEDI outreach.",
+      "criteria": [
+        {
+          "criterion": "Georgia business",
+          "status": "yes",
+          "evidence": "C-BIZ-01"
+        },
+        {
+          "criterion": "Very small (<10 employees)",
+          "status": "yes",
+          "evidence": "C-BIZ-05"
+        },
+        {
+          "criterion": "Participating lender approves the underlying loan",
+          "status": "unknown",
+          "evidence": "requires lender"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://dca.georgia.gov/financing-tools/small-business/state-small-business-credit-initiative-ssbci",
+          "kind": "official",
+          "method": "WebFetch summary",
+          "checked_at": "2026-10-08T05:25:00-04:00",
+          "excerpt": "purchases up to 25% of a loan originated by a participating lender; guarantees 50%; very small businesses (less than 10 employees)"
+        }
+      ]
+    },
+    {
+      "id": "sba7a",
+      "sponsor": "U.S. Small Business Administration",
+      "program": "SBA 7(a) Loan",
+      "cycle": null,
+      "funding_type": "loan",
+      "official_url": "https://www.sba.gov/funding-programs/loans/7a-loans",
+      "geography": "US",
+      "for_profit_eligible": "yes",
+      "prerequisite_tier": "COLLATERAL_REPAYMENT",
+      "amount_max": "$5,000,000",
+      "rolling": "yes",
+      "uses_allowed": "Real estate, working capital, refinancing, equipment (incl. AI-related), furniture, supplies",
+      "source_status": "ROLLING_CONFIRMED",
+      "source_checked_at": "2026-10-08T05:25:00-04:00",
+      "source_checked_tz": "America/New_York",
+      "effort_hours": 40,
+      "caution": "D16: tax follow-up pending before lender/federal review (details in private/tax_2025_summary.md)",
+      "next_action": "Later stage: revisit after 12+ months of positive cash flow",
+      "criteria": [
+        {
+          "criterion": "Operating for-profit US small business",
+          "status": "yes",
+          "evidence": "C-BIZ-01"
+        },
+        {
+          "criterion": "Creditworthy with reasonable ability to repay",
+          "status": "unknown",
+          "evidence": "2025 net loss; no cash-flow history"
+        },
+        {
+          "criterion": "Cannot obtain credit elsewhere on reasonable terms",
+          "status": "unknown",
+          "evidence": "lender determination"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.sba.gov/funding-programs/loans/7a-loans",
+          "kind": "official",
+          "method": "WebFetch summary",
+          "checked_at": "2026-10-08T05:25:00-04:00"
+        }
+      ]
+    },
+    {
+      "id": "sba504",
+      "sponsor": "U.S. Small Business Administration",
+      "program": "SBA 504 Loan (via CDC)",
+      "cycle": null,
+      "funding_type": "property",
+      "official_url": "https://www.sba.gov/funding-programs/loans/504-loans",
+      "geography": "US",
+      "for_profit_eligible": "yes",
+      "prerequisite_tier": "COLLATERAL_REPAYMENT",
+      "amount_max": "$5,500,000",
+      "rolling": "yes",
+      "uses_allowed": "Buildings/land; machinery and equipment with 10+ year life",
+      "uses_disallowed": "Working capital, inventory, rental real estate",
+      "source_status": "ROLLING_CONFIRMED",
+      "source_checked_at": "2026-10-08T05:25:00-04:00",
+      "source_checked_tz": "America/New_York",
+      "effort_hours": 60,
+      "next_action": "Building-ownership stage only, once repayment is lender-supported",
+      "criteria": [
+        {
+          "criterion": "Operating for-profit US small business",
+          "status": "yes",
+          "evidence": "C-BIZ-01"
+        },
+        {
+          "criterion": "Feasible plan and ability to repay",
+          "status": "unknown",
+          "evidence": "no repayment history"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.sba.gov/funding-programs/loans/504-loans",
+          "kind": "official",
+          "method": "WebFetch summary",
+          "checked_at": "2026-10-08T05:25:00-04:00"
+        }
+      ]
+    },
+    {
+      "id": "sbdc",
+      "sponsor": "UGA Small Business Development Center",
+      "program": "Georgia SBDC Gwinnett consulting",
+      "cycle": null,
+      "funding_type": "advisory",
+      "official_url": "https://georgiasbdc.org/locations/gwinnett/",
+      "geography": "Gwinnett office, Lawrenceville",
+      "prerequisite_tier": "NONE",
+      "rolling": "yes",
+      "fees": "none",
+      "source_status": "VERIFIED_OPEN",
+      "source_checked_at": "2026-10-08T05:25:00-04:00",
+      "source_checked_tz": "America/New_York",
+      "effort_hours": 2,
+      "next_action": "Request a consulting appointment (by appointment only; online form). Bring: SSBCI/lender fit, tax 1040-X question (D16), SAM receipts update (D3), name consistency (D1)",
+      "notes": "Consulting cost not listed on page. The 'Unlocking Capital' workshop is free; other classes are paid ($39-$199). Advises on SSBCI and funding sources.",
+      "criteria": [
+        {
+          "criterion": "Business in service area",
+          "status": "yes",
+          "evidence": "Lawrenceville office; C-BIZ-03"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://georgiasbdc.org/locations/gwinnett/",
+          "kind": "official",
+          "method": "WebFetch summary",
+          "checked_at": "2026-10-08T05:25:00-04:00",
+          "excerpt": "Our office operates by appointment; capital access assistance incl. State Small Business Credit Initiative"
+        }
+      ]
+    },
+    {
+      "id": "apex",
+      "sponsor": "Georgia Tech",
+      "program": "GT APEX Accelerator counseling",
+      "cycle": null,
+      "funding_type": "contracting",
+      "official_url": "https://gtapexaccelerator.org/",
+      "geography": "Georgia",
+      "prerequisite_tier": "NONE",
+      "rolling": "yes",
+      "fees": "none",
+      "source_status": "VERIFIED_OPEN",
+      "source_checked_at": "2026-10-08T05:25:00-04:00",
+      "source_checked_tz": "America/New_York",
+      "effort_hours": 3,
+      "next_action": "Attend Introduction to Government Contracting class, submit New Client Application, then book a counselor (ask about LLC vs sole-prop SAM classification, D4)",
+      "criteria": [
+        {
+          "criterion": "Georgia-based business",
+          "status": "yes",
+          "evidence": "C-BIZ-01"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://gtapexaccelerator.org/",
+          "kind": "official",
+          "method": "WebFetch summary",
+          "checked_at": "2026-10-08T05:25:00-04:00",
+          "excerpt": "Free one-on-one counseling for government contract success"
+        }
+      ]
+    },
+    {
+      "id": "gwinnett",
+      "sponsor": "Gwinnett County",
+      "program": "Gwinnett Entrepreneur Center",
+      "cycle": null,
+      "funding_type": "advisory",
+      "official_url": "https://www.gwinnettcounty.com/government/departments/planning-development/economic-development/entrepreneur-center",
+      "geography": "Lawrenceville, GA",
+      "prerequisite_tier": "NONE",
+      "rolling": "yes",
+      "fees": "none",
+      "source_status": "VERIFIED_OPEN",
+      "source_checked_at": "2026-10-08T05:25:00-04:00",
+      "source_checked_tz": "America/New_York",
+      "effort_hours": 2,
+      "next_action": "Book a center tour; ask about the annual incubator cohort and whether any desk/workspace access exists",
+      "notes": "Free classes, workshops, coaching and networking; no membership required. Annual incubator cohort. No coworking or funding mentioned, so reclassified from workspace to advisory.",
+      "criteria": [
+        {
+          "criterion": "Open to regional entrepreneurs",
+          "status": "yes",
+          "evidence": "page: open to everyone at no cost"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.gwinnettcounty.com/government/departments/planning-development/economic-development/entrepreneur-center",
+          "kind": "official",
+          "method": "WebFetch summary",
+          "checked_at": "2026-10-08T05:25:00-04:00",
+          "excerpt": "opens its doors to everyone at no cost. No membership is required"
+        }
+      ]
+    },
+    {
+      "id": "atdc",
+      "sponsor": "Georgia Tech",
+      "program": "ATDC startup programs (Educate / Accelerate / Signature)",
+      "cycle": null,
+      "funding_type": "lever",
+      "official_url": "https://atdc.org/",
+      "geography": "Georgia",
+      "prerequisite_tier": "NONE",
+      "rolling": "unknown",
+      "fees": "none",
+      "source_status": "VERIFIED_OPEN",
+      "source_checked_at": "2026-10-08T05:35:00-04:00",
+      "source_checked_tz": "America/New_York",
+      "effort_hours": 4,
+      "next_action": "Take the 'Which ATDC Program is Right For Me?' quiz; Educate track likely fits. Ask about STTR research-partner introductions",
+      "notes": "State-funded, zero equity, tech startups only. Not limited to Georgia Tech affiliates. The quiz asks about full-time commitment and MVP status.",
+      "criteria": [
+        {
+          "criterion": "Georgia-based tech startup",
+          "status": "yes",
+          "evidence": "C-BIZ-01, C-BIZ-04"
+        },
+        {
+          "criterion": "Meets program stage/commitment criteria",
+          "status": "unknown",
+          "evidence": "quiz pending"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://atdc.org/",
+          "kind": "official",
+          "method": "WebFetch summary",
+          "checked_at": "2026-10-08T05:35:00-04:00",
+          "excerpt": "state-funded program, we're unbiased and take zero equity"
+        }
+      ]
+    },
+    {
+      "id": "nsf",
+      "sponsor": "National Science Foundation",
+      "program": "NSF SBIR/STTR (America's Seed Fund) Project Pitch",
+      "cycle": null,
+      "funding_type": "rd",
+      "official_url": "https://seedfund.nsf.gov/project-pitch/",
+      "geography": "US",
+      "for_profit_eligible": "yes",
+      "prerequisite_tier": "SAM_ACTIVE",
+      "amount_max": "$2,000,000",
+      "rolling": "unknown",
+      "registrations_required": "SAM (UEI), SBIR.gov company registry, Research.gov (verify exact list on Apply page)",
+      "source_status": "VERIFIED_OPEN",
+      "source_checked_at": "2026-10-08T05:30:00-04:00",
+      "source_checked_tz": "America/New_York",
+      "effort_hours": 12,
+      "next_action": "Draft a Project Pitch for the retrieval-reliability concept (Phase 3 R&D sheet); verify whether a pitch requires SAM to be Active",
+      "notes": "Up to $2M total seed funding across phases. Pitch portal open. SBIR/STTR reauthorized through 2031-09-30 (signed 2026-04-13) per third-party reports, not confirmed on an agency page.",
+      "criteria": [
+        {
+          "criterion": "Small business <500 employees, for-profit",
+          "status": "yes",
+          "evidence": "C-BIZ-05"
+        },
+        {
+          "criterion": "US citizen / permanent resident ownership >50%",
+          "evidence": "owner-screened (private)",
+          "private_key": "us_citizen",
+          "pass_when": "true"
+        },
+        {
+          "criterion": "PI primarily employed by the company",
+          "evidence": "owner-screened (private)",
+          "private_key": "employed_elsewhere",
+          "pass_when": "false"
+        },
+        {
+          "criterion": "High-risk technical innovation (not incremental)",
+          "status": "unknown",
+          "evidence": "C-RD-01 concept only; literature review needed"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://seedfund.nsf.gov/project-pitch/",
+          "kind": "official",
+          "method": "WebFetch summary",
+          "checked_at": "2026-10-08T05:30:00-04:00",
+          "excerpt": "Create an account to submit your Project Pitch"
+        },
+        {
+          "url": "https://www.mondaq.com/unitedstates/government-contracts-procurement-ppp/1774902/sbirsttr-programs-reauthorized-after-six-month-lapse",
+          "kind": "lead",
+          "method": "WebSearch result summary",
+          "checked_at": "2026-10-08T05:30:00-04:00",
+          "excerpt": "reauthorized through September 30, 2031"
+        }
+      ]
+    },
+    {
+      "id": "ga_cert",
+      "sponsor": "Georgia Department of Administrative Services",
+      "program": "Georgia Business Certification (Small Minority-Owned)",
+      "cycle": null,
+      "funding_type": "contracting",
+      "official_url": "https://doas.ga.gov/state-purchasing/how-to/how-to-get-certified-as-a-minority-business-enterprise",
+      "geography": "Georgia-domiciled",
+      "prerequisite_tier": "CERTIFICATION_REQUIRED",
+      "rolling": "yes",
+      "fees": "none",
+      "required_documents": "Approval letter from certifying partner (e.g. GMSDC, SBA); tax returns for 'small' designations",
+      "source_status": "ROLLING_CONFIRMED",
+      "source_checked_at": "2026-10-08T05:40:00-04:00",
+      "source_checked_tz": "America/New_York",
+      "effort_hours": 4,
+      "next_action": "After a partner certification (e.g. GMSDC MBE): register in GA@WORK Marketplace, get a Supplier ID, submit the Georgia Business Certification Application",
+      "criteria": [
+        {
+          "criterion": "Georgia domiciled",
+          "status": "yes",
+          "evidence": "C-BIZ-01"
+        },
+        {
+          "criterion": "Holds partner certification (GMSDC, SBA, GDOT, etc.) at application",
+          "status": "unknown",
+          "evidence": "not held today (C-DES-01); obtainable via GMSDC MBE (see gmsdc_mbe)"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://doas.ga.gov/state-purchasing/how-to/how-to-get-certified-as-a-minority-business-enterprise",
+          "kind": "official",
+          "method": "WebFetch summary",
+          "checked_at": "2026-10-08T05:40:00-04:00",
+          "excerpt": "There is no fee to apply."
+        }
+      ]
+    },
+    {
+      "id": "gmsdc_mbe",
+      "sponsor": "Georgia Minority Supplier Development Council (Georgia Council)",
+      "program": "MBE Certification",
+      "cycle": null,
+      "funding_type": "lever",
+      "official_url": "https://georgiacouncil.org/certification/",
+      "geography": "Georgia HQ",
+      "for_profit_eligible": "yes",
+      "prerequisite_tier": "NONE",
+      "rolling": "unknown",
+      "ownership_requirements": "51% minority-owned and controlled; US citizen owners; minority owner holds top executive position (third-party summary)",
+      "fees": "Reported $600 initial / $400 annual renewal (third-party source; unverified)",
+      "source_status": "UNVERIFIED_CURRENT",
+      "effort_hours": 15,
+      "next_action": "Fetch the certification page or call to confirm requirements and fees. Gather a signed operating agreement (D2) and proof of citizenship",
+      "notes": "gmsdc.org redirects to georgiacouncil.org. The homepage did not list criteria; the certification subpage has not been fetched yet.",
+      "criteria": [
+        {
+          "criterion": "51%+ owned by ethnic minority",
+          "status": "unknown",
+          "evidence": "owner reports Black-owned (C-OWN-03) and 100% sole member (C-OWN-04, PARTIAL); certification needs proof"
+        },
+        {
+          "criterion": "US citizen owner",
+          "evidence": "owner-screened (private)",
+          "private_key": "us_citizen",
+          "pass_when": "true"
+        },
+        {
+          "criterion": "Georgia headquartered for-profit",
+          "status": "yes",
+          "evidence": "C-BIZ-01"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://georgiacouncil.org/",
+          "kind": "official",
+          "method": "WebFetch summary (homepage only)",
+          "checked_at": "2026-10-08T05:40:00-04:00"
+        },
+        {
+          "url": "https://www.supplierdiversity.com/blog/mbe-certification-in-georgia/",
+          "kind": "lead",
+          "method": "WebSearch result summary",
+          "checked_at": "2026-10-08T05:35:00-04:00",
+          "excerpt": "Initial Certification costs $600 and Annual Renewal costs $400"
+        }
+      ]
+    },
+    {
+      "id": "sba_8a",
+      "sponsor": "U.S. Small Business Administration",
+      "program": "8(a) Business Development Program",
+      "cycle": null,
+      "funding_type": "contracting",
+      "official_url": "https://www.sba.gov/federal-contracting/contracting-assistance-programs/8a-business-development-program",
+      "geography": "US",
+      "prerequisite_tier": "HISTORY_MIN",
+      "min_months_in_business": 24,
+      "rolling": "yes",
+      "fees": "none",
+      "ownership_requirements": "51%+ owned and controlled by socially and economically disadvantaged US citizens; PNW <= $850k; 3-yr average AGI <= $400k; total assets <= $6.5M",
+      "source_status": "ROLLING_CONFIRMED",
+      "source_checked_at": "2026-10-08T05:40:00-04:00",
+      "source_checked_tz": "America/New_York",
+      "effort_hours": 40,
+      "revisit_date": "2027-01-05",
+      "next_action": "Revisit on 2027-01-05 with APEX. Self-certified SDB is NOT 8(a); this is a separate application (once-in-a-lifetime, 9-year program)",
+      "criteria": [
+        {
+          "criterion": "51%+ owned/controlled by socially and economically disadvantaged US citizen(s)",
+          "status": "unknown",
+          "evidence": "citizenship and disadvantage narrative not established"
+        },
+        {
+          "criterion": "Economic thresholds (PNW, 3-yr AGI, assets)",
+          "status": "unknown",
+          "evidence": "personal financial statement not prepared; see private/"
+        },
+        {
+          "criterion": "Potential for success / good character",
+          "status": "unknown",
+          "evidence": "SBA determination"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.sba.gov/federal-contracting/contracting-assistance-programs/8a-business-development-program",
+          "kind": "official",
+          "method": "WebFetch summary",
+          "checked_at": "2026-10-08T05:40:00-04:00",
+          "excerpt": "Minimum two years required; $850 thousand or less; $400 thousand or less (averaged over three years)"
+        }
+      ]
+    },
+    {
+      "id": "gwinnett_tech_hope",
+      "sponsor": "Gwinnett Technical College / Georgia Student Finance Commission",
+      "program": "HOPE Grant + HOPE Career Grant (CIST certificate/diploma)",
+      "cycle": null,
+      "funding_type": "lever",
+      "official_url": "https://gwinnetttech.edu/admissions-financial-aid/hope-career-grant/",
+      "geography": "Georgia residents",
+      "prerequisite_tier": "NONE",
+      "rolling": "unknown",
+      "source_status": "VERIFIED_OPEN",
+      "source_checked_at": "2026-10-08T05:40:00-04:00",
+      "source_checked_tz": "America/New_York",
+      "effort_hours": 6,
+      "next_action": "Owner decision on enrollment. If yes, target a CIST certificate/diploma (e.g. cybersecurity, programming), not the associate degree, to use HOPE Grant + HOPE Career Grant",
+      "notes": "Personal education aid, not business funding. Associate degrees do not qualify, except HOPE Grant for up to 30 degree hours after a diploma or two certificates. Search summary: Career Grant $500/semester for 9+ credits (unverified).",
+      "criteria": [
+        {
+          "criterion": "Georgia legal resident",
+          "evidence": "owner-screened (private)",
+          "private_key": "georgia_resident",
+          "pass_when": "true"
+        },
+        {
+          "criterion": "US citizen or eligible non-citizen",
+          "evidence": "owner-screened (private)",
+          "private_key": "us_citizen",
+          "pass_when": "true"
+        },
+        {
+          "criterion": "Enrolled in qualifying certificate/diploma program",
+          "status": "unknown",
+          "evidence": "owner decision"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://gwinnetttech.edu/admissions-financial-aid/hope-career-grant/",
+          "kind": "official",
+          "method": "WebFetch summary",
+          "checked_at": "2026-10-08T05:40:00-04:00",
+          "excerpt": "Full-time enrollment in a certificate or diploma program"
+        }
+      ]
+    }
+  ]
+}

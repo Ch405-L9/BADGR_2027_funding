@@ -1,0 +1,221 @@
+opportunity_id,field,old_value,new_value,changed_at,reason
+verizon,*,,created,2026-10-08T08:01:00-04:00,seed import
+kiva,*,,created,2026-10-08T08:01:00-04:00,seed import
+nase,*,,created,2026-10-08T08:01:00-04:00,seed import
+ace,*,,created,2026-10-08T08:01:00-04:00,seed import
+ssbci,*,,created,2026-10-08T08:01:00-04:00,seed import
+gwinnett,*,,created,2026-10-08T08:01:00-04:00,seed import
+sbdc,*,,created,2026-10-08T08:01:00-04:00,seed import
+apex,*,,created,2026-10-08T08:01:00-04:00,seed import
+sbamicro,*,,created,2026-10-08T08:01:00-04:00,seed import
+sba7a,*,,created,2026-10-08T08:01:00-04:00,seed import
+sba504,*,,created,2026-10-08T08:01:00-04:00,seed import
+nsf,*,,created,2026-10-08T08:01:00-04:00,seed import
+verizon,sponsor,Verizon Digital Ready,Verizon / LISC,2026-10-08T08:01:00-04:00,research findings
+verizon,program,Verizon Digital Ready,Verizon Small Business Digital Ready Grant,2026-10-08T08:01:00-04:00,research findings
+verizon,cycle,,2026,2026-10-08T08:01:00-04:00,research findings
+verizon,geography,,"US, PR, USVI",2026-10-08T08:01:00-04:00,research findings
+verizon,for_profit_eligible,unknown,yes,2026-10-08T08:01:00-04:00,research findings
+verizon,prerequisite_tier,UNKNOWN,NONE,2026-10-08T08:01:00-04:00,research findings
+verizon,uses_allowed,,Not stated on funding page,2026-10-08T08:01:00-04:00,research findings
+verizon,fees,,none,2026-10-08T08:01:00-04:00,research findings
+verizon,source_status,UNVERIFIED_CURRENT,VERIFIED_OPEN,2026-10-08T08:01:00-04:00,research findings
+verizon,source_checked_at,,2026-10-08T05:20:00-04:00,2026-10-08T08:01:00-04:00,research findings
+verizon,source_checked_tz,,America/New_York,2026-10-08T08:01:00-04:00,research findings
+verizon,effort_hours,,6,2026-10-08T08:01:00-04:00,research findings
+verizon,required_documents,,Digital Ready account; two completed courses/events; W-9 and ACH verification if selected as finalist,2026-10-08T08:01:00-04:00,research findings
+verizon,next_action,Verify current 2026 activities/deadline and allowed costs,Create Digital Ready account; finish any two courses/events (hard stop 2026-12-07); apply as soon as the application unlocks. Applications stay under consideration for the rest of 2026,2026-10-08T08:01:00-04:00,research findings
+verizon,notes,Imported from research/seed_opportunities.csv (2026-10-07 seed; not freshly checked),Reviewed monthly Jun-Dec 2026 (10 grants/month); one application per year; final decisions by 2027-01-12. No explicit application close date published; course prerequisite closes 2026-12-07. Finalists must provide W-9 and ACH details.,2026-10-08T08:01:00-04:00,research findings
+verizon,followup_date,,2026-10-22,2026-10-08T08:01:00-04:00,research findings
+verizon,amount_min_cents,,"$10,000.00",2026-10-08T08:01:00-04:00,research findings
+verizon,amount_max_cents,,"$10,000.00",2026-10-08T08:01:00-04:00,research findings
+nase,sponsor,NASE Growth Grants,National Association for the Self-Employed,2026-10-08T08:01:00-04:00,owner screening answers
+nase,program,NASE Growth Grants,NASE Growth Grant,2026-10-08T08:01:00-04:00,owner screening answers
+nase,cycle,,2026 Q4,2026-10-08T08:01:00-04:00,owner screening answers
+nase,geography,,US,2026-10-08T08:01:00-04:00,owner screening answers
+nase,prerequisite_tier,UNKNOWN,NONE,2026-10-08T08:01:00-04:00,owner screening answers
+nase,deadline_date,,2026-12-31,2026-10-08T08:01:00-04:00,owner screening answers
+nase,rolling,unknown,no,2026-10-08T08:01:00-04:00,owner screening answers
+nase,uses_allowed,,"Marketing, equipment/software, office repairs, websites, furniture, training, trade shows, part-time hires",2026-10-08T08:01:00-04:00,owner screening answers
+nase,uses_disallowed,,"Existing debt, rent/mortgage payments",2026-10-08T08:01:00-04:00,owner screening answers
+nase,fees,,NASE membership required (cost not stated on page),2026-10-08T08:01:00-04:00,owner screening answers
+nase,required_documents,,Grant-use statement; business plan; recent tax return or P&L; photo,2026-10-08T08:01:00-04:00,owner screening answers
+nase,source_status,UNVERIFIED_CURRENT,VERIFIED_OPEN,2026-10-08T08:01:00-04:00,owner screening answers
+nase,source_checked_at,,2026-10-08T05:20:00-04:00,2026-10-08T08:01:00-04:00,owner screening answers
+nase,source_checked_tz,,America/New_York,2026-10-08T08:01:00-04:00,owner screening answers
+nase,effort_hours,,8,2026-10-08T08:01:00-04:00,owner screening answers
+nase,next_action,Verify membership cost/wait and live cycle,Parked: owner declined NASE membership (2026-10-08). Revisit only if that changes,2026-10-08T08:01:00-04:00,owner screening answers
+nase,notes,Imported from research/seed_opportunities.csv (2026-10-07 seed; not freshly checked),"Quarterly: Oct-Dec submissions reviewed in January. 2026-12-31 is the quarter end, inferred from the review schedule, not a published cutoff time.",2026-10-08T08:01:00-04:00,owner screening answers
+nase,amount_max_cents,,"$4,000.00",2026-10-08T08:01:00-04:00,owner screening answers
+nase,eligibility,unknown,no,2026-10-08T08:01:00-04:00,eligibility roll-up from criteria
+gwinnett_sbg,*,,created,2026-10-08T08:01:00-04:00,research findings
+gwinnett_sbg,eligibility,unknown,no,2026-10-08T08:01:00-04:00,eligibility roll-up from criteria
+comcast_rise,*,,created,2026-10-08T08:01:00-04:00,research findings
+kiva,sponsor,Kiva US,Kiva,2026-10-08T08:01:00-04:00,research findings
+kiva,program,Kiva US,Kiva US 0% Loan,2026-10-08T08:01:00-04:00,research findings
+kiva,geography,,US (not NV or ND),2026-10-08T08:01:00-04:00,research findings
+kiva,for_profit_eligible,unknown,yes,2026-10-08T08:01:00-04:00,research findings
+kiva,prerequisite_tier,UNKNOWN,NONE,2026-10-08T08:01:00-04:00,research findings
+kiva,rolling,unknown,yes,2026-10-08T08:01:00-04:00,research findings
+kiva,rate_apr,,0%,2026-10-08T08:01:00-04:00,research findings
+kiva,fees,,none,2026-10-08T08:01:00-04:00,research findings
+kiva,collateral,,none,2026-10-08T08:01:00-04:00,research findings
+kiva,guarantee,,none,2026-10-08T08:01:00-04:00,research findings
+kiva,term_months,,36,2026-10-08T08:01:00-04:00,research findings
+kiva,uses_allowed,,Business purposes,2026-10-08T08:01:00-04:00,research findings
+kiva,uses_disallowed,,Refinancing debt; purchasing stock or equity,2026-10-08T08:01:00-04:00,research findings
+kiva,source_status,UNVERIFIED_CURRENT,ROLLING_CONFIRMED,2026-10-08T08:01:00-04:00,research findings
+kiva,source_checked_at,,2026-10-08T05:20:00-04:00,2026-10-08T08:01:00-04:00,research findings
+kiva,source_checked_tz,,America/New_York,2026-10-08T08:01:00-04:00,research findings
+kiva,effort_hours,,10,2026-10-08T08:01:00-04:00,research findings
+kiva,next_action,"Screen restrictions, supporters, business purpose and repayment","Owner confirms screening items, then run a repayment check; plan who to invite for the 10-15 day private lending period",2026-10-08T08:01:00-04:00,research findings
+kiva,notes,Imported from research/seed_opportunities.csv (2026-10-07 seed; not freshly checked),Typical term 12-36 months. Character-based; no minimum credit score. PayPal account required.,2026-10-08T08:01:00-04:00,research findings
+kiva,amount_min_cents,,"$1,000.00",2026-10-08T08:01:00-04:00,research findings
+kiva,amount_max_cents,,"$15,000.00",2026-10-08T08:01:00-04:00,research findings
+ace,sponsor,ACE microloan,Access to Capital for Entrepreneurs (ACE),2026-10-08T08:01:00-04:00,research findings
+ace,program,ACE microloan,ACE Small Business Loan,2026-10-08T08:01:00-04:00,research findings
+ace,geography,,Georgia (Gwinnett served per state list),2026-10-08T08:01:00-04:00,research findings
+ace,for_profit_eligible,unknown,yes,2026-10-08T08:01:00-04:00,research findings
+ace,prerequisite_tier,UNKNOWN,HISTORY_MIN,2026-10-08T08:01:00-04:00,research findings
+ace,min_months_in_business,,24,2026-10-08T08:01:00-04:00,research findings
+ace,rolling,unknown,yes,2026-10-08T08:01:00-04:00,research findings
+ace,rate_apr,,7.75% fixed,2026-10-08T08:01:00-04:00,research findings
+ace,fees,,$100 application + 3% origination,2026-10-08T08:01:00-04:00,research findings
+ace,term_months,,60,2026-10-08T08:01:00-04:00,research findings
+ace,collateral,,UCC filing on business assets/equipment/vehicles,2026-10-08T08:01:00-04:00,research findings
+ace,guarantee,,Personal guarantee from 20%+ owners,2026-10-08T08:01:00-04:00,research findings
+ace,uses_allowed,,"Working capital, inventory, equipment, vehicles",2026-10-08T08:01:00-04:00,research findings
+ace,required_documents,,Business tax return; YTD balance sheet and P&L; personal returns; W-2s; driver's license; personal financial statement; operating agreement,2026-10-08T08:01:00-04:00,research findings
+ace,source_status,UNVERIFIED_CURRENT,ROLLING_CONFIRMED,2026-10-08T08:01:00-04:00,research findings
+ace,source_checked_at,,2026-10-08T05:20:00-04:00,2026-10-08T08:01:00-04:00,research findings
+ace,source_checked_tz,,America/New_York,2026-10-08T08:01:00-04:00,research findings
+ace,effort_hours,,20,2026-10-08T08:01:00-04:00,research findings
+ace,revisit_date,,2027-01-05,2026-10-08T08:01:00-04:00,research findings
+ace,caution,,D16: tax follow-up pending before lender/federal review (details in private/tax_2025_summary.md),2026-10-08T08:01:00-04:00,research findings
+ace,next_action,Published two-year history threshold; revisit near Jan 20 2027; verify operation date and terms,Revisit on 2027-01-05. Ask ACE whether a single-member LLC's Schedule C counts as the business return. Prepare YTD P&L and a personal financial statement,2026-10-08T08:01:00-04:00,research findings
+ace,notes,Imported from research/seed_opportunities.csv (2026-10-07 seed; not freshly checked),"No startup loans; 2+ years in operation required (met 2027-01-20 if operations are continuous). The page lists 2024 returns, which may be out of date.",2026-10-08T08:01:00-04:00,research findings
+ace,amount_min_cents,,"$15,000.00",2026-10-08T08:01:00-04:00,research findings
+ace,amount_max_cents,,"$50,000.00",2026-10-08T08:01:00-04:00,research findings
+sbamicro,sponsor,SBA Microloan intermediaries,U.S. Small Business Administration,2026-10-08T08:01:00-04:00,research findings
+sbamicro,program,SBA Microloan intermediaries,SBA Microloan (via intermediary),2026-10-08T08:01:00-04:00,research findings
+sbamicro,official_url,https://www.sba.gov/loans/microloans/,https://www.sba.gov/funding-programs/loans/microloans,2026-10-08T08:01:00-04:00,research findings
+sbamicro,geography,,"US; Georgia intermediaries per state list (dated 2016): ACE, Accion, LiftFund, SBAC, Atlanta Micro Fund",2026-10-08T08:01:00-04:00,research findings
+sbamicro,for_profit_eligible,unknown,yes,2026-10-08T08:01:00-04:00,research findings
+sbamicro,prerequisite_tier,UNKNOWN,COLLATERAL_REPAYMENT,2026-10-08T08:01:00-04:00,research findings
+sbamicro,rolling,unknown,yes,2026-10-08T08:01:00-04:00,research findings
+sbamicro,rate_apr,,Generally 8%-13%,2026-10-08T08:01:00-04:00,research findings
+sbamicro,term_months,,84,2026-10-08T08:01:00-04:00,research findings
+sbamicro,uses_allowed,,"Working capital, inventory, supplies, furniture, fixtures, machinery, equipment",2026-10-08T08:01:00-04:00,research findings
+sbamicro,uses_disallowed,,Existing debt; real estate,2026-10-08T08:01:00-04:00,research findings
+sbamicro,source_status,UNVERIFIED_CURRENT,ROLLING_CONFIRMED,2026-10-08T08:01:00-04:00,research findings
+sbamicro,source_checked_at,,2026-10-08T05:25:00-04:00,2026-10-08T08:01:00-04:00,research findings
+sbamicro,source_checked_tz,,America/New_York,2026-10-08T08:01:00-04:00,research findings
+sbamicro,effort_hours,,20,2026-10-08T08:01:00-04:00,research findings
+sbamicro,caution,,D16: tax follow-up pending before lender/federal review (details in private/tax_2025_summary.md),2026-10-08T08:01:00-04:00,research findings
+sbamicro,next_action,Find local intermediary; no real estate purchases,Ask SBDC which Gwinnett-serving intermediary lends to businesses under 2 years old,2026-10-08T08:01:00-04:00,research findings
+sbamicro,notes,Imported from research/seed_opportunities.csv (2026-10-07 seed; not freshly checked),"Average loan about $13,000. Intermediary-specific rules apply (ACE requires 2+ years).",2026-10-08T08:01:00-04:00,research findings
+sbamicro,amount_max_cents,,"$50,000.00",2026-10-08T08:01:00-04:00,research findings
+accion_of,*,,created,2026-10-08T08:01:00-04:00,research findings
+ssbci,sponsor,Georgia SSBCI,Georgia Department of Community Affairs,2026-10-08T08:01:00-04:00,research findings
+ssbci,program,Georgia SSBCI,"Georgia SSBCI (loan participation, credit guaranty, CDFI)",2026-10-08T08:01:00-04:00,research findings
+ssbci,geography,,Georgia,2026-10-08T08:01:00-04:00,research findings
+ssbci,prerequisite_tier,UNKNOWN,COLLATERAL_REPAYMENT,2026-10-08T08:01:00-04:00,research findings
+ssbci,rolling,unknown,yes,2026-10-08T08:01:00-04:00,research findings
+ssbci,source_status,UNVERIFIED_CURRENT,ROLLING_CONFIRMED,2026-10-08T08:01:00-04:00,research findings
+ssbci,source_checked_at,,2026-10-08T05:25:00-04:00,2026-10-08T08:01:00-04:00,research findings
+ssbci,source_checked_tz,,America/New_York,2026-10-08T08:01:00-04:00,research findings
+ssbci,effort_hours,,4,2026-10-08T08:01:00-04:00,research findings
+ssbci,next_action,Not grant; identify appropriate participating lender,"Ask SBDC (which advises on SSBCI) which participating lender or GA CDFI fits a sub-2-year, under-10-employee business",2026-10-08T08:01:00-04:00,research findings
+ssbci,notes,Imported from research/seed_opportunities.csv (2026-10-07 seed; not freshly checked),"Not a grant. Participation (up to 25% of a lender's loan), 50% guaranty, and CDFI gap financing. Targets very small businesses (<10 employees) with SEDI outreach.",2026-10-08T08:01:00-04:00,research findings
+sba7a,sponsor,SBA 7(a),U.S. Small Business Administration,2026-10-08T08:01:00-04:00,research findings
+sba7a,program,SBA 7(a),SBA 7(a) Loan,2026-10-08T08:01:00-04:00,research findings
+sba7a,official_url,https://www.sba.gov/loans/7a-loans/,https://www.sba.gov/funding-programs/loans/7a-loans,2026-10-08T08:01:00-04:00,research findings
+sba7a,geography,,US,2026-10-08T08:01:00-04:00,research findings
+sba7a,for_profit_eligible,unknown,yes,2026-10-08T08:01:00-04:00,research findings
+sba7a,prerequisite_tier,UNKNOWN,COLLATERAL_REPAYMENT,2026-10-08T08:01:00-04:00,research findings
+sba7a,rolling,unknown,yes,2026-10-08T08:01:00-04:00,research findings
+sba7a,uses_allowed,,"Real estate, working capital, refinancing, equipment (incl. AI-related), furniture, supplies",2026-10-08T08:01:00-04:00,research findings
+sba7a,source_status,UNVERIFIED_CURRENT,ROLLING_CONFIRMED,2026-10-08T08:01:00-04:00,research findings
+sba7a,source_checked_at,,2026-10-08T05:25:00-04:00,2026-10-08T08:01:00-04:00,research findings
+sba7a,source_checked_tz,,America/New_York,2026-10-08T08:01:00-04:00,research findings
+sba7a,effort_hours,,40,2026-10-08T08:01:00-04:00,research findings
+sba7a,caution,,D16: tax follow-up pending before lender/federal review (details in private/tax_2025_summary.md),2026-10-08T08:01:00-04:00,research findings
+sba7a,next_action,Later readiness; confirm repayment and current rules,Later stage: revisit after 12+ months of positive cash flow,2026-10-08T08:01:00-04:00,research findings
+sba7a,notes,Imported from research/seed_opportunities.csv (2026-10-07 seed; not freshly checked),Seed row re-checked against official source 2026-10-08,2026-10-08T08:01:00-04:00,research findings
+sba7a,amount_max_cents,,"$5,000,000.00",2026-10-08T08:01:00-04:00,research findings
+sba504,sponsor,SBA 504,U.S. Small Business Administration,2026-10-08T08:01:00-04:00,research findings
+sba504,program,SBA 504,SBA 504 Loan (via CDC),2026-10-08T08:01:00-04:00,research findings
+sba504,funding_type,loan,property,2026-10-08T08:01:00-04:00,research findings
+sba504,official_url,https://www.sba.gov/loans/504-loans/,https://www.sba.gov/funding-programs/loans/504-loans,2026-10-08T08:01:00-04:00,research findings
+sba504,geography,,US,2026-10-08T08:01:00-04:00,research findings
+sba504,for_profit_eligible,unknown,yes,2026-10-08T08:01:00-04:00,research findings
+sba504,prerequisite_tier,UNKNOWN,COLLATERAL_REPAYMENT,2026-10-08T08:01:00-04:00,research findings
+sba504,rolling,unknown,yes,2026-10-08T08:01:00-04:00,research findings
+sba504,uses_allowed,,Buildings/land; machinery and equipment with 10+ year life,2026-10-08T08:01:00-04:00,research findings
+sba504,uses_disallowed,,"Working capital, inventory, rental real estate",2026-10-08T08:01:00-04:00,research findings
+sba504,source_status,UNVERIFIED_CURRENT,ROLLING_CONFIRMED,2026-10-08T08:01:00-04:00,research findings
+sba504,source_checked_at,,2026-10-08T05:25:00-04:00,2026-10-08T08:01:00-04:00,research findings
+sba504,source_checked_tz,,America/New_York,2026-10-08T08:01:00-04:00,research findings
+sba504,effort_hours,,60,2026-10-08T08:01:00-04:00,research findings
+sba504,next_action,Later fixed-asset readiness; no working capital,"Building-ownership stage only, once repayment is lender-supported",2026-10-08T08:01:00-04:00,research findings
+sba504,notes,Imported from research/seed_opportunities.csv (2026-10-07 seed; not freshly checked),Seed row re-checked against official source 2026-10-08,2026-10-08T08:01:00-04:00,research findings
+sba504,amount_max_cents,,"$5,500,000.00",2026-10-08T08:01:00-04:00,research findings
+sbdc,sponsor,UGA SBDC Gwinnett,UGA Small Business Development Center,2026-10-08T08:01:00-04:00,research findings
+sbdc,program,UGA SBDC Gwinnett,Georgia SBDC Gwinnett consulting,2026-10-08T08:01:00-04:00,research findings
+sbdc,geography,,"Gwinnett office, Lawrenceville",2026-10-08T08:01:00-04:00,research findings
+sbdc,prerequisite_tier,UNKNOWN,NONE,2026-10-08T08:01:00-04:00,research findings
+sbdc,rolling,unknown,yes,2026-10-08T08:01:00-04:00,research findings
+sbdc,fees,,none,2026-10-08T08:01:00-04:00,research findings
+sbdc,source_status,UNVERIFIED_CURRENT,VERIFIED_OPEN,2026-10-08T08:01:00-04:00,research findings
+sbdc,source_checked_at,,2026-10-08T05:25:00-04:00,2026-10-08T08:01:00-04:00,research findings
+sbdc,source_checked_tz,,America/New_York,2026-10-08T08:01:00-04:00,research findings
+sbdc,effort_hours,,2,2026-10-08T08:01:00-04:00,research findings
+sbdc,next_action,Financing preparation; not direct funding,"Request a consulting appointment (by appointment only; online form). Bring: SSBCI/lender fit, tax 1040-X question (D16), SAM receipts update (D3), name consistency (D1)",2026-10-08T08:01:00-04:00,research findings
+sbdc,notes,Imported from research/seed_opportunities.csv (2026-10-07 seed; not freshly checked),Consulting cost not listed on page. The 'Unlocking Capital' workshop is free; other classes are paid ($39-$199). Advises on SSBCI and funding sources.,2026-10-08T08:01:00-04:00,research findings
+sbdc,eligibility,unknown,yes,2026-10-08T08:01:00-04:00,eligibility roll-up from criteria
+apex,sponsor,GT APEX,Georgia Tech,2026-10-08T08:01:00-04:00,research findings
+apex,program,GT APEX,GT APEX Accelerator counseling,2026-10-08T08:01:00-04:00,research findings
+apex,funding_type,advisory,contracting,2026-10-08T08:01:00-04:00,research findings
+apex,geography,,Georgia,2026-10-08T08:01:00-04:00,research findings
+apex,prerequisite_tier,UNKNOWN,NONE,2026-10-08T08:01:00-04:00,research findings
+apex,rolling,unknown,yes,2026-10-08T08:01:00-04:00,research findings
+apex,fees,,none,2026-10-08T08:01:00-04:00,research findings
+apex,source_status,UNVERIFIED_CURRENT,VERIFIED_OPEN,2026-10-08T08:01:00-04:00,research findings
+apex,source_checked_at,,2026-10-08T05:25:00-04:00,2026-10-08T08:01:00-04:00,research findings
+apex,source_checked_tz,,America/New_York,2026-10-08T08:01:00-04:00,research findings
+apex,effort_hours,,3,2026-10-08T08:01:00-04:00,research findings
+apex,next_action,SAM/CAGE and procurement review,"Attend Introduction to Government Contracting class, submit New Client Application, then book a counselor (ask about LLC vs sole-prop SAM classification, D4)",2026-10-08T08:01:00-04:00,research findings
+apex,notes,Imported from research/seed_opportunities.csv (2026-10-07 seed; not freshly checked),Seed row re-checked against official source 2026-10-08,2026-10-08T08:01:00-04:00,research findings
+apex,eligibility,unknown,yes,2026-10-08T08:01:00-04:00,eligibility roll-up from criteria
+gwinnett,sponsor,Gwinnett Entrepreneur Center,Gwinnett County,2026-10-08T08:01:00-04:00,research findings
+gwinnett,funding_type,workspace,advisory,2026-10-08T08:01:00-04:00,research findings
+gwinnett,geography,,"Lawrenceville, GA",2026-10-08T08:01:00-04:00,research findings
+gwinnett,prerequisite_tier,UNKNOWN,NONE,2026-10-08T08:01:00-04:00,research findings
+gwinnett,rolling,unknown,yes,2026-10-08T08:01:00-04:00,research findings
+gwinnett,fees,,none,2026-10-08T08:01:00-04:00,research findings
+gwinnett,source_status,UNVERIFIED_CURRENT,VERIFIED_OPEN,2026-10-08T08:01:00-04:00,research findings
+gwinnett,source_checked_at,,2026-10-08T05:25:00-04:00,2026-10-08T08:01:00-04:00,research findings
+gwinnett,source_checked_tz,,America/New_York,2026-10-08T08:01:00-04:00,research findings
+gwinnett,effort_hours,,2,2026-10-08T08:01:00-04:00,research findings
+gwinnett,next_action,Verify access and specific workspace costs,Book a center tour; ask about the annual incubator cohort and whether any desk/workspace access exists,2026-10-08T08:01:00-04:00,research findings
+gwinnett,notes,Imported from research/seed_opportunities.csv (2026-10-07 seed; not freshly checked),"Free classes, workshops, coaching and networking; no membership required. Annual incubator cohort. No coworking or funding mentioned, so reclassified from workspace to advisory.",2026-10-08T08:01:00-04:00,research findings
+gwinnett,eligibility,unknown,yes,2026-10-08T08:01:00-04:00,eligibility roll-up from criteria
+atdc,*,,created,2026-10-08T08:01:00-04:00,research findings
+nsf,sponsor,NSF Seed Fund,National Science Foundation,2026-10-08T08:01:01-04:00,research findings
+nsf,program,NSF Seed Fund,NSF SBIR/STTR (America's Seed Fund) Project Pitch,2026-10-08T08:01:01-04:00,research findings
+nsf,official_url,https://seedfund.nsf.gov/,https://seedfund.nsf.gov/project-pitch/,2026-10-08T08:01:01-04:00,research findings
+nsf,geography,,US,2026-10-08T08:01:01-04:00,research findings
+nsf,for_profit_eligible,unknown,yes,2026-10-08T08:01:01-04:00,research findings
+nsf,prerequisite_tier,UNKNOWN,SAM_ACTIVE,2026-10-08T08:01:01-04:00,research findings
+nsf,registrations_required,,"SAM (UEI), SBIR.gov company registry, Research.gov (verify exact list on Apply page)",2026-10-08T08:01:01-04:00,research findings
+nsf,source_status,UNVERIFIED_CURRENT,VERIFIED_OPEN,2026-10-08T08:01:01-04:00,research findings
+nsf,source_checked_at,,2026-10-08T05:30:00-04:00,2026-10-08T08:01:01-04:00,research findings
+nsf,source_checked_tz,,America/New_York,2026-10-08T08:01:01-04:00,research findings
+nsf,effort_hours,,12,2026-10-08T08:01:01-04:00,research findings
+nsf,next_action,"Verify live solicitation/pitch, technical novelty and eligibility",Draft a Project Pitch for the retrieval-reliability concept (Phase 3 R&D sheet); verify whether a pitch requires SAM to be Active,2026-10-08T08:01:01-04:00,research findings
+nsf,notes,Imported from research/seed_opportunities.csv (2026-10-07 seed; not freshly checked),"Up to $2M total seed funding across phases. Pitch portal open. SBIR/STTR reauthorized through 2031-09-30 (signed 2026-04-13) per third-party reports, not confirmed on an agency page.",2026-10-08T08:01:01-04:00,research findings
+nsf,amount_max_cents,,"$2,000,000.00",2026-10-08T08:01:01-04:00,research findings
+ga_cert,*,,created,2026-10-08T08:01:01-04:00,research findings
+gmsdc_mbe,*,,created,2026-10-08T08:01:01-04:00,research findings
+sba_8a,*,,created,2026-10-08T08:01:01-04:00,research findings
+gwinnett_tech_hope,*,,created,2026-10-08T08:01:01-04:00,research findings

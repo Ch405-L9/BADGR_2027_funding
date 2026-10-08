@@ -1,0 +1,5 @@
+item,category,business_purpose,vendor,quote_date,price,tax_shipping,recurring_cost,alternatives,program_allowed,evidence,status
+GPU: 24GB RTX 3090/3090 Ti class (used; tested),equipment,"Local F5 TTS narration for BADGR Bolt/C.Walts is too slow on CPU (about 848 s for a 42 s clip, owner-measured) plus local AI development",,,,,"750W+ PSU may be needed","RTX 3080 Ti 12GB ($400-$500, owner research); cloud GPU hours","Verizon/NASE-type allowed uses: equipment (check each)",C-HW-01; C-PROJ-06,"owner research $600-$950 incl. a $600 local 3090 Ti lead (not a quote); verify serial, GPU-Z, thermals, stress test before buying"
+External backup drive or NAS,equipment,Client and project data backups,,,,,,cloud backup subscription,"check per program",,candidate - owner to confirm
+Uninterruptible power supply (UPS),equipment,Protect workstation during outages,,,,,,,"check per program",,candidate - owner to confirm
+Portable laptop for client sites,equipment,On-site discovery and delivery,,,,,,use existing device,"check per program",,candidate - owner to confirm

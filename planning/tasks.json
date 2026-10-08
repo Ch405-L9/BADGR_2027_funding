@@ -1,0 +1,363 @@
+{
+  "about": "Owner task list for the funding plan. Edit freely. Dates are America/New_York. 'due' is a hard date; 'not_before' delays a task; 'depends_on' lists task ids that must be done (or scheduled earlier) first. Mark progress in planning/task_status.csv or with `python3 -m badgr_funding.cli task done ID --evidence ...`. Nothing here submits, sends or buys anything.",
+  "daily_blocks": [
+    {
+      "block": "Status check",
+      "minutes": 10,
+      "what": "SAM.gov status, email from SBDC/APEX/lenders/programs"
+    },
+    {
+      "block": "Records",
+      "minutes": 30,
+      "what": "Recover/log one batch of receipts or statements into private/expense_records.csv"
+    },
+    {
+      "block": "Focus task",
+      "minutes": 45,
+      "what": "The one funding/application/research task scheduled for today"
+    },
+    {
+      "block": "Customer work",
+      "minutes": 30,
+      "what": "Outreach, discovery conversation, or paid delivery"
+    },
+    {
+      "block": "Tracker update",
+      "minutes": 5,
+      "what": "Mark tasks done with evidence; `cli agenda` for tomorrow"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "sbdc_request",
+      "title": "Request an SBDC Gwinnett consulting appointment (online form)",
+      "category": "advisor",
+      "effort_min": 20,
+      "due": "2026-10-15",
+      "evidence": "Confirmation email or appointment date",
+      "escalate": "No reply in 5 business days: call the Gwinnett office",
+      "tracker": "sbdc"
+    },
+    {
+      "id": "apex_class",
+      "title": "Sign up for GT APEX 'Introduction to Government Contracting'",
+      "category": "advisor",
+      "effort_min": 20,
+      "due": "2026-10-15",
+      "evidence": "Registration confirmation",
+      "escalate": "No class within 30 days: ask APEX for the recorded version",
+      "tracker": "apex"
+    },
+    {
+      "id": "dr_account",
+      "title": "Create Verizon Digital Ready account",
+      "category": "application",
+      "effort_min": 15,
+      "due": "2026-10-20",
+      "evidence": "Account created",
+      "escalate": "Site issue: use LISC contact page",
+      "tracker": "verizon"
+    },
+    {
+      "id": "dr_course1",
+      "title": "Complete Digital Ready course/event #1",
+      "category": "application",
+      "effort_min": 60,
+      "due": "2026-10-22",
+      "depends_on": [
+        "dr_account"
+      ],
+      "evidence": "Course completion shown in account",
+      "escalate": "Behind schedule: course 2 must still finish by 2026-12-07",
+      "tracker": "verizon"
+    },
+    {
+      "id": "ec_tour",
+      "title": "Book a Gwinnett Entrepreneur Center tour (ask about cohort and desk access)",
+      "category": "advisor",
+      "effort_min": 20,
+      "due": "2026-10-22",
+      "evidence": "Tour date",
+      "escalate": "None",
+      "tracker": "gwinnett"
+    },
+    {
+      "id": "atdc_quiz",
+      "title": "Take the ATDC 'which program' quiz",
+      "category": "advisor",
+      "effort_min": 15,
+      "due": "2026-10-22",
+      "evidence": "Recommended program noted",
+      "escalate": "None",
+      "tracker": "atdc"
+    },
+    {
+      "id": "fin_inputs",
+      "title": "Fill private/financial_inputs.csv (cash, monthly expenses, debts, 2026 YTD + through-date; estimates allowed if marked)",
+      "category": "records",
+      "effort_min": 45,
+      "due": "2026-10-24",
+      "evidence": "`cli finance` no longer BLOCKED",
+      "escalate": "Stuck on numbers: bring bank statements to SBDC"
+    },
+    {
+      "id": "preparer_docs",
+      "title": "Ask tax preparer for 2025 depreciation schedule (asset list) and workpapers",
+      "category": "records",
+      "effort_min": 20,
+      "due": "2026-10-24",
+      "evidence": "Asset list saved to private/",
+      "escalate": "No response in 10 days: request again in writing"
+    },
+    {
+      "id": "bofa_statements",
+      "title": "Download 2025 Bank of America statements; log business items",
+      "category": "records",
+      "effort_min": 60,
+      "due": "2026-10-31",
+      "evidence": "Items logged in private/expense_records.csv",
+      "escalate": "Access problem: request statements at a branch"
+    },
+    {
+      "id": "order_histories",
+      "title": "Pull 2025 Amazon/Staples/Best Buy order histories for the candidate charges",
+      "category": "records",
+      "effort_min": 45,
+      "due": "2026-10-31",
+      "evidence": "Candidate rows upgraded to documented or marked personal",
+      "escalate": "None"
+    },
+    {
+      "id": "tax_review",
+      "title": "Book free tax help (VITA or SBDC referral) about the 2025 follow-up item (D16)",
+      "category": "records",
+      "effort_min": 30,
+      "due": "2026-11-07",
+      "depends_on": [
+        "sbdc_request"
+      ],
+      "evidence": "Appointment or written answer",
+      "escalate": "Before any SBA/ACE application, this must be resolved"
+    },
+    {
+      "id": "website_align",
+      "title": "Align badgrtech.com title/homepage and LinkedIn with the service menu; fix resume education line (D8, D10)",
+      "category": "customer",
+      "effort_min": 90,
+      "due": "2026-11-07",
+      "evidence": "Updated site title live",
+      "escalate": "None"
+    },
+    {
+      "id": "op_agreement",
+      "title": "Confirm a signed, dated operating agreement (D2)",
+      "category": "records",
+      "effort_min": 20,
+      "due": "2026-11-30",
+      "evidence": "Signed copy saved in badgr_legal/",
+      "escalate": "Needed before MBE/8(a)/lenders"
+    },
+    {
+      "id": "dr_course2",
+      "title": "Complete Digital Ready course/event #2",
+      "category": "application",
+      "effort_min": 60,
+      "due": "2026-11-15",
+      "depends_on": [
+        "dr_course1"
+      ],
+      "evidence": "Second completion shown; application unlocked",
+      "escalate": "HARD STOP 2026-12-07"
+    },
+    {
+      "id": "dr_apply",
+      "title": "Submit Verizon Digital Ready application (owner submits)",
+      "category": "application",
+      "effort_min": 60,
+      "due": "2026-11-20",
+      "depends_on": [
+        "dr_course2"
+      ],
+      "evidence": "Submission confirmation; tracker application_status=SUBMITTED_BY_OWNER",
+      "escalate": "Use drafts/verizon_application_prep.md",
+      "tracker": "verizon"
+    },
+    {
+      "id": "case_study",
+      "title": "Publish a C.Walts case-study page (no secrets; scoped metrics)",
+      "category": "customer",
+      "effort_min": 180,
+      "due": "2026-11-30",
+      "evidence": "Public URL; add to claims ledger",
+      "escalate": "None"
+    },
+    {
+      "id": "discovery",
+      "title": "Hold 3-5 customer discovery conversations (retrieval reliability pain)",
+      "category": "rd",
+      "effort_min": 240,
+      "due": "2026-12-15",
+      "evidence": "Notes per conversation (names kept private)",
+      "escalate": "Fewer than 3 by due date: ask Entrepreneur Center for intros"
+    },
+    {
+      "id": "prior_art",
+      "title": "Prior-art review for R&D concept 1",
+      "category": "rd",
+      "effort_min": 300,
+      "due": "2026-12-15",
+      "evidence": "Review summary saved; pitch section 1 revised",
+      "escalate": "None"
+    },
+    {
+      "id": "kiva_decide",
+      "title": "Decide on Kiva after repayment analysis",
+      "category": "application",
+      "effort_min": 30,
+      "due": "2026-11-15",
+      "depends_on": [
+        "fin_inputs"
+      ],
+      "evidence": "Decision noted in tracker",
+      "escalate": "Coverage below reference: wait",
+      "tracker": "kiva"
+    },
+    {
+      "id": "kiva_story",
+      "title": "Write Kiva personal story (your own words) and take the horizontal photo",
+      "category": "application",
+      "effort_min": 60,
+      "not_before": "2026-11-01",
+      "depends_on": [
+        "kiva_decide"
+      ],
+      "evidence": "Story + photo saved",
+      "escalate": "None",
+      "tracker": "kiva"
+    },
+    {
+      "id": "nsf_pitch",
+      "title": "Submit NSF Project Pitch (owner submits)",
+      "category": "application",
+      "effort_min": 120,
+      "due": "2027-01-06",
+      "depends_on": [
+        "prior_art",
+        "discovery"
+      ],
+      "evidence": "Pitch confirmation",
+      "escalate": "Confirm SAM requirement first",
+      "tracker": "nsf"
+    },
+    {
+      "id": "gpu_quotes",
+      "title": "Get 2-3 verified quotes for a 24GB GPU (+PSU check)",
+      "category": "records",
+      "effort_min": 60,
+      "due": "2026-12-01",
+      "evidence": "Quotes in finance/equipment_quote_register.csv",
+      "escalate": "None"
+    },
+    {
+      "id": "mileage_log",
+      "title": "Start a business mileage log (date, purpose, miles)",
+      "category": "records",
+      "effort_min": 15,
+      "due": "2026-10-20",
+      "evidence": "Log file exists in private/",
+      "escalate": "None"
+    },
+    {
+      "id": "ace_8a_revisit",
+      "title": "Revisit ACE loan and SBA 8(a) with APEX/SBDC (2-year mark 2027-01-20)",
+      "category": "application",
+      "effort_min": 60,
+      "not_before": "2027-01-05",
+      "due": "2027-01-20",
+      "depends_on": [
+        "tax_review",
+        "fin_inputs"
+      ],
+      "evidence": "Go/no-go noted in tracker",
+      "escalate": "None",
+      "tracker": "ace"
+    },
+    {
+      "id": "sam_record",
+      "title": "SAM Active: record CAGE, activation and expiration dates in business_profile.json",
+      "category": "sam",
+      "effort_min": 20,
+      "sam_active_only": true,
+      "evidence": "Profile updated; expiration reminder set",
+      "escalate": "None"
+    },
+    {
+      "id": "sam_grantsgov",
+      "title": "SAM Active: register Grants.gov, assign E-Biz POC and roles; SBIR.gov company registry",
+      "category": "sam",
+      "effort_min": 60,
+      "sam_active_only": true,
+      "depends_on": [
+        "sam_record"
+      ],
+      "evidence": "Roles visible in Grants.gov",
+      "escalate": "Ask APEX if roles fail"
+    },
+    {
+      "id": "sam_rank",
+      "title": "SAM Active: rerun `cli rank -v`; SAM-gated rows unblock",
+      "category": "sam",
+      "effort_min": 10,
+      "sam_active_only": true,
+      "depends_on": [
+        "sam_record"
+      ],
+      "evidence": "New shortlist saved",
+      "escalate": "None"
+    },
+    {
+      "id": "biz_account_statements",
+      "title": "Download 2025 statements for the BADGRTechnologies LLC business account (customer income likely there)",
+      "category": "records",
+      "effort_min": 45,
+      "due": "2026-10-31",
+      "evidence": "Statements saved in private/bank/; income items logged",
+      "escalate": "Ask the bank for statements if online access is missing"
+    },
+    {
+      "id": "tag_customers",
+      "title": "Mark which 2025 Cash App/Zelle/cash deposits were customer payments (private file)",
+      "category": "records",
+      "effort_min": 45,
+      "due": "2026-10-31",
+      "evidence": "private/income_records.csv updated",
+      "escalate": "None"
+    },
+    {
+      "id": "tax_packet",
+      "title": "Bring private/tax_2025_summary.md (income reconciliation and follow-up items) to the tax help appointment",
+      "category": "records",
+      "effort_min": 20,
+      "due": "2026-11-07",
+      "depends_on": [
+        "tax_review"
+      ],
+      "evidence": "Tax helper's answer recorded privately",
+      "escalate": "Resolve before SBA/ACE applications"
+    }
+  ],
+  "weekly": [
+    {
+      "day": "Mon",
+      "what": "Weekly review: `cli agenda --days 14`; re-check any source older than 30 days; update the shortlist"
+    },
+    {
+      "day": "Wed",
+      "what": "SAM.gov status check; one new-opportunity search from docs/SEARCH_PLAYBOOK.md (manual)"
+    },
+    {
+      "day": "Fri",
+      "what": "Records hour: statements and order histories; update private logs"
+    }
+  ]
+}

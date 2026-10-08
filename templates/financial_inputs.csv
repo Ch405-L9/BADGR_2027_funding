@@ -1,0 +1,11 @@
+field,value,status,evidence
+2025_revenue,5550.00,verified,IRS 2025 return transcript Schedule C gross receipts (C-FIN-02)
+2026_ytd_revenue,,missing,
+2026_ytd_through,,missing,YYYY-MM-DD (YTD covers through end of this month)
+cash_on_hand,,missing,
+monthly_business_expenses,,missing,
+existing_debt_payments,,missing,
+owner_contribution,,missing,
+proposed_loan_amount,,missing,
+loan_rate,,missing,
+loan_term_months,,missing,

@@ -1,0 +1,17 @@
+assumption_id,category,statement,basis,owner_review
+A-FIN-01,finance,"Downside case: operating revenue at 50% of the base case",planning convention,pending
+A-FIN-02,finance,"Kiva scenario: $5,000 over 24 months at 0% (inside Kiva's published $1,000-$15,000 range); a scenario, not a request",kiva.org/borrow checked 2026-10-08,pending
+A-FIN-03,finance,"Kiva scenario: $10,000 over 36 months at 0%; a scenario, not a request",kiva.org/borrow checked 2026-10-08,pending
+A-FIN-04,finance,"ACE scenario: $15,000 at 7.75% fixed for 60 months with $100 application fee and 3% origination (published terms); available only from 2027-01-20",aceloans.org checked 2026-10-08,pending
+A-FIN-05,finance,"Use-of-funds tiers of $5k/$10k/$15k/$25k/$50k are planning scenarios, not funding requests",BUILD_PROMPT,pending
+A-FIN-06,finance,"Debt-service coverage of 1.25 is used as a common lender reference point, not any specific lender's rule",planning convention,pending
+A-FIN-07,finance,"2025 depreciation is a non-cash expense; the asset list is in the tax preparer's records, and the workstation PC (~$1,500) was bought on credit and is paid off",IRS transcript + owner statement,pending
+A-PLAN-01,plan,"90-day plan items are owner-proposed targets, not commitments or forecasts",planning convention,pending
+A-PLAN-02,plan,"Solo founder capacity; weekly hours available for delivery vs. funding work are not yet set by the owner",C-BIZ-05,pending
+A-MKT-01,marketing,"Proposed first segment: small organizations in Gwinnett/metro Atlanta needing automation, web or AI-workflow help; owner has not chosen a segment",pending_questions.md,pending
+A-MKT-02,marketing,"Pricing is not set; no rates are assumed",owner input needed,pending
+A-RD-01,rd,"R&D concepts are unvalidated; novelty requires a literature and prior-art review before any claim",CLAIMS_POLICY,pending
+A-RD-02,rd,"Commercialization statements are hypotheses to test through customer discovery interviews",planning convention,pending
+A-WS-01,workspace,"Workspace options need written quotes; no prices are assumed",owner input needed,pending
+A-TR-01,transport,"Business-trip frequency and distance are unknown; the only evidence is $455 of 2025 car/truck expense",C-FIN-02,pending
+A-EQ-01,equipment,"Equipment items are candidates for owner confirmation; no prices are assumed and 2025 purchases are excluded",owner input needed,pending

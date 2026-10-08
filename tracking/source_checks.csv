@@ -1,0 +1,24 @@
+opportunity_id,url,kind,method,checked_at,checked_tz,excerpt
+accion_of,https://aofund.org/,official,WebFetch summary,2026-10-08T05:35:00-04:00,America/New_York,
+ace,https://aceloans.org/apply-for-a-loan/small-business-loans/,official,WebFetch summary,2026-10-08T05:20:00-04:00,America/New_York,"$15,000 to $50,000; 7.75% fixed; up to 60 months; 2+ years in operation; no startup loans"
+apex,https://gtapexaccelerator.org/,official,WebFetch summary,2026-10-08T05:25:00-04:00,America/New_York,Free one-on-one counseling for government contract success
+atdc,https://atdc.org/,official,WebFetch summary,2026-10-08T05:35:00-04:00,America/New_York,"state-funded program, we're unbiased and take zero equity"
+comcast_rise,https://www.comcastrise.com/,official,WebFetch (301 redirect observed),2026-10-08T05:40:00-04:00,America/New_York,
+ga_cert,https://doas.ga.gov/state-purchasing/how-to/how-to-get-certified-as-a-minority-business-enterprise,official,WebFetch summary,2026-10-08T05:40:00-04:00,America/New_York,There is no fee to apply.
+gmsdc_mbe,https://www.supplierdiversity.com/blog/mbe-certification-in-georgia/,lead,WebSearch result summary,2026-10-08T05:35:00-04:00,America/New_York,Initial Certification costs $600 and Annual Renewal costs $400
+gmsdc_mbe,https://georgiacouncil.org/,official,WebFetch summary (homepage only),2026-10-08T05:40:00-04:00,America/New_York,
+gwinnett,https://www.gwinnettcounty.com/government/departments/planning-development/economic-development/entrepreneur-center,official,WebFetch summary,2026-10-08T05:25:00-04:00,America/New_York,opens its doors to everyone at no cost. No membership is required
+gwinnett_sbg,https://www.gwinnettcounty.com/-/news-events/news-releases/news-details/gwinnett-small-business-grant-distributes-100-of-funds-to-small-businesses,official,WebSearch result title (body not fetched),2026-10-08T05:30:00-04:00,America/New_York,
+gwinnett_tech_hope,https://gwinnetttech.edu/admissions-financial-aid/hope-career-grant/,official,WebFetch summary,2026-10-08T05:40:00-04:00,America/New_York,Full-time enrollment in a certificate or diploma program
+kiva,https://www.kiva.org/borrow,official,WebFetch summary,2026-10-08T05:20:00-04:00,America/New_York,"$1,000-$15,000; 0% interest; no fees; 12-36 months; invite friends/family during 10-15 day private period"
+nase,https://www.nase.org/become-a-member/member-benefits/business-resources/growth-grants,official,WebFetch summary,2026-10-08T05:20:00-04:00,America/New_York,"Up to $4,000; annual members eligible immediately; monthly members wait 90 days; quarterly review"
+nsf,https://seedfund.nsf.gov/project-pitch/,official,WebFetch summary,2026-10-08T05:30:00-04:00,America/New_York,Create an account to submit your Project Pitch
+nsf,https://www.mondaq.com/unitedstates/government-contracts-procurement-ppp/1774902/sbirsttr-programs-reauthorized-after-six-month-lapse,lead,WebSearch result summary,2026-10-08T05:30:00-04:00,America/New_York,"reauthorized through September 30, 2031"
+sba504,https://www.sba.gov/funding-programs/loans/504-loans,official,WebFetch summary,2026-10-08T05:25:00-04:00,America/New_York,
+sba7a,https://www.sba.gov/funding-programs/loans/7a-loans,official,WebFetch summary,2026-10-08T05:25:00-04:00,America/New_York,
+sba_8a,https://www.sba.gov/federal-contracting/contracting-assistance-programs/8a-business-development-program,official,WebFetch summary,2026-10-08T05:40:00-04:00,America/New_York,Minimum two years required; $850 thousand or less; $400 thousand or less (averaged over three years)
+sbamicro,https://www.sba.gov/funding-programs/loans/microloans,official,WebFetch summary,2026-10-08T05:25:00-04:00,America/New_York,"Up to $50,000; average about $13,000; max term seven years; generally 8%-13%; no real estate or existing debt"
+sbdc,https://georgiasbdc.org/locations/gwinnett/,official,WebFetch summary,2026-10-08T05:25:00-04:00,America/New_York,Our office operates by appointment; capital access assistance incl. State Small Business Credit Initiative
+ssbci,https://dca.georgia.gov/financing-tools/small-business/state-small-business-credit-initiative-ssbci,official,WebFetch summary,2026-10-08T05:25:00-04:00,America/New_York,purchases up to 25% of a loan originated by a participating lender; guarantees 50%; very small businesses (less than 10 employees)
+verizon,https://digitalready.verizonwireless.com/funding/details,official,WebFetch summary,2026-10-08T05:20:00-04:00,America/New_York,"$10,000 national grant; 10 businesses monthly Jun-Dec 2026; complete two courses/events between Jan 1 and Dec 7, 2026"
+verizon,https://www.lisc.org/our-initiatives/small-business/our-work/verizon-small-business-digital-ready/grant-program/,official,WebSearch result summary (program administrator page),2026-10-08T06:05:00-04:00,America/New_York,"Applications reviewed monthly June through December 2026; final decision by January 12, 2027"

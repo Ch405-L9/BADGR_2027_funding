@@ -1,0 +1,719 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//BADGR Technologies//Funding Plan//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:BADGR Funding Plan
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:due-sbdc_request@badgr-funding.local
+DTSTAMP:20261008T140615Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:DUE: Request an SBDC Gwinnett consulting appointment (online form)
+TRANSP:TRANSPARENT
+DESCRIPTION:Proof of done: Confirmation email or appointment date\nIf stuck
+ : No reply in 5 business days: call the Gwinnett office\nRequest form: htt
+ ps://georgiasbdc.org/intake-form/ | Office: https://georgiasbdc.org/locati
+ ons/gwinnett/ | (678) 985-6820 | gwinnett@georgiasbdc.org | By appointment
+  only\; consulting is free.
+URL:https://georgiasbdc.org/intake-form/
+LOCATION:UGA SBDC Gwinnett Office\, 2530 Sever Road\, Suite 202\, Lawrencev
+ ille\, GA 30043
+END:VEVENT
+BEGIN:VEVENT
+UID:due-apex_class@badgr-funding.local
+DTSTAMP:20261008T140615Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:DUE: Sign up for GT APEX 'Introduction to Government Contracting'
+TRANSP:TRANSPARENT
+DESCRIPTION:Proof of done: Registration confirmation\nIf stuck: No class wi
+ thin 30 days: ask APEX for the recorded version\nGetting started: https://
+ gtapexaccelerator.org/getting-started/ | Class calendar: https://gtapexacc
+ elerator.ecenterdirect.com/events/ | +1 404.894.2000 | Steps: intro class\
+ , New Client Application\, counselor appointment.
+URL:https://gtapexaccelerator.org/getting-started/
+LOCATION:Georgia Tech APEX Accelerator (virtual or in-person classes)
+END:VEVENT
+BEGIN:VEVENT
+UID:due-dr_account@badgr-funding.local
+DTSTAMP:20261008T140615Z
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+SUMMARY:DUE: Create Verizon Digital Ready account
+TRANSP:TRANSPARENT
+DESCRIPTION:Proof of done: Account created\nIf stuck: Site issue: use LISC 
+ contact page\nCourses: https://digitalready.verizonwireless.com/ | Grant r
+ ules: https://digitalready.verizonwireless.com/funding/details | Administr
+ ator: https://www.lisc.org/our-initiatives/small-business/our-work/verizon
+ -small-business-digital-ready/grant-program/ | Two courses/events by 2026-
+ 12-07 unlock the $10\,000 application.
+URL:https://digitalready.verizonwireless.com/
+LOCATION:Online
+END:VEVENT
+BEGIN:VEVENT
+UID:due-dr_course1@badgr-funding.local
+DTSTAMP:20261008T140615Z
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+SUMMARY:DUE: Complete Digital Ready course/event #1
+TRANSP:TRANSPARENT
+DESCRIPTION:Proof of done: Course completion shown in account\nIf stuck: Be
+ hind schedule: course 2 must still finish by 2026-12-07\nCourses: https://
+ digitalready.verizonwireless.com/ | Grant rules: https://digitalready.veri
+ zonwireless.com/funding/details | Administrator: https://www.lisc.org/our-
+ initiatives/small-business/our-work/verizon-small-business-digital-ready/g
+ rant-program/ | Two courses/events by 2026-12-07 unlock the $10\,000 appli
+ cation.
+URL:https://digitalready.verizonwireless.com/
+LOCATION:Online
+END:VEVENT
+BEGIN:VEVENT
+UID:due-ec_tour@badgr-funding.local
+DTSTAMP:20261008T140615Z
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+SUMMARY:DUE: Book a Gwinnett Entrepreneur Center tour (ask about cohort and
+  desk access)
+TRANSP:TRANSPARENT
+DESCRIPTION:Proof of done: Tour date\nIf stuck: None\nTours: https://gec1.w
+ ildapricot.org/tours | County page: https://www.gwinnettcounty.com/governm
+ ent/departments/planning-development/economic-development/entrepreneur-cen
+ ter | 770.822.8000 | Free\; ask about the incubator cohort and desk access
+ .
+URL:https://gec1.wildapricot.org/tours
+LOCATION:Gwinnett Entrepreneur Center\, 75 Langley Drive\, Lawrenceville\, 
+ GA 30046
+END:VEVENT
+BEGIN:VEVENT
+UID:due-atdc_quiz@badgr-funding.local
+DTSTAMP:20261008T140615Z
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+SUMMARY:DUE: Take the ATDC 'which program' quiz
+TRANSP:TRANSPARENT
+DESCRIPTION:Proof of done: Recommended program noted\nIf stuck: None\nhttps
+ ://atdc.org/ (quiz: 'Which ATDC Program is Right For Me?') | info@atdc.org
+  | (404) 894-3575 | State-funded\, zero equity.
+URL:https://atdc.org/
+LOCATION:Online
+END:VEVENT
+BEGIN:VEVENT
+UID:due-fin_inputs@badgr-funding.local
+DTSTAMP:20261008T140615Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:DUE: Fill private/financial_inputs.csv (cash\, monthly expenses\, d
+ ebts\, 2026 YTD + through-date\; estimates allowed if marked)
+TRANSP:TRANSPARENT
+DESCRIPTION:Proof of done: `cli finance` no longer BLOCKED\nIf stuck: Stuck
+  on numbers: bring bank statements to SBDC
+END:VEVENT
+BEGIN:VEVENT
+UID:due-preparer_docs@badgr-funding.local
+DTSTAMP:20261008T140615Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:DUE: Ask tax preparer for 2025 depreciation schedule (asset list) a
+ nd workpapers
+TRANSP:TRANSPARENT
+DESCRIPTION:Proof of done: Asset list saved to private/\nIf stuck: No respo
+ nse in 10 days: request again in writing
+END:VEVENT
+BEGIN:VEVENT
+UID:due-order_histories@badgr-funding.local
+DTSTAMP:20261008T140615Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:DUE: Pull 2025 Amazon/Staples/Best Buy order histories for the cand
+ idate charges
+TRANSP:TRANSPARENT
+DESCRIPTION:Proof of done: Candidate rows upgraded to documented or marked 
+ personal\nIf stuck: None
+END:VEVENT
+BEGIN:VEVENT
+UID:due-tax_review@badgr-funding.local
+DTSTAMP:20261008T140615Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:DUE: Book free tax help (VITA or SBDC referral) about the 2025 foll
+ ow-up item (D16)
+TRANSP:TRANSPARENT
+DESCRIPTION:Proof of done: Appointment or written answer\nIf stuck: Before 
+ any SBA/ACE application\, this must be resolved\nVITA locator: https://irs
+ .treasury.gov/freetaxprep/ | 800-906-9887 | Eligibility: https://www.irs.g
+ ov/individuals/free-tax-return-preparation-for-qualifying-taxpayers | Brin
+ g private/tax_2025_summary.md\, IRS transcripts and your tax forms. Off-se
+ ason: ask SBDC for a referral.
+URL:https://irs.treasury.gov/freetaxprep/
+LOCATION:VITA site near ZIP 30044 (from locator)
+END:VEVENT
+BEGIN:VEVENT
+UID:due-website_align@badgr-funding.local
+DTSTAMP:20261008T140615Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:DUE: Align badgrtech.com title/homepage and LinkedIn with the servi
+ ce menu\; fix resume education line (D8\, D10)
+TRANSP:TRANSPARENT
+DESCRIPTION:Proof of done: Updated site title live\nIf stuck: None
+END:VEVENT
+BEGIN:VEVENT
+UID:due-op_agreement@badgr-funding.local
+DTSTAMP:20261008T140615Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:DUE: Confirm a signed\, dated operating agreement (D2)
+TRANSP:TRANSPARENT
+DESCRIPTION:Proof of done: Signed copy saved in badgr_legal/\nIf stuck: Nee
+ ded before MBE/8(a)/lenders
+END:VEVENT
+BEGIN:VEVENT
+UID:due-dr_course2@badgr-funding.local
+DTSTAMP:20261008T140615Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:DUE: Complete Digital Ready course/event #2
+TRANSP:TRANSPARENT
+DESCRIPTION:Proof of done: Second completion shown\; application unlocked\n
+ If stuck: HARD STOP 2026-12-07\nCourses: https://digitalready.verizonwirel
+ ess.com/ | Grant rules: https://digitalready.verizonwireless.com/funding/d
+ etails | Administrator: https://www.lisc.org/our-initiatives/small-busines
+ s/our-work/verizon-small-business-digital-ready/grant-program/ | Two cours
+ es/events by 2026-12-07 unlock the $10\,000 application.
+URL:https://digitalready.verizonwireless.com/
+LOCATION:Online
+END:VEVENT
+BEGIN:VEVENT
+UID:due-dr_apply@badgr-funding.local
+DTSTAMP:20261008T140615Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:DUE: Submit Verizon Digital Ready application (owner submits)
+TRANSP:TRANSPARENT
+DESCRIPTION:Proof of done: Submission confirmation\; tracker application_st
+ atus=SUBMITTED_BY_OWNER\nIf stuck: Use drafts/verizon_application_prep.md\
+ nCourses: https://digitalready.verizonwireless.com/ | Grant rules: https:/
+ /digitalready.verizonwireless.com/funding/details | Administrator: https:/
+ /www.lisc.org/our-initiatives/small-business/our-work/verizon-small-busine
+ ss-digital-ready/grant-program/ | Two courses/events by 2026-12-07 unlock 
+ the $10\,000 application.
+URL:https://digitalready.verizonwireless.com/
+LOCATION:Online
+END:VEVENT
+BEGIN:VEVENT
+UID:due-case_study@badgr-funding.local
+DTSTAMP:20261008T140615Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:DUE: Publish a C.Walts case-study page (no secrets\; scoped metrics
+ )
+TRANSP:TRANSPARENT
+DESCRIPTION:Proof of done: Public URL\; add to claims ledger\nIf stuck: Non
+ e
+END:VEVENT
+BEGIN:VEVENT
+UID:due-discovery@badgr-funding.local
+DTSTAMP:20261008T140615Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+SUMMARY:DUE: Hold 3-5 customer discovery conversations (retrieval reliabili
+ ty pain)
+TRANSP:TRANSPARENT
+DESCRIPTION:Proof of done: Notes per conversation (names kept private)\nIf 
+ stuck: Fewer than 3 by due date: ask Entrepreneur Center for intros\nhttps
+ ://seedfund.nsf.gov/project-pitch/ | Draft: drafts/nsf_project_pitch.md | 
+ One pitch at a time.
+URL:https://seedfund.nsf.gov/project-pitch/
+LOCATION:Online
+END:VEVENT
+BEGIN:VEVENT
+UID:due-prior_art@badgr-funding.local
+DTSTAMP:20261008T140615Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+SUMMARY:DUE: Prior-art review for R&D concept 1
+TRANSP:TRANSPARENT
+DESCRIPTION:Proof of done: Review summary saved\; pitch section 1 revised\n
+ If stuck: None\nhttps://seedfund.nsf.gov/project-pitch/ | Draft: drafts/ns
+ f_project_pitch.md | One pitch at a time.
+URL:https://seedfund.nsf.gov/project-pitch/
+LOCATION:Online
+END:VEVENT
+BEGIN:VEVENT
+UID:due-kiva_decide@badgr-funding.local
+DTSTAMP:20261008T140615Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:DUE: Decide on Kiva after repayment analysis
+TRANSP:TRANSPARENT
+DESCRIPTION:Proof of done: Decision noted in tracker\nIf stuck: Coverage be
+ low reference: wait\nhttps://www.kiva.org/borrow | 0% loans $1\,000-$15\,0
+ 00\; apply only after the repayment check.
+URL:https://www.kiva.org/borrow
+LOCATION:Online
+END:VEVENT
+BEGIN:VEVENT
+UID:due-nsf_pitch@badgr-funding.local
+DTSTAMP:20261008T140615Z
+DTSTART;VALUE=DATE:20270106
+DTEND;VALUE=DATE:20270107
+SUMMARY:DUE: Submit NSF Project Pitch (owner submits)
+TRANSP:TRANSPARENT
+DESCRIPTION:Proof of done: Pitch confirmation\nIf stuck: Confirm SAM requir
+ ement first\nhttps://seedfund.nsf.gov/project-pitch/ | Draft: drafts/nsf_p
+ roject_pitch.md | One pitch at a time.
+URL:https://seedfund.nsf.gov/project-pitch/
+LOCATION:Online
+END:VEVENT
+BEGIN:VEVENT
+UID:due-gpu_quotes@badgr-funding.local
+DTSTAMP:20261008T140615Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:DUE: Get 2-3 verified quotes for a 24GB GPU (+PSU check)
+TRANSP:TRANSPARENT
+DESCRIPTION:Proof of done: Quotes in finance/equipment_quote_register.csv\n
+ If stuck: None
+END:VEVENT
+BEGIN:VEVENT
+UID:due-mileage_log@badgr-funding.local
+DTSTAMP:20261008T140615Z
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+SUMMARY:DUE: Start a business mileage log (date\, purpose\, miles)
+TRANSP:TRANSPARENT
+DESCRIPTION:Proof of done: Log file exists in private/\nIf stuck: None
+END:VEVENT
+BEGIN:VEVENT
+UID:due-ace_8a_revisit@badgr-funding.local
+DTSTAMP:20261008T140615Z
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270121
+SUMMARY:DUE: Revisit ACE loan and SBA 8(a) with APEX/SBDC (2-year mark 2027
+ -01-20)
+TRANSP:TRANSPARENT
+DESCRIPTION:Proof of done: Go/no-go noted in tracker\nIf stuck: None\nACE: 
+ https://aceloans.org/apply-for-a-loan/small-business-loans/ | SBA 8(a): ht
+ tps://www.sba.gov/federal-contracting/contracting-assistance-programs/8a-b
+ usiness-development-program | Both need 2 years in business (2027-01-20).
+URL:https://aceloans.org/apply-for-a-loan/small-business-loans/
+LOCATION:Online
+END:VEVENT
+BEGIN:VEVENT
+UID:due-biz_account_statements@badgr-funding.local
+DTSTAMP:20261008T140615Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:DUE: Download 2025 statements for the BADGRTechnologies LLC busines
+ s account (customer income likely there)
+TRANSP:TRANSPARENT
+DESCRIPTION:Proof of done: Statements saved in private/bank/\; income items
+  logged\nIf stuck: Ask the bank for statements if online access is missing
+END:VEVENT
+BEGIN:VEVENT
+UID:due-tag_customers@badgr-funding.local
+DTSTAMP:20261008T140615Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:DUE: Mark which 2025 Cash App/Zelle/cash deposits were customer pay
+ ments (private file)
+TRANSP:TRANSPARENT
+DESCRIPTION:Proof of done: private/income_records.csv updated\nIf stuck: No
+ ne
+END:VEVENT
+BEGIN:VEVENT
+UID:due-tax_packet@badgr-funding.local
+DTSTAMP:20261008T140615Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:DUE: Bring private/tax_2025_summary.md (income reconciliation and f
+ ollow-up items) to the tax help appointment
+TRANSP:TRANSPARENT
+DESCRIPTION:Proof of done: Tax helper's answer recorded privately\nIf stuck
+ : Resolve before SBA/ACE applications\nVITA locator: https://irs.treasury.
+ gov/freetaxprep/ | 800-906-9887 | Eligibility: https://www.irs.gov/individ
+ uals/free-tax-return-preparation-for-qualifying-taxpayers | Bring private/
+ tax_2025_summary.md\, IRS transcripts and your tax forms. Off-season: ask 
+ SBDC for a referral.
+URL:https://irs.treasury.gov/freetaxprep/
+LOCATION:VITA site near ZIP 30044 (from locator)
+END:VEVENT
+BEGIN:VEVENT
+UID:focus-sbdc_request-20261008@badgr-funding.local
+DTSTAMP:20261008T140615Z
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+SUMMARY:Focus (~20 min): Request an SBDC Gwinnett consulting appointment (o
+ nline form)
+TRANSP:TRANSPARENT
+DESCRIPTION:Proof of done: Confirmation email or appointment date\nRequest 
+ form: https://georgiasbdc.org/intake-form/ | Office: https://georgiasbdc.o
+ rg/locations/gwinnett/ | (678) 985-6820 | gwinnett@georgiasbdc.org | By ap
+ pointment only\; consulting is free.
+URL:https://georgiasbdc.org/intake-form/
+LOCATION:UGA SBDC Gwinnett Office\, 2530 Sever Road\, Suite 202\, Lawrencev
+ ille\, GA 30043
+END:VEVENT
+BEGIN:VEVENT
+UID:focus-apex_class-20261009@badgr-funding.local
+DTSTAMP:20261008T140615Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:Focus (~20 min): Sign up for GT APEX 'Introduction to Government Co
+ ntracting'
+TRANSP:TRANSPARENT
+DESCRIPTION:Proof of done: Registration confirmation\nGetting started: http
+ s://gtapexaccelerator.org/getting-started/ | Class calendar: https://gtape
+ xaccelerator.ecenterdirect.com/events/ | +1 404.894.2000 | Steps: intro cl
+ ass\, New Client Application\, counselor appointment.
+URL:https://gtapexaccelerator.org/getting-started/
+LOCATION:Georgia Tech APEX Accelerator (virtual or in-person classes)
+END:VEVENT
+BEGIN:VEVENT
+UID:focus-dr_account-20261012@badgr-funding.local
+DTSTAMP:20261008T140615Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:Focus (~15 min): Create Verizon Digital Ready account
+TRANSP:TRANSPARENT
+DESCRIPTION:Proof of done: Account created\nCourses: https://digitalready.v
+ erizonwireless.com/ | Grant rules: https://digitalready.verizonwireless.co
+ m/funding/details | Administrator: https://www.lisc.org/our-initiatives/sm
+ all-business/our-work/verizon-small-business-digital-ready/grant-program/ 
+ | Two courses/events by 2026-12-07 unlock the $10\,000 application.
+URL:https://digitalready.verizonwireless.com/
+LOCATION:Online
+END:VEVENT
+BEGIN:VEVENT
+UID:focus-mileage_log-20261013@badgr-funding.local
+DTSTAMP:20261008T140615Z
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+SUMMARY:Focus (~15 min): Start a business mileage log (date\, purpose\, mil
+ es)
+TRANSP:TRANSPARENT
+DESCRIPTION:Proof of done: Log file exists in private/
+END:VEVENT
+BEGIN:VEVENT
+UID:focus-dr_course1-20261014@badgr-funding.local
+DTSTAMP:20261008T140615Z
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261015
+SUMMARY:Focus (~60 min): Complete Digital Ready course/event #1
+TRANSP:TRANSPARENT
+DESCRIPTION:Proof of done: Course completion shown in account\nCourses: htt
+ ps://digitalready.verizonwireless.com/ | Grant rules: https://digitalready
+ .verizonwireless.com/funding/details | Administrator: https://www.lisc.org
+ /our-initiatives/small-business/our-work/verizon-small-business-digital-re
+ ady/grant-program/ | Two courses/events by 2026-12-07 unlock the $10\,000 
+ application.
+URL:https://digitalready.verizonwireless.com/
+LOCATION:Online
+END:VEVENT
+BEGIN:VEVENT
+UID:focus-ec_tour-20261015@badgr-funding.local
+DTSTAMP:20261008T140615Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:Focus (~20 min): Book a Gwinnett Entrepreneur Center tour (ask abou
+ t cohort and desk access)
+TRANSP:TRANSPARENT
+DESCRIPTION:Proof of done: Tour date\nTours: https://gec1.wildapricot.org/t
+ ours | County page: https://www.gwinnettcounty.com/government/departments/
+ planning-development/economic-development/entrepreneur-center | 770.822.80
+ 00 | Free\; ask about the incubator cohort and desk access.
+URL:https://gec1.wildapricot.org/tours
+LOCATION:Gwinnett Entrepreneur Center\, 75 Langley Drive\, Lawrenceville\, 
+ GA 30046
+END:VEVENT
+BEGIN:VEVENT
+UID:focus-atdc_quiz-20261016@badgr-funding.local
+DTSTAMP:20261008T140615Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:Focus (~15 min): Take the ATDC 'which program' quiz
+TRANSP:TRANSPARENT
+DESCRIPTION:Proof of done: Recommended program noted\nhttps://atdc.org/ (qu
+ iz: 'Which ATDC Program is Right For Me?') | info@atdc.org | (404) 894-357
+ 5 | State-funded\, zero equity.
+URL:https://atdc.org/
+LOCATION:Online
+END:VEVENT
+BEGIN:VEVENT
+UID:focus-fin_inputs-20261019@badgr-funding.local
+DTSTAMP:20261008T140615Z
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:Focus (~45 min): Fill private/financial_inputs.csv (cash\, monthly 
+ expenses\, debts\, 2026 YTD + through-date\; estimates allowed if marked)
+TRANSP:TRANSPARENT
+DESCRIPTION:Proof of done: `cli finance` no longer BLOCKED
+END:VEVENT
+BEGIN:VEVENT
+UID:focus-preparer_docs-20261020@badgr-funding.local
+DTSTAMP:20261008T140615Z
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+SUMMARY:Focus (~20 min): Ask tax preparer for 2025 depreciation schedule (a
+ sset list) and workpapers
+TRANSP:TRANSPARENT
+DESCRIPTION:Proof of done: Asset list saved to private/
+END:VEVENT
+BEGIN:VEVENT
+UID:focus-order_histories-20261021@badgr-funding.local
+DTSTAMP:20261008T140615Z
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+SUMMARY:Focus (~45 min): Pull 2025 Amazon/Staples/Best Buy order histories 
+ for the candidate charges
+TRANSP:TRANSPARENT
+DESCRIPTION:Proof of done: Candidate rows upgraded to documented or marked 
+ personal
+END:VEVENT
+BEGIN:VEVENT
+UID:focus-biz_account_statements-20261022@badgr-funding.local
+DTSTAMP:20261008T140615Z
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+SUMMARY:Focus (~45 min): Download 2025 statements for the BADGRTechnologies
+  LLC business account (customer income likely there)
+TRANSP:TRANSPARENT
+DESCRIPTION:Proof of done: Statements saved in private/bank/\; income items
+  logged
+END:VEVENT
+BEGIN:VEVENT
+UID:focus-tag_customers-20261023@badgr-funding.local
+DTSTAMP:20261008T140615Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:Focus (~45 min): Mark which 2025 Cash App/Zelle/cash deposits were 
+ customer payments (private file)
+TRANSP:TRANSPARENT
+DESCRIPTION:Proof of done: private/income_records.csv updated
+END:VEVENT
+BEGIN:VEVENT
+UID:focus-tax_review-20261026@badgr-funding.local
+DTSTAMP:20261008T140615Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:Focus (~30 min): Book free tax help (VITA or SBDC referral) about t
+ he 2025 follow-up item (D16)
+TRANSP:TRANSPARENT
+DESCRIPTION:Proof of done: Appointment or written answer\nVITA locator: htt
+ ps://irs.treasury.gov/freetaxprep/ | 800-906-9887 | Eligibility: https://w
+ ww.irs.gov/individuals/free-tax-return-preparation-for-qualifying-taxpayer
+ s | Bring private/tax_2025_summary.md\, IRS transcripts and your tax forms
+ . Off-season: ask SBDC for a referral.
+URL:https://irs.treasury.gov/freetaxprep/
+LOCATION:VITA site near ZIP 30044 (from locator)
+END:VEVENT
+BEGIN:VEVENT
+UID:focus-website_align-20261027@badgr-funding.local
+DTSTAMP:20261008T140615Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261028
+SUMMARY:Focus (~90 min): Align badgrtech.com title/homepage and LinkedIn wi
+ th the service menu\; fix resume education line (D8\, D10)
+TRANSP:TRANSPARENT
+DESCRIPTION:Proof of done: Updated site title live
+END:VEVENT
+BEGIN:VEVENT
+UID:focus-tax_packet-20261028@badgr-funding.local
+DTSTAMP:20261008T140615Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:Focus (~20 min): Bring private/tax_2025_summary.md (income reconcil
+ iation and follow-up items) to the tax help appointment
+TRANSP:TRANSPARENT
+DESCRIPTION:Proof of done: Tax helper's answer recorded privately\nVITA loc
+ ator: https://irs.treasury.gov/freetaxprep/ | 800-906-9887 | Eligibility: 
+ https://www.irs.gov/individuals/free-tax-return-preparation-for-qualifying
+ -taxpayers | Bring private/tax_2025_summary.md\, IRS transcripts and your 
+ tax forms. Off-season: ask SBDC for a referral.
+URL:https://irs.treasury.gov/freetaxprep/
+LOCATION:VITA site near ZIP 30044 (from locator)
+END:VEVENT
+BEGIN:VEVENT
+UID:focus-dr_course2-20261029@badgr-funding.local
+DTSTAMP:20261008T140615Z
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+SUMMARY:Focus (~60 min): Complete Digital Ready course/event #2
+TRANSP:TRANSPARENT
+DESCRIPTION:Proof of done: Second completion shown\; application unlocked\n
+ Courses: https://digitalready.verizonwireless.com/ | Grant rules: https://
+ digitalready.verizonwireless.com/funding/details | Administrator: https://
+ www.lisc.org/our-initiatives/small-business/our-work/verizon-small-busines
+ s-digital-ready/grant-program/ | Two courses/events by 2026-12-07 unlock t
+ he $10\,000 application.
+URL:https://digitalready.verizonwireless.com/
+LOCATION:Online
+END:VEVENT
+BEGIN:VEVENT
+UID:focus-kiva_decide-20261030@badgr-funding.local
+DTSTAMP:20261008T140615Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Focus (~30 min): Decide on Kiva after repayment analysis
+TRANSP:TRANSPARENT
+DESCRIPTION:Proof of done: Decision noted in tracker\nhttps://www.kiva.org/
+ borrow | 0% loans $1\,000-$15\,000\; apply only after the repayment check.
+URL:https://www.kiva.org/borrow
+LOCATION:Online
+END:VEVENT
+BEGIN:VEVENT
+UID:focus-dr_apply-20261102@badgr-funding.local
+DTSTAMP:20261008T140615Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:Focus (~60 min): Submit Verizon Digital Ready application (owner su
+ bmits)
+TRANSP:TRANSPARENT
+DESCRIPTION:Proof of done: Submission confirmation\; tracker application_st
+ atus=SUBMITTED_BY_OWNER\nCourses: https://digitalready.verizonwireless.com
+ / | Grant rules: https://digitalready.verizonwireless.com/funding/details 
+ | Administrator: https://www.lisc.org/our-initiatives/small-business/our-w
+ ork/verizon-small-business-digital-ready/grant-program/ | Two courses/even
+ ts by 2026-12-07 unlock the $10\,000 application.
+URL:https://digitalready.verizonwireless.com/
+LOCATION:Online
+END:VEVENT
+BEGIN:VEVENT
+UID:focus-op_agreement-20261103@badgr-funding.local
+DTSTAMP:20261008T140615Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+SUMMARY:Focus (~20 min): Confirm a signed\, dated operating agreement (D2)
+TRANSP:TRANSPARENT
+DESCRIPTION:Proof of done: Signed copy saved in badgr_legal/
+END:VEVENT
+BEGIN:VEVENT
+UID:focus-case_study-20261104@badgr-funding.local
+DTSTAMP:20261008T140615Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:Focus (~180 min): Publish a C.Walts case-study page (no secrets\; s
+ coped metrics)
+TRANSP:TRANSPARENT
+DESCRIPTION:Proof of done: Public URL\; add to claims ledger
+END:VEVENT
+BEGIN:VEVENT
+UID:focus-gpu_quotes-20261105@badgr-funding.local
+DTSTAMP:20261008T140615Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:Focus (~60 min): Get 2-3 verified quotes for a 24GB GPU (+PSU check
+ )
+TRANSP:TRANSPARENT
+DESCRIPTION:Proof of done: Quotes in finance/equipment_quote_register.csv
+END:VEVENT
+BEGIN:VEVENT
+UID:focus-discovery-20261106@badgr-funding.local
+DTSTAMP:20261008T140615Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:Focus (~240 min): Hold 3-5 customer discovery conversations (retrie
+ val reliability pain)
+TRANSP:TRANSPARENT
+DESCRIPTION:Proof of done: Notes per conversation (names kept private)\nhtt
+ ps://seedfund.nsf.gov/project-pitch/ | Draft: drafts/nsf_project_pitch.md 
+ | One pitch at a time.
+URL:https://seedfund.nsf.gov/project-pitch/
+LOCATION:Online
+END:VEVENT
+BEGIN:VEVENT
+UID:milestone-2026-12-07@badgr-funding.local
+DTSTAMP:20261008T140615Z
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+SUMMARY:HARD STOP: Verizon Digital Ready courses must be complete
+TRANSP:TRANSPARENT
+DESCRIPTION:Courses: https://digitalready.verizonwireless.com/ | Grant rule
+ s: https://digitalready.verizonwireless.com/funding/details | Administrato
+ r: https://www.lisc.org/our-initiatives/small-business/our-work/verizon-sm
+ all-business-digital-ready/grant-program/ | Two courses/events by 2026-12-
+ 07 unlock the $10\,000 application.
+URL:https://digitalready.verizonwireless.com/
+LOCATION:Online
+END:VEVENT
+BEGIN:VEVENT
+UID:milestone-2027-01-12@badgr-funding.local
+DTSTAMP:20261008T140615Z
+DTSTART;VALUE=DATE:20270112
+DTEND;VALUE=DATE:20270113
+SUMMARY:Verizon Digital Ready final decisions due
+TRANSP:TRANSPARENT
+DESCRIPTION:Courses: https://digitalready.verizonwireless.com/ | Grant rule
+ s: https://digitalready.verizonwireless.com/funding/details | Administrato
+ r: https://www.lisc.org/our-initiatives/small-business/our-work/verizon-sm
+ all-business-digital-ready/grant-program/ | Two courses/events by 2026-12-
+ 07 unlock the $10\,000 application.
+URL:https://digitalready.verizonwireless.com/
+LOCATION:Online
+END:VEVENT
+BEGIN:VEVENT
+UID:milestone-2027-01-20@badgr-funding.local
+DTSTAMP:20261008T140615Z
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270121
+SUMMARY:BADGR reaches 2 years in business (ACE loan\, SBA 8(a) eligible to 
+ apply)
+TRANSP:TRANSPARENT
+DESCRIPTION:ACE: https://aceloans.org/apply-for-a-loan/small-business-loans
+ / | SBA 8(a): https://www.sba.gov/federal-contracting/contracting-assistan
+ ce-programs/8a-business-development-program | Both need 2 years in busines
+ s (2027-01-20).
+URL:https://aceloans.org/apply-for-a-loan/small-business-loans/
+LOCATION:Online
+END:VEVENT
+BEGIN:VEVENT
+UID:weekly-MO@badgr-funding.local
+DTSTAMP:20261008T140615Z
+DTSTART;TZID=America/New_York:20261012T090000
+DTEND;TZID=America/New_York:20261012T093000
+RRULE:FREQ=WEEKLY;BYDAY=MO;UNTIL=20270120T235959Z
+SUMMARY:BADGR weekly review
+DESCRIPTION:Run `python3 -m badgr_funding.cli agenda --days 14`\; re-check 
+ sources older than 30 days\; update the shortlist. Move this time as neede
+ d.
+END:VEVENT
+BEGIN:VEVENT
+UID:weekly-WE@badgr-funding.local
+DTSTAMP:20261008T140615Z
+DTSTART;TZID=America/New_York:20261014T090000
+DTEND;TZID=America/New_York:20261014T093000
+RRULE:FREQ=WEEKLY;BYDAY=WE;UNTIL=20270120T235959Z
+SUMMARY:SAM.gov status check + one opportunity search
+DESCRIPTION:https://sam.gov/ | Manual search from docs/SEARCH_PLAYBOOK.md. 
+ Move this time as needed.
+END:VEVENT
+BEGIN:VEVENT
+UID:weekly-FR@badgr-funding.local
+DTSTAMP:20261008T140615Z
+DTSTART;TZID=America/New_York:20261009T150000
+DTEND;TZID=America/New_York:20261009T160000
+RRULE:FREQ=WEEKLY;BYDAY=FR;UNTIL=20270120T235959Z
+SUMMARY:Records hour
+DESCRIPTION:Statements\, order histories\, invoices\; update private/expens
+ e_records.csv and private/income_records.csv. Move this time as needed.
+END:VEVENT
+END:VCALENDAR

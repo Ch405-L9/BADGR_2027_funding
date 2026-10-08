@@ -1,0 +1,256 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-10-08",
+  "purpose": "Sanitized funding and business-planning context; not an approved application",
+  "business": {
+    "legal_name": "BADGRTECHNOLOGIES LLC",
+    "display_name": "BADGR Technologies LLC",
+    "entity_type": "Georgia domestic LLC",
+    "formation_date": "2025-01-20",
+    "operating_location": {
+      "city": "Lawrenceville",
+      "county": "Gwinnett",
+      "state": "GA",
+      "zip": "30044"
+    },
+    "website": "https://www.badgrtech.com",
+    "primary_naics": "541511",
+    "additional_naics": [
+      "541519"
+    ],
+    "employees_reported_in_sam": 1
+  },
+  "owner": {
+    "professional_name": "Anthony Grant",
+    "legal_name_reported_in_resume": "Brandon Anthony Grant",
+    "legal_name_reported_in_sam_material": "Brandon A Grant",
+    "identity_review": "Confirm legal application/signature name against official documents; do not silently normalize",
+    "ownership_percentage": 100,
+    "ownership_user_statement": "Black-owned and minority-owned; owner reports limited revenue and financial hardship",
+    "legal_name_in_ga_filings_and_operating_agreement": "Brandon Grant",
+    "signing_name_owner_directive": "Brandon Anthony Grant, or exactly as shown on government-issued ID (owner statement 2026-10-08); not yet matched to ID",
+    "ownership_evidence": "Single-member operating agreement (local badgr_legal, text layer) lists Brandon Grant, 100%; adoption date and signature fields not detected in text layer; owner to confirm signed copy"
+  },
+  "registration": {
+    "sam_purpose": "All Awards",
+    "submission_date": "2026-09-29",
+    "status": "Submitted Registration",
+    "uei": "U9GUGKVFGCA9",
+    "tin_validation": "Green check observed in user screenshot; completed indicator",
+    "cage": null,
+    "cage_stage": "Pending indicator observed",
+    "expiration_date": null,
+    "live_independent_check": false,
+    "source": "User-supplied screen and conversation on 2026-10-07"
+  },
+  "designations": {
+    "reported": [
+      "Minority-Owned Business",
+      "Black American Owned",
+      "Self Certified Small Disadvantaged Business"
+    ],
+    "evidence_level": "User statement and supplied SAM extract; not independent certification review",
+    "not_established": [
+      "SBA 8(a) certification",
+      "third-party MBE certification",
+      "HUBZone certification"
+    ],
+    "rule": "Do not equate low revenue with automatic program-specific economic disadvantage eligibility"
+  },
+  "financials": {
+    "sam_annual_receipts_reported": 815,
+    "sam_metric_not_tax_revenue": true,
+    "2025_revenue_verified": 5550,
+    "2026_ytd_revenue_verified": null,
+    "cash_balance": null,
+    "debt": null,
+    "tax_filing_status": "2025 Form 1040 filed with first Schedule C (IRS code 150, posted 2026-06-22); account balance $0 as of 2026-06-29. Tax follow-up item pending with a tax professional (details private).",
+    "reconciliation_required": true,
+    "rule": "Missing financial values remain null; never substitute zero or projections for actuals",
+    "tax_owner_statement_2026_10_08": "Superseded by IRS transcripts: 2025 activity reported on owner's personal 1040 Schedule C (normal for single-member LLC). Return was filed; tax was $0 because Schedule C loss offset wages, not a waiver.",
+    "2025_schedule_c": {
+      "gross_receipts": 5550,
+      "total_expenses": 22634,
+      "depreciation": 19704,
+      "car_truck": 455,
+      "other_expenses": 2450,
+      "net_profit_or_loss": -17084,
+      "source": "IRS 2025 return transcript (owner-supplied, 2026-10-08)",
+      "status": "As filed; owner confirmed 2026-10-08 the tax preparer's records are correct"
+    }
+  },
+  "skills": [
+    "Python",
+    "JavaScript",
+    "TypeScript",
+    "Kotlin",
+    "Bash",
+    "React",
+    "FastAPI",
+    "SQLite",
+    "REST APIs",
+    "Linux",
+    "Git/GitHub",
+    "RAG",
+    "BM25",
+    "ChromaDB",
+    "MCP",
+    "Ollama",
+    "AI-agent workflow evaluation",
+    "Tier II/III support",
+    "networking",
+    "SOPs and runbooks"
+  ],
+  "projects": [
+    {
+      "name": "C.Walts",
+      "url": "https://github.com/Ch405-L9/C.Walts",
+      "scope": "Hybrid retrieval, persistence/parity debugging, evaluation and rollback controls",
+      "metrics": {
+        "date": "2026-08-12",
+        "useful_top5_cases": "17/17",
+        "preservation_checks": "10/10",
+        "latency_p50_ms": 84,
+        "latency_p95_ms": 125
+      },
+      "evidence": "Resume/master-profile claims; links not independently inspected in this package",
+      "limitation": "Controlled evaluation only; no general accuracy, production scale or customer outcome inference"
+    },
+    {
+      "name": "BADGR Harness",
+      "url": "https://github.com/Ch405-L9/BADGR_Harness",
+      "scope": "Agent specialist routing, defect investigation, validation",
+      "evidence": "Resume/master profile; independent artifact review required"
+    },
+    {
+      "name": "BADGR Bolt",
+      "url": "https://github.com/Ch405-L9/badgr_bolt-src",
+      "scope": "Kotlin Android RSVP/ORP reader, narration, Play Integrity, release validation",
+      "evidence": "Resume/master profile; independent artifact review required",
+      "deployment_claim": "24 GitHub Pages deployments through 2026-06-24",
+      "limitation": "Deployment count is not users, revenue, or mobile marketplace adoption"
+    }
+  ],
+  "experience": [
+    {
+      "company": "BADGRTechnologies LLC",
+      "role": "Founder / Applied AI Engineer",
+      "dates": "2025-01 to present"
+    },
+    {
+      "company": "UVeye",
+      "role": "Field Support Hardware Engineer II",
+      "dates": "2024-03 to 2025-04"
+    },
+    {
+      "company": "Source Support Services",
+      "role": "Technical Support Engineer II",
+      "dates": "2021-09 to 2023-03"
+    },
+    {
+      "company": "HotSauce Technologies",
+      "role": "Technical Support Analyst / Junior Implementation Manager",
+      "dates": "2019-06 to 2021-07"
+    }
+  ],
+  "education": {
+    "institution": "Northeast State Community College (Tennessee; formerly Northeast State Technical Community College)",
+    "description": "Associate of Applied Science program, Computer and Information Sciences, Personal Computer Management concentration. Overall 12.00 earned credit hours, GPA 3.00: 3.00 institutional college-level (INFS 1010 Computer Applications, Fall 2014) plus 9.00 transfer from University of Phoenix (2009: Business Communications, CIS elective, Cultural Diversity). Learning-support math not counted.",
+    "degree_completed": false,
+    "source": "Northeast State transcript copy issued 2026-10-08 (owner-supplied)",
+    "superseded_description": "Coursework toward AS in Information Technology, systems security focus (resume wording; not supported by transcript)"
+  },
+  "credentials": [
+    {
+      "title": "Advanced Programming in Kotlin",
+      "issuer": "Meta via Coursera",
+      "verification_url": "https://coursera.org/verify/DEB8P9EV8KHK",
+      "independent_verification": false
+    },
+    {
+      "title": "Principles of UX/UI Design",
+      "issuer": "Meta via Coursera",
+      "verification_url": "https://coursera.org/verify/6AAULRMPNM5W",
+      "independent_verification": false
+    },
+    {
+      "title": "Create the User Interface in Android Studio",
+      "issuer": "Meta via Coursera",
+      "verification_url": "https://coursera.org/verify/4543CAAXUXCK",
+      "independent_verification": false
+    },
+    {
+      "title": "Version Control",
+      "issuer": "Meta via Coursera",
+      "verification_url": "https://coursera.org/verify/5PULCPS47PEP",
+      "independent_verification": false
+    },
+    {
+      "title": "Programming Fundamentals in Kotlin",
+      "issuer": "Meta via Coursera",
+      "verification_url": "https://coursera.org/verify/C8FKGHAJ5MRZ",
+      "independent_verification": false
+    },
+    {
+      "title": "Introduction to Android Mobile Application Development",
+      "issuer": "Meta via Coursera",
+      "verification_url": "https://coursera.org/verify/UGHTVSXA9447",
+      "independent_verification": false
+    }
+  ],
+  "professional_links": {
+    "portfolio": "https://www.badgrtech.com/portfolio",
+    "github": "https://github.com/Ch405-L9",
+    "linkedin": "https://www.linkedin.com/in/anthonygrant-app-ai-engineer"
+  },
+  "funding_needs": [
+    "Essential business equipment",
+    "Affordable workspace",
+    "Business-purpose transportation",
+    "Working capital",
+    "Later-stage building acquisition if repayment supports it",
+    "Qualified technical R&D"
+  ],
+  "candidate_offerings_not_established_revenue": [
+    "Scoped RAG prototypes with evaluation",
+    "API and workflow automation",
+    "AI-agent routing/evaluation implementation",
+    "Web application development",
+    "Linux/network troubleshooting and implementation",
+    "Android integration and maintenance"
+  ],
+  "capacity_rules": [
+    "Solo founder assisted by AI; AI is tooling, not additional staff",
+    "Do not promise legal/regulatory compliance certification",
+    "Do not claim customer contracts, licenses, adoption, or production performance without evidence",
+    "Keep service delivery separate from speculative R&D"
+  ],
+  "hardware_user_report": {
+    "date": "2026-08-29",
+    "cpu": "AMD Ryzen 5 5500",
+    "ram_gib": 32,
+    "gpu": "AMD Radeon RX 6500 XT",
+    "disk_tb": 1,
+    "os": "Ubuntu 24.04.4 LTS",
+    "rule": "Inventory reported, not independently checked; do not assume GPU/model compatibility",
+    "purchase_owner_statement": "Workstation PC about $1,500, paid by credit card; other depreciated assets per tax preparer's records"
+  },
+  "privacy": {
+    "omitted": [
+      "Passwords",
+      "bank/account/routing details",
+      "TIN/EIN",
+      "full home address",
+      "personal phone/email",
+      "unnecessary demographics and job application disclosures"
+    ],
+    "original_preserved": true
+  },
+  "services_delivered_2025_owner_reported": [
+    "Mobile and PC repair",
+    "IoT installations",
+    "OS re-imaging",
+    "Drone photography",
+    "Marketing"
+  ]
+}

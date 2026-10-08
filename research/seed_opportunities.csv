@@ -1,0 +1,13 @@
+id,program,funding_type,official_url,research_status,eligibility,next_action,last_verified_at
+verizon,Verizon Digital Ready,grant,https://digitalready.verizonwireless.com/funding/details,UNVERIFIED_CURRENT,unknown,Verify current 2026 activities/deadline and allowed costs,
+kiva,Kiva US,loan,https://www.kiva.org/borrow,UNVERIFIED_CURRENT,unknown,"Screen restrictions, supporters, business purpose and repayment",
+nase,NASE Growth Grants,grant,https://www.nase.org/become-a-member/member-benefits/business-resources/growth-grants,UNVERIFIED_CURRENT,unknown,Verify membership cost/wait and live cycle,
+ace,ACE microloan,loan,https://aceloans.org/apply-for-a-loan/small-business-loans/,UNVERIFIED_CURRENT,unknown,Published two-year history threshold; revisit near Jan 20 2027; verify operation date and terms,
+ssbci,Georgia SSBCI,loan_support,https://dca.georgia.gov/financing-tools/small-business/state-small-business-credit-initiative-ssbci,UNVERIFIED_CURRENT,unknown,Not grant; identify appropriate participating lender,
+gwinnett,Gwinnett Entrepreneur Center,workspace_support,https://www.gwinnettcounty.com/government/departments/planning-development/economic-development/entrepreneur-center,UNVERIFIED_CURRENT,unknown,Verify access and specific workspace costs,
+sbdc,UGA SBDC Gwinnett,advisory,https://georgiasbdc.org/locations/gwinnett/,UNVERIFIED_CURRENT,unknown,Financing preparation; not direct funding,
+apex,GT APEX,advisory,https://gtapexaccelerator.org/,UNVERIFIED_CURRENT,unknown,SAM/CAGE and procurement review,
+sbamicro,SBA Microloan intermediaries,loan,https://www.sba.gov/loans/microloans/,UNVERIFIED_CURRENT,unknown,Find local intermediary; no real estate purchases,
+sba7a,SBA 7(a),loan,https://www.sba.gov/loans/7a-loans/,UNVERIFIED_CURRENT,unknown,Later readiness; confirm repayment and current rules,
+sba504,SBA 504,loan,https://www.sba.gov/loans/504-loans/,UNVERIFIED_CURRENT,unknown,Later fixed-asset readiness; no working capital,
+nsf,NSF Seed Fund,R&D,https://seedfund.nsf.gov/,UNVERIFIED_CURRENT,unknown,"Verify live solicitation/pitch, technical novelty and eligibility",

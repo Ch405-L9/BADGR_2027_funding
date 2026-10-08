@@ -1,0 +1,152 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "badgr/business_profile.schema.json",
+  "title": "BADGR sanitized business profile",
+  "description": "Subset of JSON Schema checked by badgr_funding.schema_check (stdlib). Supported keywords: type, required, properties, items, enum, pattern, minimum, additionalProperties(false).",
+  "type": "object",
+  "required": ["schema_version", "as_of", "purpose", "business", "owner", "registration", "designations", "financials", "privacy"],
+  "properties": {
+    "schema_version": {"type": "string", "pattern": "^\\d+\\.\\d+$"},
+    "as_of": {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
+    "purpose": {"type": "string"},
+    "business": {
+      "type": "object",
+      "required": ["legal_name", "entity_type", "formation_date", "operating_location", "primary_naics"],
+      "properties": {
+        "legal_name": {"type": "string"},
+        "display_name": {"type": "string"},
+        "entity_type": {"type": "string"},
+        "formation_date": {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
+        "operating_location": {
+          "type": "object",
+          "required": ["city", "county", "state"],
+          "properties": {
+            "city": {"type": "string"},
+            "county": {"type": "string"},
+            "state": {"type": "string", "pattern": "^[A-Z]{2}$"},
+            "zip": {"type": "string", "pattern": "^\\d{5}$"}
+          },
+          "additionalProperties": false
+        },
+        "website": {"type": "string", "pattern": "^https://"},
+        "primary_naics": {"type": "string", "pattern": "^\\d{6}$"},
+        "additional_naics": {"type": "array", "items": {"type": "string", "pattern": "^\\d{6}$"}},
+        "employees_reported_in_sam": {"type": ["integer", "null"], "minimum": 0}
+      }
+    },
+    "owner": {
+      "type": "object",
+      "required": ["professional_name", "ownership_percentage", "identity_review"],
+      "properties": {
+        "professional_name": {"type": "string"},
+        "legal_name_reported_in_resume": {"type": ["string", "null"]},
+        "legal_name_reported_in_sam_material": {"type": ["string", "null"]},
+        "identity_review": {"type": "string"},
+        "ownership_percentage": {"type": ["number", "null"], "minimum": 0},
+        "ownership_user_statement": {"type": "string"}
+      }
+    },
+    "registration": {
+      "type": "object",
+      "required": ["uei", "status", "cage", "expiration_date", "live_independent_check"],
+      "properties": {
+        "sam_purpose": {"type": "string"},
+        "submission_date": {"type": ["string", "null"], "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
+        "status": {"type": "string"},
+        "uei": {"type": "string", "pattern": "^[A-Z0-9]{12}$"},
+        "tin_validation": {"type": "string"},
+        "cage": {"type": ["string", "null"], "pattern": "^[A-Z0-9]{5}$"},
+        "cage_stage": {"type": "string"},
+        "expiration_date": {"type": ["string", "null"], "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
+        "live_independent_check": {"type": "boolean"},
+        "source": {"type": "string"}
+      }
+    },
+    "designations": {
+      "type": "object",
+      "required": ["reported", "evidence_level", "not_established"],
+      "properties": {
+        "reported": {"type": "array", "items": {"type": "string"}},
+        "evidence_level": {"type": "string"},
+        "not_established": {"type": "array", "items": {"type": "string"}},
+        "rule": {"type": "string"}
+      }
+    },
+    "financials": {
+      "type": "object",
+      "required": ["sam_annual_receipts_reported", "sam_metric_not_tax_revenue", "2025_revenue_verified", "2026_ytd_revenue_verified", "cash_balance", "debt", "tax_filing_status", "reconciliation_required"],
+      "properties": {
+        "sam_annual_receipts_reported": {"type": ["number", "null"], "minimum": 0},
+        "sam_metric_not_tax_revenue": {"type": "boolean"},
+        "2025_revenue_verified": {"type": ["number", "null"]},
+        "2026_ytd_revenue_verified": {"type": ["number", "null"]},
+        "cash_balance": {"type": ["number", "null"]},
+        "debt": {"type": ["number", "null"]},
+        "tax_filing_status": {"type": ["string", "null"]},
+        "reconciliation_required": {"type": "boolean"},
+        "rule": {"type": "string"}
+      }
+    },
+    "skills": {"type": "array", "items": {"type": "string"}},
+    "projects": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "url", "scope", "evidence"],
+        "properties": {
+          "name": {"type": "string"},
+          "url": {"type": "string", "pattern": "^https://"},
+          "scope": {"type": "string"},
+          "evidence": {"type": "string"}
+        }
+      }
+    },
+    "experience": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["company", "role", "dates"],
+        "properties": {
+          "company": {"type": "string"},
+          "role": {"type": "string"},
+          "dates": {"type": "string"}
+        }
+      }
+    },
+    "education": {
+      "type": "object",
+      "required": ["institution", "degree_completed"],
+      "properties": {
+        "institution": {"type": "string"},
+        "description": {"type": "string"},
+        "degree_completed": {"type": "boolean"}
+      }
+    },
+    "credentials": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["title", "issuer", "independent_verification"],
+        "properties": {
+          "title": {"type": "string"},
+          "issuer": {"type": "string"},
+          "verification_url": {"type": "string", "pattern": "^https://"},
+          "independent_verification": {"type": "boolean"}
+        }
+      }
+    },
+    "professional_links": {"type": "object"},
+    "funding_needs": {"type": "array", "items": {"type": "string"}},
+    "candidate_offerings_not_established_revenue": {"type": "array", "items": {"type": "string"}},
+    "capacity_rules": {"type": "array", "items": {"type": "string"}},
+    "hardware_user_report": {"type": "object"},
+    "privacy": {
+      "type": "object",
+      "required": ["omitted"],
+      "properties": {
+        "omitted": {"type": "array", "items": {"type": "string"}},
+        "original_preserved": {"type": "boolean"}
+      }
+    }
+  }
+}
