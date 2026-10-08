@@ -1,7 +1,8 @@
-"""iCalendar (RFC 5545) export of the funding plan: due dates, focus days, milestones, weekly blocks.
+"""iCalendar (RFC 5545) export of the funding plan: due dates, focus days, milestones, optional weekly blocks.
 
-Deadlines are all-day (date-only stays date-only). Weekly blocks are timed in
-America/New_York with a VTIMEZONE so calendar apps handle DST correctly.
+Deadlines are all-day (date-only stays date-only). Timed weekly blocks are off by default:
+recurring time blocks come from the owner's growth calendar (Thursday 1:00 PM funding block).
+When passed, weekly blocks are timed in America/New_York with a VTIMEZONE so DST is handled.
 Contact details are public office information from official pages (checked 2026-10-08).
 """
 import datetime as dt
@@ -43,11 +44,6 @@ MILESTONES = [
     ("2026-12-07", "HARD STOP: Verizon Digital Ready courses must be complete", VERIZON),
     ("2027-01-12", "Verizon Digital Ready final decisions due", VERIZON),
     ("2027-01-20", "BADGR reaches 2 years in business (ACE loan, SBA 8(a) eligible to apply)", ACE),
-]
-WEEKLY = [  # (weekday code, start HH:MM, minutes, summary, description)
-    ("MO", "09:00", 30, "BADGR weekly review", "Run `python3 -m badgr_funding.cli agenda --days 14`; re-check sources older than 30 days; update the shortlist. Move this time as needed."),
-    ("WE", "09:00", 30, "SAM.gov status check + one opportunity search", "https://sam.gov/ | Manual search from docs/SEARCH_PLAYBOOK.md. Move this time as needed."),
-    ("FR", "15:00", 60, "Records hour", "Statements, order histories, invoices; update private/expense_records.csv and private/income_records.csv. Move this time as needed."),
 ]
 VTIMEZONE = """BEGIN:VTIMEZONE
 TZID:America/New_York
@@ -103,7 +99,8 @@ def _allday(uid, day, summary, info=None, extra="", stamp=""):
     return ev
 
 
-def build(data, start, statuses=None, holidays=None, sam_active=False, now=None):
+def build(data, start, statuses=None, holidays=None, sam_active=False, now=None, weekly=()):
+    """weekly: optional (weekday code, HH:MM, minutes, summary, description) timed recurring blocks."""
     now = now or dt.datetime.now(dt.timezone.utc)
     stamp = now.strftime("%Y%m%dT%H%M%SZ")
     statuses = statuses or {}
@@ -123,8 +120,8 @@ def build(data, start, statuses=None, holidays=None, sam_active=False, now=None)
     for day, summary, info in MILESTONES:
         lines += _allday(f"milestone-{day}", dt.date.fromisoformat(day), summary, info, "", stamp)
     until = "20270120T235959Z"
-    first = {"MO": 0, "WE": 2, "FR": 4}
-    for code, hhmm, minutes, summary, desc in WEEKLY:
+    first = {"MO": 0, "TU": 1, "WE": 2, "TH": 3, "FR": 4, "SA": 5, "SU": 6}
+    for code, hhmm, minutes, summary, desc in weekly:
         d0 = start + dt.timedelta(days=(first[code] - start.weekday()) % 7)
         h, m = map(int, hhmm.split(":"))
         s = dt.datetime(d0.year, d0.month, d0.day, h, m)

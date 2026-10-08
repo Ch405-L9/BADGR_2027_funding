@@ -134,7 +134,7 @@ Not yet covered (later phases): CSV roundtrip, formula injection, dedupe, Decima
 - **Review limits:** this was a same-model review (Claude reviewing Claude's work, with an automated advisor). It is not independent professional, legal or tax verification.
 
 ## Calendar and push-prep run — 2026-10-08
-- New `cli calendar` writes planning/badgr_funding_calendar.ics: 53 events (all-day due dates and focus days, 3 milestones, 3 weekly timed blocks with VTIMEZONE America/New_York). Tests check CRLF, 75-octet folding, unique UIDs, escaping, all-day DTEND, RRULE/TZID, and done-task exclusion.
+- New `cli calendar` writes planning/badgr_funding_calendar.ics: 53 events at the time; 49 after the 2026-10-08 consolidation, which made weekly blocks optional and off by default (all-day due dates and focus days, 3 milestones, 3 weekly timed blocks with VTIMEZONE America/New_York). Tests check CRLF, 75-octet folding, unique UIDs, escaping, all-day DTEND, RRULE/TZID, and done-task exclusion.
 - **First run caught:**
   - the redaction scanner flagged public office emails/phones, now allowlisted explicitly;
   - the privacy test caught a tax-form word in calendar text, reworded.

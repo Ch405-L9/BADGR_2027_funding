@@ -25,3 +25,8 @@ CRON_TZ=America/New_York
 
 ## Missing inputs
 - Your approval of scope and destination, if you ever want this enabled.
+
+## Calendar split (2026-10-08)
+- **Time blocks** come from the owner's 12-week growth calendar (six lanes, afternoons, from 2026-10-12). Funding work, the SAM.gov status check and records work go in its **Thursday 1:00 PM funding and financial readiness** block. The Monday 2:30 PM brief includes `cli agenda --days 14`.
+- **This project's calendar** (`cli calendar`) now holds only all-day due dates, focus days and milestones. Its former Mon/Wed/Fri timed blocks were removed to avoid duplicating that calendar and to keep mornings free; `ics.build(..., weekly=[...])` can still add timed blocks if wanted.
+- **Gap:** the growth calendar's recurring blocks end around 2026-12-31, but the Verizon decision date (2027-01-12) and the two-year mark (2027-01-20) come later. Extend or replace the blocks at the 12-30 next-quarter review.

@@ -118,3 +118,10 @@ python3 -m badgr_funding.cli rank -v
 - **Private inputs:** cash on hand recorded. Cash flow still needs 2026 YTD revenue + through-date and current debt payments.
 - **Push:** `publish` branch = clean single-commit snapshot (no history, no personal values). Push with `git push -u origin publish:main` ONLY after the GitHub repo is Private. `main` keeps full local history and must not be pushed as-is.
 - **Resume:** `python3 -m badgr_funding.cli agenda`.
+
+## 2026-10-08 calendar consolidation
+- Owner adopted a 12-week, six-lane growth calendar (badgr_growth_starter.zip, owner's file, unchanged). This project's calendar no longer has timed weekly blocks: 49 all-day events (due dates, focus days, milestones). SAM check and records work moved to the growth calendar's Thursday 1:00 PM funding block; agenda text updated.
+- SBDC request submitted by owner 2026-10-08 (task marked done).
+- **Google Calendar:** an earlier version was imported. Google import does not remove events dropped from a file: delete the imported "BADGR Funding" calendar and re-import; import the growth calendar into its own separate calendar.
+- **Gap:** recurring blocks end ~2026-12-31; milestones on 2027-01-12 and 2027-01-20 follow. Decide at the 12-30 review.
+- **Open:** Manus review files not yet reviewed. (Two root .txt files with personal data moved to private/notes/ 2026-10-08.)

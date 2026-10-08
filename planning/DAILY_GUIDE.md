@@ -22,7 +22,8 @@ All are free, and none submits anything on your behalf.
 | Gwinnett Entrepreneur Center: tours | https://gec1.wildapricot.org/tours | 75 Langley Drive, Lawrenceville, GA 30046 · 770.822.8000 |
 | ATDC: program quiz | https://atdc.org/ | info@atdc.org · (404) 894-3575 |
 | Free tax help (VITA) | https://irs.treasury.gov/freetaxprep/ | 800-906-9887 |
-| Calendar file | planning/badgr_funding_calendar.ics | Regenerate: `python3 -m badgr_funding.cli calendar` |
+| Calendar file | planning/badgr_funding_calendar.ics (due dates, focus days, milestones; no timed blocks) | Regenerate: `python3 -m badgr_funding.cli calendar` |
+| Time blocks | Owner's growth calendar (badgr_growth_starter.zip, from 2026-10-12) | Funding work, SAM check and records go in its **Thursday 1:00 PM** funding block |
 
 ## Original guide
 Daily: 10 minutes SAM/validation requests; 30 minutes records; 45 minutes funding task; 30 minutes customer work; 5 minutes tracker.

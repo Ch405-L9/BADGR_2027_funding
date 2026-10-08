@@ -349,15 +349,15 @@
   "weekly": [
     {
       "day": "Mon",
-      "what": "Weekly review: `cli agenda --days 14`; re-check any source older than 30 days; update the shortlist"
+      "what": "In the 2:30 PM intelligence brief: `cli agenda --days 14`; re-check any source older than 30 days; update the shortlist"
     },
     {
-      "day": "Wed",
-      "what": "SAM.gov status check; one new-opportunity search from docs/SEARCH_PLAYBOOK.md (manual)"
+      "day": "Thu",
+      "what": "1:00 PM funding block: SAM.gov status check; one new-opportunity search from docs/SEARCH_PLAYBOOK.md (manual)"
     },
     {
-      "day": "Fri",
-      "what": "Records hour: statements and order histories; update private logs"
+      "day": "Thu",
+      "what": "1:00 PM funding block (remaining time): statements and order histories; update private logs"
     }
   ]
 }

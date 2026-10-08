@@ -38,10 +38,18 @@ class IcsTests(unittest.TestCase):
         self.assertIn("URL:https://georgiasbdc.org/intake-form/", unfolded)
         self.assertIn("800-906-9887", unfolded)
 
+    def test_no_timed_blocks_by_default(self):
+        self.assertNotIn("RRULE:FREQ=WEEKLY", self.text)
+        self.assertNotIn("DTSTART;TZID=", self.text)
+
     def test_weekly_blocks_timezone_and_rrule(self):
-        unfolded = self.text.replace("\r\n ", "")
+        weekly = [("MO", "09:00", 30, "Review", "desc"), ("TH", "13:00", 60, "Funding block", "desc")]
+        text = ics.build(self.data, dt.date(2026, 10, 8), {}, {}, False, NOW, weekly)
+        unfolded = text.replace("\r\n ", "")
         self.assertIn("DTSTART;TZID=America/New_York:20261012T090000", unfolded)  # first Monday after start
-        self.assertIn("RRULE:FREQ=WEEKLY;BYDAY=WE;UNTIL=20270120T235959Z", unfolded)
+        self.assertIn("DTSTART;TZID=America/New_York:20261008T130000", unfolded)  # start day itself is a Thursday
+        self.assertIn("DTEND;TZID=America/New_York:20261008T140000", unfolded)
+        self.assertIn("RRULE:FREQ=WEEKLY;BYDAY=TH;UNTIL=20270120T235959Z", unfolded)
 
     def test_done_tasks_excluded(self):
         text = ics.build(self.data, dt.date(2026, 10, 8), {"sbdc_request": {"status": "done"}}, {}, False, NOW)

@@ -181,5 +181,5 @@ def agenda(conn, data, ref=None, horizon_days=14, statuses=None, holidays=None, 
     sec["Missing inputs"] = missing
     sec["Open advisor/lender questions"] = [t["title"] for t in tasks if t["category"] == "advisor"]
     sec["SAM"] = (["SAM Active: activation tasks added to the plan"] if appl.sam_active
-                  else ["SAM still pending: check status (Wednesdays)"])
+                  else ["SAM still pending: check status in the Thursday 1:00 PM funding block"])
     return sec
