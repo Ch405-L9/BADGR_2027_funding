@@ -24,7 +24,7 @@ class CashFlowInputs:
     opening_cash: object = None                 # cents
     monthly_operating_revenue: object = None    # cents
     monthly_operating_expenses: object = None   # cents (excludes debt service)
-    existing_debt_payments: object = 0          # cents/month; None = unknown -> blocks
+    existing_debt_payments: object = None       # cents/month; None = unknown -> blocks (0 must be stated)
     owner_contribution: dict = field(default_factory=dict)   # {month: cents}
     grant_awarded: dict = field(default_factory=dict)        # {month: cents}; awarded only
     grant_pending: dict = field(default_factory=dict)        # tracked, never counted as cash

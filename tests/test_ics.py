@@ -51,6 +51,9 @@ class IcsTests(unittest.TestCase):
         self.assertIn("DTEND;TZID=America/New_York:20261008T140000", unfolded)
         self.assertIn("RRULE:FREQ=WEEKLY;BYDAY=TH;UNTIL=20270120T235959Z", unfolded)
 
+    def test_milestones_do_not_claim_eligibility(self):
+        self.assertNotIn("eligible to apply", self.text.replace("\r\n ", "").lower())
+
     def test_done_tasks_excluded(self):
         text = ics.build(self.data, dt.date(2026, 10, 8), {"sbdc_request": {"status": "done"}}, {}, False, NOW)
         self.assertNotIn("due-sbdc_request@", text.replace("\r\n ", ""))

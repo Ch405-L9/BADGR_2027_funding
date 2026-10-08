@@ -61,7 +61,8 @@ class CashFlowTests(unittest.TestCase):
     def test_missing_inputs_block(self):
         out = cashflow.project(cashflow.CashFlowInputs())
         self.assertIsInstance(out, cashflow.Blocked)
-        self.assertEqual(set(out.missing), {"opening_cash", "monthly_operating_revenue", "monthly_operating_expenses"})
+        self.assertEqual(set(out.missing), {"opening_cash", "monthly_operating_revenue", "monthly_operating_expenses",
+                                            "existing_debt_payments"})  # unreported debt is unknown, not zero
 
     def test_unknown_existing_debt_blocks(self):
         out = cashflow.project(self.base(existing_debt_payments=None))

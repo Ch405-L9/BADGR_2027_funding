@@ -30,7 +30,7 @@ KIVA = {"url": "https://www.kiva.org/borrow", "location": "Online", "info": "htt
 NSF = {"url": "https://seedfund.nsf.gov/project-pitch/", "location": "Online",
        "info": "https://seedfund.nsf.gov/project-pitch/ | Draft: drafts/nsf_project_pitch.md | One pitch at a time."}
 ACE = {"url": "https://aceloans.org/apply-for-a-loan/small-business-loans/", "location": "Online",
-       "info": "ACE: https://aceloans.org/apply-for-a-loan/small-business-loans/ | SBA 8(a): https://www.sba.gov/federal-contracting/contracting-assistance-programs/8a-business-development-program | Both need 2 years in business (2027-01-20)."}
+       "info": "ACE: https://aceloans.org/apply-for-a-loan/small-business-loans/ | SBA 8(a): https://www.sba.gov/federal-contracting/contracting-assistance-programs/8a-business-development-program | Both list a 2-year history requirement; formation date (2027-01-20 mark) may not be how it is counted, and all other criteria still apply. Not an eligibility determination."}
 SAM = {"url": "https://sam.gov/", "location": "Online", "info": "https://sam.gov/ | https://www.grants.gov/ | Record CAGE and expiration when Active."}
 
 TASK_INFO = {
@@ -43,7 +43,7 @@ TASK_INFO = {
 MILESTONES = [
     ("2026-12-07", "HARD STOP: Verizon Digital Ready courses must be complete", VERIZON),
     ("2027-01-12", "Verizon Digital Ready final decisions due", VERIZON),
-    ("2027-01-20", "BADGR reaches 2 years in business (ACE loan, SBA 8(a) eligible to apply)", ACE),
+    ("2027-01-20", "2-year mark since formation: confirm ACE and SBA 8(a) criteria with APEX/SBDC", ACE),
 ]
 VTIMEZONE = """BEGIN:VTIMEZONE
 TZID:America/New_York

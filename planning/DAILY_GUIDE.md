@@ -11,7 +11,7 @@ All are free, and none submits anything on your behalf.
 | 2026-10-22 | Take the ATDC "which program" quiz | Free state accelerator, zero equity |
 | 2026-11-15 | Second Digital Ready course done; submit the Verizon application | Applications are reviewed monthly through December |
 | 2026-11-30 | Confirm a signed, dated operating agreement (D2) | Needed for MBE, 8(a) and lenders |
-| 2027-01-05 | Revisit ACE loan and SBA 8(a) | Both open to you once the business reaches 2 years, on 2027-01-20 |
+| 2027-01-05 | Revisit ACE loan and SBA 8(a) | Both list a 2-year history requirement; 2027-01-20 is 2 years from formation, which may not be how it is counted. Confirm all criteria with APEX/SBDC; not an eligibility determination |
 
 ## Verified links and contacts (official pages, checked 2026-10-08)
 | What | Link | Contact |
