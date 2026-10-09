@@ -126,3 +126,9 @@ python3 -m badgr_funding.cli rank -v
 - **Gap:** recurring blocks end ~2026-12-31; milestones on 2027-01-12 and 2027-01-20 follow. Decide at the 12-30 review.
 - **Open:** Manus review files not yet reviewed. (Two root .txt files with personal data moved to private/notes/ 2026-10-08.)
 - **Manus review fixes (2026-10-08):** (1) cash-flow `existing_debt_payments` now defaults to unknown (None) and blocks the forecast instead of silently meaning $0; (2) the 2027-01-20 calendar milestone and DAILY_GUIDE no longer say "eligible to apply": 2 years from formation may not equal the programs' history test, and other criteria apply. Manus also found the repo was anonymously readable while public (business profile with UEI and 2025 business tax figures); it is private again. Manus's funding revalidation never completed; no program facts came from it.
+
+## 2026-10-08 evening update
+- **Verizon Digital Ready:** owner completed 2/2 courses and submitted the application 2026-10-08 (LISC confirmation; active through end of 2026; finalists emailed from notifications@lisc.org). Tracker `verizon` = SUBMITTED_BY_OWNER, follow-up 2026-11-01. Calendar drops the 12-07 course hard stop and adds monthly inbox checks (11-01, 12-01, 12-31).
+- **GT APEX:** client profile choices recorded in docs/APEX_PROFILE.md (9 NIGP codes verified against the owner's catalog copy). Mentor-Protege webinar 2026-10-30 10:00 ET added to the calendar as a timed event with a 30-minute alert; Atlanta office contact added.
+- **HUBZone:** owner's SBA map screenshot (2026-10-08, private) shows the business address just outside the shaded qualified areas, so HUBZone does not look available on the current map. Confirm with the map's text result before treating as final.
+- New root files moved to private/notes/ (owner notes, NIGP catalog, screenshots, a Verizon course transcript).

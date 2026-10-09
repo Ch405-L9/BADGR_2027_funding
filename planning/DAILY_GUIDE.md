@@ -4,12 +4,12 @@
 All are free, and none submits anything on your behalf.
 | By | Action | Why |
 |---|---|---|
-| 2026-10-15 | Request an SBDC Gwinnett appointment (by appointment only) | Lender options for businesses under 2 years old, SSBCI, tax follow-up (D16), SAM receipts (D3), name consistency (D1) |
+| Done 2026-10-08 | SBDC Gwinnett request submitted | Reply expected within 2 business days; call (678) 985-6820 if none by 2026-10-13 |
+| Done 2026-10-08 | Verizon Digital Ready: 2/2 courses done, application submitted | Watch inbox/spam for notifications@lisc.org monthly through Dec; decision by 2027-01-12 |
+| 2026-10-30 10:00 | GT APEX webinar: Mentor-Protege Programs Overview (registered) | Subcontracting entry path; contact Jennifer White (404) 894-3512 |
 | 2026-10-15 | Sign up for the GT APEX "Introduction to Government Contracting" class | Needed before APEX counseling; also covers LLC vs. sole-prop SAM classification (D4) |
-| 2026-10-22 | Create a Verizon Digital Ready account and finish the first course | Two courses unlock the $10k application; **hard stop 2026-12-07** |
 | 2026-10-22 | Book a Gwinnett Entrepreneur Center tour | Incubator cohort; ask about workspace |
 | 2026-10-22 | Take the ATDC "which program" quiz | Free state accelerator, zero equity |
-| 2026-11-15 | Second Digital Ready course done; submit the Verizon application | Applications are reviewed monthly through December |
 | 2026-11-30 | Confirm a signed, dated operating agreement (D2) | Needed for MBE, 8(a) and lenders |
 | 2027-01-05 | Revisit ACE loan and SBA 8(a) | Both list a 2-year history requirement; 2027-01-20 is 2 years from formation, which may not be how it is counted. Confirm all criteria with APEX/SBDC; not an eligibility determination |
 
@@ -18,7 +18,7 @@ All are free, and none submits anything on your behalf.
 |---|---|---|
 | SBDC Gwinnett: request free consulting | https://georgiasbdc.org/intake-form/ | 2530 Sever Road, Suite 202, Lawrenceville, GA 30043 · (678) 985-6820 · gwinnett@georgiasbdc.org (by appointment) |
 | Verizon Digital Ready: courses (2 by 2026-12-07) | https://digitalready.verizonwireless.com/ | Grant rules: https://digitalready.verizonwireless.com/funding/details |
-| GT APEX: intro class and onboarding | https://gtapexaccelerator.org/getting-started/ | Class calendar: https://gtapexaccelerator.ecenterdirect.com/events/ · +1 404.894.2000 |
+| GT APEX: intro class and onboarding | https://gtapexaccelerator.org/getting-started/ | Class calendar: https://gtapexaccelerator.ecenterdirect.com/events/ · Atlanta office: Jennifer White (404) 894-3512, 75 5th St NW Ste 3000, Atlanta, GA 30308-1068 |
 | Gwinnett Entrepreneur Center: tours | https://gec1.wildapricot.org/tours | 75 Langley Drive, Lawrenceville, GA 30046 · 770.822.8000 |
 | ATDC: program quiz | https://atdc.org/ | info@atdc.org · (404) 894-3575 |
 | Free tax help (VITA) | https://irs.treasury.gov/freetaxprep/ | 800-906-9887 |

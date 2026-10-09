@@ -40,7 +40,18 @@ class IcsTests(unittest.TestCase):
 
     def test_no_timed_blocks_by_default(self):
         self.assertNotIn("RRULE:FREQ=WEEKLY", self.text)
-        self.assertNotIn("DTSTART;TZID=", self.text)
+
+    def test_one_off_events_timed_with_alarm(self):
+        unfolded = self.text.replace("\r\n ", "")
+        self.assertIn("DTSTART;TZID=America/New_York:20261030T100000", unfolded)
+        self.assertIn("DTEND;TZID=America/New_York:20261030T113000", unfolded)
+        self.assertIn("TRIGGER:-PT30M", unfolded)
+        self.assertEqual(unfolded.count("BEGIN:VALARM"), unfolded.count("END:VALARM"))
+
+    def test_milestone_skipped_when_task_done(self):
+        text = ics.build(self.data, dt.date(2026, 10, 8), {"dr_course2": {"status": "done"}}, {}, False, NOW)
+        self.assertNotIn("milestone-2026-12-07@", text.replace("\r\n ", ""))
+        self.assertIn("milestone-2026-12-07@", self.text.replace("\r\n ", ""))
 
     def test_weekly_blocks_timezone_and_rrule(self):
         weekly = [("MO", "09:00", 30, "Review", "desc"), ("TH", "13:00", 60, "Funding block", "desc")]

@@ -33,9 +33,12 @@ PATTERNS = {
 # Addresses that are documentation or role-based, not personal data.
 ALLOWED_EMAILS = {"noreply@anthropic.com",
                   # Public office contacts from official pages (checked 2026-10-08)
-                  "gwinnett@georgiasbdc.org", "info@atdc.org"}
+                  "gwinnett@georgiasbdc.org", "info@atdc.org",
+                  # LISC finalist sender, from the owner's confirmation email (2026-10-08)
+                  "notifications@lisc.org"}
 ALLOWED_PHONES = {"(678) 985-6820", "(404) 894-3575", "404.894.2000", "+1 404.894.2000",
-                  "770.822.8000", "800-906-9887", "888-227-7669"}
+                  "770.822.8000", "800-906-9887", "888-227-7669",
+                  "(404) 894-3512"}  # GT APEX Atlanta office (APEX events page, 2026-10-08)
 
 
 def should_skip(path: Path) -> bool:

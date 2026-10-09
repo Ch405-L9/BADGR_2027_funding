@@ -15,7 +15,7 @@ SBDC = {"url": "https://georgiasbdc.org/intake-form/",
         "info": "Request form: https://georgiasbdc.org/intake-form/ | Office: https://georgiasbdc.org/locations/gwinnett/ | (678) 985-6820 | gwinnett@georgiasbdc.org | By appointment only; consulting is free."}
 APEX = {"url": "https://gtapexaccelerator.org/getting-started/",
         "location": "Georgia Tech APEX Accelerator (virtual or in-person classes)",
-        "info": "Getting started: https://gtapexaccelerator.org/getting-started/ | Class calendar: https://gtapexaccelerator.ecenterdirect.com/events/ | +1 404.894.2000 | Steps: intro class, New Client Application, counselor appointment."}
+        "info": "Getting started: https://gtapexaccelerator.org/getting-started/ | Class calendar: https://gtapexaccelerator.ecenterdirect.com/events/ | Atlanta office: Jennifer White, (404) 894-3512, 75 5th St NW Ste 3000, Atlanta, GA 30308-1068 | Steps: intro class, New Client Application, counselor appointment."}
 VERIZON = {"url": "https://digitalready.verizonwireless.com/",
            "location": "Online",
            "info": "Courses: https://digitalready.verizonwireless.com/ | Grant rules: https://digitalready.verizonwireless.com/funding/details | Administrator: https://www.lisc.org/our-initiatives/small-business/our-work/verizon-small-business-digital-ready/grant-program/ | Two courses/events by 2026-12-07 unlock the $10,000 application."}
@@ -40,10 +40,22 @@ TASK_INFO = {
     "nsf_pitch": NSF, "prior_art": NSF, "discovery": NSF, "ace_8a_revisit": ACE,
     "sam_record": SAM, "sam_grantsgov": SAM, "sam_rank": SAM,
 }
-MILESTONES = [
-    ("2026-12-07", "HARD STOP: Verizon Digital Ready courses must be complete", VERIZON),
-    ("2027-01-12", "Verizon Digital Ready final decisions due", VERIZON),
-    ("2027-01-20", "2-year mark since formation: confirm ACE and SBA 8(a) criteria with APEX/SBDC", ACE),
+LISC_WATCH = {"url": "https://digitalready.verizonwireless.com/funding/details", "location": "Email",
+              "info": "Application submitted 2026-10-08; active through end of 2026. LISC picks 10 finalists monthly. Finalist emails come from notifications@lisc.org (check spam). If selected: W-9 and ACH only through the official LISC channel. Not selected by year end = official decline letter."}
+MILESTONES = [  # (date, summary, info, skip when this task is done)
+    ("2026-12-07", "HARD STOP: Verizon Digital Ready courses must be complete", VERIZON, "dr_course2"),
+    ("2026-11-01", "Verizon grant: check inbox/spam for notifications@lisc.org", LISC_WATCH, None),
+    ("2026-12-01", "Verizon grant: check inbox/spam for notifications@lisc.org", LISC_WATCH, None),
+    ("2026-12-31", "Verizon grant: last monthly finalist round of 2026", LISC_WATCH, None),
+    ("2027-01-12", "Verizon Digital Ready final decisions due", VERIZON, None),
+    ("2027-01-20", "2-year mark since formation: confirm ACE and SBA 8(a) criteria with APEX/SBDC", ACE, None),
+]
+APEX_ATL = {"url": "https://gtapexaccelerator.ecenterdirect.com/events/", "location": "Online (live webinar)"}
+EVENTS = [  # owner-registered one-off events: (start YYYY-MM-DDTHH:MM, minutes, summary, info)
+    ("2026-10-30T10:00", 90, "GT APEX: Mentor-Protege Programs Overview (DoD and SBA)",
+     dict(APEX_ATL, info="Registered. Free live webinar. Contact: Jennifer White (404) 894-3512. Covers SBA and DoD mentor-protege programs and application criteria. Class calendar: https://gtapexaccelerator.ecenterdirect.com/events/")),
+    ("2026-10-13T12:00", 120, "Webinar: The AI scheduler",
+     {"url": "", "location": "Online", "info": "Registered (owner list 2026-10-08). Live setup demo of AI scheduling tools. Times shown in ET."}),
 ]
 VTIMEZONE = """BEGIN:VTIMEZONE
 TZID:America/New_York
@@ -99,11 +111,12 @@ def _allday(uid, day, summary, info=None, extra="", stamp=""):
     return ev
 
 
-def build(data, start, statuses=None, holidays=None, sam_active=False, now=None, weekly=()):
+def build(data, start, statuses=None, holidays=None, sam_active=False, now=None, weekly=(), events=None):
     """weekly: optional (weekday code, HH:MM, minutes, summary, description) timed recurring blocks."""
     now = now or dt.datetime.now(dt.timezone.utc)
     stamp = now.strftime("%Y%m%dT%H%M%SZ")
     statuses = statuses or {}
+    events = EVENTS if events is None else events
     lines = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//BADGR Technologies//Funding Plan//EN",
              "CALSCALE:GREGORIAN", "METHOD:PUBLISH", "X-WR-CALNAME:BADGR Funding Plan", "X-WR-TIMEZONE:America/New_York",
              *VTIMEZONE.splitlines()]
@@ -117,8 +130,20 @@ def build(data, start, statuses=None, holidays=None, sam_active=False, now=None,
             t = d["focus"]
             lines += _allday(f"focus-{t['id']}-{d['date']:%Y%m%d}", d["date"], f"Focus (~{t['effort_min']} min): {t['title']}",
                              TASK_INFO.get(t["id"]), f"Proof of done: {t['evidence']}", stamp)
-    for day, summary, info in MILESTONES:
+    for day, summary, info, skip_task in MILESTONES:
+        if skip_task and statuses.get(skip_task, {}).get("status") == "done":
+            continue
         lines += _allday(f"milestone-{day}", dt.date.fromisoformat(day), summary, info, "", stamp)
+    for when, minutes, summary, info in events:
+        s = dt.datetime.fromisoformat(when)
+        e = s + dt.timedelta(minutes=minutes)
+        ev = ["BEGIN:VEVENT", f"UID:event-{s:%Y%m%dT%H%M}@badgr-funding.local", f"DTSTAMP:{stamp}",
+              f"DTSTART;TZID=America/New_York:{s:%Y%m%dT%H%M%S}", f"DTEND;TZID=America/New_York:{e:%Y%m%dT%H%M%S}",
+              f"SUMMARY:{escape(summary)}", f"DESCRIPTION:{escape(info['info'])}", f"LOCATION:{escape(info['location'])}"]
+        if info.get("url"):
+            ev.append(f"URL:{info['url']}")
+        ev += ["BEGIN:VALARM", "ACTION:DISPLAY", f"DESCRIPTION:{escape(summary)}", "TRIGGER:-PT30M", "END:VALARM", "END:VEVENT"]
+        lines += ev
     until = "20270120T235959Z"
     first = {"MO": 0, "TU": 1, "WE": 2, "TH": 3, "FR": 4, "SA": 5, "SU": 6}
     for code, hhmm, minutes, summary, desc in weekly:
