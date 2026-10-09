@@ -46,6 +46,8 @@ class IcsTests(unittest.TestCase):
         self.assertIn("DTSTART;TZID=America/New_York:20261030T100000", unfolded)
         self.assertIn("DTEND;TZID=America/New_York:20261030T113000", unfolded)
         self.assertIn("TRIGGER:-PT30M", unfolded)
+        self.assertIn("DTSTART;TZID=America/New_York:20261015T090000", unfolded)  # APEX intro class
+        self.assertIn("DTEND;TZID=America/New_York:20261015T120000", unfolded)
         self.assertEqual(unfolded.count("BEGIN:VALARM"), unfolded.count("END:VALARM"))
 
     def test_milestone_skipped_when_task_done(self):

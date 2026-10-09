@@ -6,6 +6,7 @@ All are free, and none submits anything on your behalf.
 |---|---|---|
 | Done 2026-10-08 | SBDC Gwinnett request submitted | Reply expected within 2 business days; call (678) 985-6820 if none by 2026-10-13 |
 | Done 2026-10-08 | Verizon Digital Ready: 2/2 courses done, application submitted | Watch inbox/spam for notifications@lisc.org monthly through Dec; decision by 2027-01-12 |
+| 2026-10-15 09:00 | GT APEX: Introduction to Government Contracting (registered) | First APEX onboarding step; contact Gerardo Arias-Chong (404) 894-8122 |
 | 2026-10-30 10:00 | GT APEX webinar: Mentor-Protege Programs Overview (registered) | Subcontracting entry path; contact Jennifer White (404) 894-3512 |
 | 2026-10-15 | Sign up for the GT APEX "Introduction to Government Contracting" class | Needed before APEX counseling; also covers LLC vs. sole-prop SAM classification (D4) |
 | 2026-10-22 | Book a Gwinnett Entrepreneur Center tour | Incubator cohort; ask about workspace |

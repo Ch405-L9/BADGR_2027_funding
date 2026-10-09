@@ -38,7 +38,7 @@ ALLOWED_EMAILS = {"noreply@anthropic.com",
                   "notifications@lisc.org"}
 ALLOWED_PHONES = {"(678) 985-6820", "(404) 894-3575", "404.894.2000", "+1 404.894.2000",
                   "770.822.8000", "800-906-9887", "888-227-7669",
-                  "(404) 894-3512"}  # GT APEX Atlanta office (APEX events page, 2026-10-08)
+                  "(404) 894-3512", "(404) 894-8122"}  # GT APEX Atlanta office (APEX events page, 2026-10-08)
 
 
 def should_skip(path: Path) -> bool:

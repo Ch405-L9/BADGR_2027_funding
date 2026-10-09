@@ -52,6 +52,8 @@ MILESTONES = [  # (date, summary, info, skip when this task is done)
 ]
 APEX_ATL = {"url": "https://gtapexaccelerator.ecenterdirect.com/events/", "location": "Online (live webinar)"}
 EVENTS = [  # owner-registered one-off events: (start YYYY-MM-DDTHH:MM, minutes, summary, info)
+    ("2026-10-15T09:00", 180, "GT APEX: Introduction to Government Contracting",
+     dict(APEX_ATL, info="Registered. Free live webinar; first step of APEX onboarding (then New Client Application, then counselor). Contact: Gerardo Arias-Chong (404) 894-8122. Covers the 7 phases of government procurement, SAM, FAR basics, DSBS, USASpending, subcontracting, state/local buying and BidMatch.")),
     ("2026-10-30T10:00", 90, "GT APEX: Mentor-Protege Programs Overview (DoD and SBA)",
      dict(APEX_ATL, info="Registered. Free live webinar. Contact: Jennifer White (404) 894-3512. Covers SBA and DoD mentor-protege programs and application criteria. Class calendar: https://gtapexaccelerator.ecenterdirect.com/events/")),
     ("2026-10-13T12:00", 120, "Webinar: The AI scheduler",
