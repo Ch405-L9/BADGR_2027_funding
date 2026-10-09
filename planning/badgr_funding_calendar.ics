@@ -24,7 +24,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:due-ec_tour@badgr-funding.local
-DTSTAMP:20261009T020310Z
+DTSTAMP:20261009T020419Z
 DTSTART;VALUE=DATE:20261022
 DTEND;VALUE=DATE:20261023
 SUMMARY:DUE: Book a Gwinnett Entrepreneur Center tour (ask about cohort and
@@ -41,7 +41,7 @@ LOCATION:Gwinnett Entrepreneur Center\, 75 Langley Drive\, Lawrenceville\,
 END:VEVENT
 BEGIN:VEVENT
 UID:due-atdc_quiz@badgr-funding.local
-DTSTAMP:20261009T020310Z
+DTSTAMP:20261009T020419Z
 DTSTART;VALUE=DATE:20261022
 DTEND;VALUE=DATE:20261023
 SUMMARY:DUE: Take the ATDC 'which program' quiz
@@ -54,7 +54,7 @@ LOCATION:Online
 END:VEVENT
 BEGIN:VEVENT
 UID:due-fin_inputs@badgr-funding.local
-DTSTAMP:20261009T020310Z
+DTSTAMP:20261009T020419Z
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261025
 SUMMARY:DUE: Fill private/financial_inputs.csv (cash\, monthly expenses\, d
@@ -65,7 +65,7 @@ DESCRIPTION:Proof of done: `cli finance` no longer BLOCKED\nIf stuck: Stuck
 END:VEVENT
 BEGIN:VEVENT
 UID:due-preparer_docs@badgr-funding.local
-DTSTAMP:20261009T020310Z
+DTSTAMP:20261009T020419Z
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261025
 SUMMARY:DUE: Ask tax preparer for 2025 depreciation schedule (asset list) a
@@ -76,7 +76,7 @@ DESCRIPTION:Proof of done: Asset list saved to private/\nIf stuck: No respo
 END:VEVENT
 BEGIN:VEVENT
 UID:due-order_histories@badgr-funding.local
-DTSTAMP:20261009T020310Z
+DTSTAMP:20261009T020419Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:DUE: Pull 2025 Amazon/Staples/Best Buy order histories for the cand
@@ -87,7 +87,7 @@ DESCRIPTION:Proof of done: Candidate rows upgraded to documented or marked
 END:VEVENT
 BEGIN:VEVENT
 UID:due-tax_review@badgr-funding.local
-DTSTAMP:20261009T020310Z
+DTSTAMP:20261009T020419Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:DUE: Book free tax help (VITA or SBDC referral) about the 2025 foll
@@ -104,7 +104,7 @@ LOCATION:VITA site near ZIP 30044 (from locator)
 END:VEVENT
 BEGIN:VEVENT
 UID:due-website_align@badgr-funding.local
-DTSTAMP:20261009T020310Z
+DTSTAMP:20261009T020419Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:DUE: Align badgrtech.com title/homepage and LinkedIn with the servi
@@ -114,7 +114,7 @@ DESCRIPTION:Proof of done: Updated site title live\nIf stuck: None
 END:VEVENT
 BEGIN:VEVENT
 UID:due-op_agreement@badgr-funding.local
-DTSTAMP:20261009T020310Z
+DTSTAMP:20261009T020419Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:DUE: Confirm a signed\, dated operating agreement (D2)
@@ -124,7 +124,7 @@ DESCRIPTION:Proof of done: Signed copy saved in badgr_legal/\nIf stuck: Nee
 END:VEVENT
 BEGIN:VEVENT
 UID:due-case_study@badgr-funding.local
-DTSTAMP:20261009T020310Z
+DTSTAMP:20261009T020419Z
 DTSTART;VALUE=DATE:20261130
 DTEND;VALUE=DATE:20261201
 SUMMARY:DUE: Publish a C.Walts case-study page (no secrets\; scoped metrics
@@ -135,7 +135,7 @@ DESCRIPTION:Proof of done: Public URL\; add to claims ledger\nIf stuck: Non
 END:VEVENT
 BEGIN:VEVENT
 UID:due-discovery@badgr-funding.local
-DTSTAMP:20261009T020310Z
+DTSTAMP:20261009T020419Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:DUE: Hold 3-5 customer discovery conversations (retrieval reliabili
@@ -150,7 +150,7 @@ LOCATION:Online
 END:VEVENT
 BEGIN:VEVENT
 UID:due-prior_art@badgr-funding.local
-DTSTAMP:20261009T020310Z
+DTSTAMP:20261009T020419Z
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:DUE: Prior-art review for R&D concept 1
@@ -163,7 +163,7 @@ LOCATION:Online
 END:VEVENT
 BEGIN:VEVENT
 UID:due-kiva_decide@badgr-funding.local
-DTSTAMP:20261009T020310Z
+DTSTAMP:20261009T020419Z
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:DUE: Decide on Kiva after repayment analysis
@@ -176,7 +176,7 @@ LOCATION:Online
 END:VEVENT
 BEGIN:VEVENT
 UID:due-nsf_pitch@badgr-funding.local
-DTSTAMP:20261009T020310Z
+DTSTAMP:20261009T020419Z
 DTSTART;VALUE=DATE:20270106
 DTEND;VALUE=DATE:20270107
 SUMMARY:DUE: Submit NSF Project Pitch (owner submits)
@@ -189,7 +189,7 @@ LOCATION:Online
 END:VEVENT
 BEGIN:VEVENT
 UID:due-gpu_quotes@badgr-funding.local
-DTSTAMP:20261009T020310Z
+DTSTAMP:20261009T020419Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:DUE: Get 2-3 verified quotes for a 24GB GPU (+PSU check)
@@ -199,7 +199,7 @@ DESCRIPTION:Proof of done: Quotes in finance/equipment_quote_register.csv\n
 END:VEVENT
 BEGIN:VEVENT
 UID:due-mileage_log@badgr-funding.local
-DTSTAMP:20261009T020310Z
+DTSTAMP:20261009T020419Z
 DTSTART;VALUE=DATE:20261020
 DTEND;VALUE=DATE:20261021
 SUMMARY:DUE: Start a business mileage log (date\, purpose\, miles)
@@ -208,7 +208,7 @@ DESCRIPTION:Proof of done: Log file exists in private/\nIf stuck: None
 END:VEVENT
 BEGIN:VEVENT
 UID:due-ace_8a_revisit@badgr-funding.local
-DTSTAMP:20261009T020310Z
+DTSTAMP:20261009T020419Z
 DTSTART;VALUE=DATE:20270120
 DTEND;VALUE=DATE:20270121
 SUMMARY:DUE: Revisit ACE loan and SBA 8(a) with APEX/SBDC (2-year mark 2027
@@ -225,7 +225,7 @@ LOCATION:Online
 END:VEVENT
 BEGIN:VEVENT
 UID:due-biz_account_statements@badgr-funding.local
-DTSTAMP:20261009T020310Z
+DTSTAMP:20261009T020419Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:DUE: Download 2025 statements for the BADGRTechnologies LLC busines
@@ -236,7 +236,7 @@ DESCRIPTION:Proof of done: Statements saved in private/bank/\; income items
 END:VEVENT
 BEGIN:VEVENT
 UID:due-tag_customers@badgr-funding.local
-DTSTAMP:20261009T020310Z
+DTSTAMP:20261009T020419Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:DUE: Mark which 2025 Cash App/Zelle/cash deposits were customer pay
@@ -247,7 +247,7 @@ DESCRIPTION:Proof of done: private/income_records.csv updated\nIf stuck: No
 END:VEVENT
 BEGIN:VEVENT
 UID:due-tax_packet@badgr-funding.local
-DTSTAMP:20261009T020310Z
+DTSTAMP:20261009T020419Z
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:DUE: Bring private/tax_2025_summary.md (income reconciliation and f
@@ -264,233 +264,344 @@ LOCATION:VITA site near ZIP 30044 (from locator)
 END:VEVENT
 BEGIN:VEVENT
 UID:focus-mileage_log-20261008@badgr-funding.local
-DTSTAMP:20261009T020310Z
-DTSTART;VALUE=DATE:20261008
-DTEND;VALUE=DATE:20261009
+DTSTAMP:20261009T020419Z
+DTSTART;TZID=America/New_York:20261008T080000
+DTEND;TZID=America/New_York:20261008T083000
 SUMMARY:Focus (~15 min): Start a business mileage log (date\, purpose\, mil
  es)
-TRANSP:TRANSPARENT
-DESCRIPTION:Proof of done: Log file exists in private/
+DESCRIPTION:Proof of done: Log file exists in private/\nDone? Run: python3 
+ -m badgr_funding.cli task done mileage_log
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Focus (~15 min): Start a business mileage log (date\, purpose\,
+  miles)
+TRIGGER:-PT10M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:focus-ec_tour-20261009@badgr-funding.local
-DTSTAMP:20261009T020310Z
-DTSTART;VALUE=DATE:20261009
-DTEND;VALUE=DATE:20261010
+DTSTAMP:20261009T020419Z
+DTSTART;TZID=America/New_York:20261009T080000
+DTEND;TZID=America/New_York:20261009T083000
 SUMMARY:Focus (~20 min): Book a Gwinnett Entrepreneur Center tour (ask abou
  t cohort and desk access)
-TRANSP:TRANSPARENT
-DESCRIPTION:Proof of done: Tour date\nTours: https://gec1.wildapricot.org/t
- ours | County page: https://www.gwinnettcounty.com/government/departments/
- planning-development/economic-development/entrepreneur-center | 770.822.80
- 00 | Free\; ask about the incubator cohort and desk access.
-URL:https://gec1.wildapricot.org/tours
+DESCRIPTION:Proof of done: Tour date\nDone? Run: python3 -m badgr_funding.c
+ li task done ec_tour\nTours: https://gec1.wildapricot.org/tours | County p
+ age: https://www.gwinnettcounty.com/government/departments/planning-develo
+ pment/economic-development/entrepreneur-center | 770.822.8000 | Free\; ask
+  about the incubator cohort and desk access.
 LOCATION:Gwinnett Entrepreneur Center\, 75 Langley Drive\, Lawrenceville\, 
  GA 30046
+URL:https://gec1.wildapricot.org/tours
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Focus (~20 min): Book a Gwinnett Entrepreneur Center tour (ask 
+ about cohort and desk access)
+TRIGGER:-PT10M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:focus-atdc_quiz-20261012@badgr-funding.local
-DTSTAMP:20261009T020310Z
-DTSTART;VALUE=DATE:20261012
-DTEND;VALUE=DATE:20261013
+DTSTAMP:20261009T020419Z
+DTSTART;TZID=America/New_York:20261012T080000
+DTEND;TZID=America/New_York:20261012T083000
 SUMMARY:Focus (~15 min): Take the ATDC 'which program' quiz
-TRANSP:TRANSPARENT
-DESCRIPTION:Proof of done: Recommended program noted\nhttps://atdc.org/ (qu
- iz: 'Which ATDC Program is Right For Me?') | info@atdc.org | (404) 894-357
- 5 | State-funded\, zero equity.
-URL:https://atdc.org/
+DESCRIPTION:Proof of done: Recommended program noted\nDone? Run: python3 -m
+  badgr_funding.cli task done atdc_quiz\nhttps://atdc.org/ (quiz: 'Which AT
+ DC Program is Right For Me?') | info@atdc.org | (404) 894-3575 | State-fun
+ ded\, zero equity.
 LOCATION:Online
+URL:https://atdc.org/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Focus (~15 min): Take the ATDC 'which program' quiz
+TRIGGER:-PT10M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:focus-fin_inputs-20261013@badgr-funding.local
-DTSTAMP:20261009T020310Z
-DTSTART;VALUE=DATE:20261013
-DTEND;VALUE=DATE:20261014
+DTSTAMP:20261009T020419Z
+DTSTART;TZID=America/New_York:20261013T080000
+DTEND;TZID=America/New_York:20261013T084500
 SUMMARY:Focus (~45 min): Fill private/financial_inputs.csv (cash\, monthly 
  expenses\, debts\, 2026 YTD + through-date\; estimates allowed if marked)
-TRANSP:TRANSPARENT
-DESCRIPTION:Proof of done: `cli finance` no longer BLOCKED
+DESCRIPTION:Proof of done: `cli finance` no longer BLOCKED\nDone? Run: pyth
+ on3 -m badgr_funding.cli task done fin_inputs
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Focus (~45 min): Fill private/financial_inputs.csv (cash\, mont
+ hly expenses\, debts\, 2026 YTD + through-date\; estimates allowed if mark
+ ed)
+TRIGGER:-PT10M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:focus-preparer_docs-20261014@badgr-funding.local
-DTSTAMP:20261009T020310Z
-DTSTART;VALUE=DATE:20261014
-DTEND;VALUE=DATE:20261015
+DTSTAMP:20261009T020419Z
+DTSTART;TZID=America/New_York:20261014T080000
+DTEND;TZID=America/New_York:20261014T083000
 SUMMARY:Focus (~20 min): Ask tax preparer for 2025 depreciation schedule (a
  sset list) and workpapers
-TRANSP:TRANSPARENT
-DESCRIPTION:Proof of done: Asset list saved to private/
+DESCRIPTION:Proof of done: Asset list saved to private/\nDone? Run: python3
+  -m badgr_funding.cli task done preparer_docs
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Focus (~20 min): Ask tax preparer for 2025 depreciation schedul
+ e (asset list) and workpapers
+TRIGGER:-PT10M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:focus-order_histories-20261015@badgr-funding.local
-DTSTAMP:20261009T020310Z
-DTSTART;VALUE=DATE:20261015
-DTEND;VALUE=DATE:20261016
+DTSTAMP:20261009T020419Z
+DTSTART;TZID=America/New_York:20261015T080000
+DTEND;TZID=America/New_York:20261015T084500
 SUMMARY:Focus (~45 min): Pull 2025 Amazon/Staples/Best Buy order histories 
  for the candidate charges
-TRANSP:TRANSPARENT
 DESCRIPTION:Proof of done: Candidate rows upgraded to documented or marked 
- personal
+ personal\nDone? Run: python3 -m badgr_funding.cli task done order_historie
+ s
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Focus (~45 min): Pull 2025 Amazon/Staples/Best Buy order histor
+ ies for the candidate charges
+TRIGGER:-PT10M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:focus-biz_account_statements-20261016@badgr-funding.local
-DTSTAMP:20261009T020310Z
-DTSTART;VALUE=DATE:20261016
-DTEND;VALUE=DATE:20261017
+DTSTAMP:20261009T020419Z
+DTSTART;TZID=America/New_York:20261016T080000
+DTEND;TZID=America/New_York:20261016T084500
 SUMMARY:Focus (~45 min): Download 2025 statements for the BADGRTechnologies
   LLC business account (customer income likely there)
-TRANSP:TRANSPARENT
 DESCRIPTION:Proof of done: Statements saved in private/bank/\; income items
-  logged
+  logged\nDone? Run: python3 -m badgr_funding.cli task done biz_account_sta
+ tements
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Focus (~45 min): Download 2025 statements for the BADGRTechnolo
+ gies LLC business account (customer income likely there)
+TRIGGER:-PT10M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:focus-tag_customers-20261019@badgr-funding.local
-DTSTAMP:20261009T020310Z
-DTSTART;VALUE=DATE:20261019
-DTEND;VALUE=DATE:20261020
+DTSTAMP:20261009T020419Z
+DTSTART;TZID=America/New_York:20261019T080000
+DTEND;TZID=America/New_York:20261019T084500
 SUMMARY:Focus (~45 min): Mark which 2025 Cash App/Zelle/cash deposits were 
  customer payments (private file)
-TRANSP:TRANSPARENT
-DESCRIPTION:Proof of done: private/income_records.csv updated
+DESCRIPTION:Proof of done: private/income_records.csv updated\nDone? Run: p
+ ython3 -m badgr_funding.cli task done tag_customers
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Focus (~45 min): Mark which 2025 Cash App/Zelle/cash deposits w
+ ere customer payments (private file)
+TRIGGER:-PT10M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:focus-tax_review-20261020@badgr-funding.local
-DTSTAMP:20261009T020310Z
-DTSTART;VALUE=DATE:20261020
-DTEND;VALUE=DATE:20261021
+DTSTAMP:20261009T020419Z
+DTSTART;TZID=America/New_York:20261020T080000
+DTEND;TZID=America/New_York:20261020T083000
 SUMMARY:Focus (~30 min): Book free tax help (VITA or SBDC referral) about t
  he 2025 follow-up item (D16)
-TRANSP:TRANSPARENT
-DESCRIPTION:Proof of done: Appointment or written answer\nVITA locator: htt
- ps://irs.treasury.gov/freetaxprep/ | 800-906-9887 | Eligibility: https://w
- ww.irs.gov/individuals/free-tax-return-preparation-for-qualifying-taxpayer
- s | Bring private/tax_2025_summary.md\, IRS transcripts and your tax forms
- . Off-season: ask SBDC for a referral.
-URL:https://irs.treasury.gov/freetaxprep/
+DESCRIPTION:Proof of done: Appointment or written answer\nDone? Run: python
+ 3 -m badgr_funding.cli task done tax_review\nVITA locator: https://irs.tre
+ asury.gov/freetaxprep/ | 800-906-9887 | Eligibility: https://www.irs.gov/i
+ ndividuals/free-tax-return-preparation-for-qualifying-taxpayers | Bring pr
+ ivate/tax_2025_summary.md\, IRS transcripts and your tax forms. Off-season
+ : ask SBDC for a referral.
 LOCATION:VITA site near ZIP 30044 (from locator)
+URL:https://irs.treasury.gov/freetaxprep/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Focus (~30 min): Book free tax help (VITA or SBDC referral) abo
+ ut the 2025 follow-up item (D16)
+TRIGGER:-PT10M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:focus-website_align-20261021@badgr-funding.local
-DTSTAMP:20261009T020310Z
-DTSTART;VALUE=DATE:20261021
-DTEND;VALUE=DATE:20261022
+DTSTAMP:20261009T020419Z
+DTSTART;TZID=America/New_York:20261021T080000
+DTEND;TZID=America/New_York:20261021T093000
 SUMMARY:Focus (~90 min): Align badgrtech.com title/homepage and LinkedIn wi
  th the service menu\; fix resume education line (D8\, D10)
-TRANSP:TRANSPARENT
-DESCRIPTION:Proof of done: Updated site title live
+DESCRIPTION:Proof of done: Updated site title live\nDone? Run: python3 -m b
+ adgr_funding.cli task done website_align
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Focus (~90 min): Align badgrtech.com title/homepage and LinkedI
+ n with the service menu\; fix resume education line (D8\, D10)
+TRIGGER:-PT10M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:focus-tax_packet-20261022@badgr-funding.local
-DTSTAMP:20261009T020310Z
-DTSTART;VALUE=DATE:20261022
-DTEND;VALUE=DATE:20261023
+DTSTAMP:20261009T020419Z
+DTSTART;TZID=America/New_York:20261022T080000
+DTEND;TZID=America/New_York:20261022T083000
 SUMMARY:Focus (~20 min): Bring private/tax_2025_summary.md (income reconcil
  iation and follow-up items) to the tax help appointment
-TRANSP:TRANSPARENT
-DESCRIPTION:Proof of done: Tax helper's answer recorded privately\nVITA loc
- ator: https://irs.treasury.gov/freetaxprep/ | 800-906-9887 | Eligibility: 
- https://www.irs.gov/individuals/free-tax-return-preparation-for-qualifying
- -taxpayers | Bring private/tax_2025_summary.md\, IRS transcripts and your 
- tax forms. Off-season: ask SBDC for a referral.
-URL:https://irs.treasury.gov/freetaxprep/
+DESCRIPTION:Proof of done: Tax helper's answer recorded privately\nDone? Ru
+ n: python3 -m badgr_funding.cli task done tax_packet\nVITA locator: https:
+ //irs.treasury.gov/freetaxprep/ | 800-906-9887 | Eligibility: https://www.
+ irs.gov/individuals/free-tax-return-preparation-for-qualifying-taxpayers |
+  Bring private/tax_2025_summary.md\, IRS transcripts and your tax forms. O
+ ff-season: ask SBDC for a referral.
 LOCATION:VITA site near ZIP 30044 (from locator)
+URL:https://irs.treasury.gov/freetaxprep/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Focus (~20 min): Bring private/tax_2025_summary.md (income reco
+ nciliation and follow-up items) to the tax help appointment
+TRIGGER:-PT10M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:focus-kiva_decide-20261023@badgr-funding.local
-DTSTAMP:20261009T020310Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
+DTSTAMP:20261009T020419Z
+DTSTART;TZID=America/New_York:20261023T080000
+DTEND;TZID=America/New_York:20261023T083000
 SUMMARY:Focus (~30 min): Decide on Kiva after repayment analysis
-TRANSP:TRANSPARENT
-DESCRIPTION:Proof of done: Decision noted in tracker\nhttps://www.kiva.org/
- borrow | 0% loans $1\,000-$15\,000\; apply only after the repayment check.
-URL:https://www.kiva.org/borrow
+DESCRIPTION:Proof of done: Decision noted in tracker\nDone? Run: python3 -m
+  badgr_funding.cli task done kiva_decide\nhttps://www.kiva.org/borrow | 0%
+  loans $1\,000-$15\,000\; apply only after the repayment check.
 LOCATION:Online
+URL:https://www.kiva.org/borrow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Focus (~30 min): Decide on Kiva after repayment analysis
+TRIGGER:-PT10M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:focus-op_agreement-20261026@badgr-funding.local
-DTSTAMP:20261009T020310Z
-DTSTART;VALUE=DATE:20261026
-DTEND;VALUE=DATE:20261027
+DTSTAMP:20261009T020419Z
+DTSTART;TZID=America/New_York:20261026T080000
+DTEND;TZID=America/New_York:20261026T083000
 SUMMARY:Focus (~20 min): Confirm a signed\, dated operating agreement (D2)
-TRANSP:TRANSPARENT
-DESCRIPTION:Proof of done: Signed copy saved in badgr_legal/
+DESCRIPTION:Proof of done: Signed copy saved in badgr_legal/\nDone? Run: py
+ thon3 -m badgr_funding.cli task done op_agreement
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Focus (~20 min): Confirm a signed\, dated operating agreement (
+ D2)
+TRIGGER:-PT10M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:focus-case_study-20261027@badgr-funding.local
-DTSTAMP:20261009T020310Z
-DTSTART;VALUE=DATE:20261027
-DTEND;VALUE=DATE:20261028
+DTSTAMP:20261009T020419Z
+DTSTART;TZID=America/New_York:20261027T080000
+DTEND;TZID=America/New_York:20261027T110000
 SUMMARY:Focus (~180 min): Publish a C.Walts case-study page (no secrets\; s
  coped metrics)
-TRANSP:TRANSPARENT
-DESCRIPTION:Proof of done: Public URL\; add to claims ledger
+DESCRIPTION:Proof of done: Public URL\; add to claims ledger\nDone? Run: py
+ thon3 -m badgr_funding.cli task done case_study
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Focus (~180 min): Publish a C.Walts case-study page (no secrets
+ \; scoped metrics)
+TRIGGER:-PT10M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:focus-gpu_quotes-20261028@badgr-funding.local
-DTSTAMP:20261009T020310Z
-DTSTART;VALUE=DATE:20261028
-DTEND;VALUE=DATE:20261029
+DTSTAMP:20261009T020419Z
+DTSTART;TZID=America/New_York:20261028T080000
+DTEND;TZID=America/New_York:20261028T090000
 SUMMARY:Focus (~60 min): Get 2-3 verified quotes for a 24GB GPU (+PSU check
  )
-TRANSP:TRANSPARENT
-DESCRIPTION:Proof of done: Quotes in finance/equipment_quote_register.csv
+DESCRIPTION:Proof of done: Quotes in finance/equipment_quote_register.csv\n
+ Done? Run: python3 -m badgr_funding.cli task done gpu_quotes
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Focus (~60 min): Get 2-3 verified quotes for a 24GB GPU (+PSU c
+ heck)
+TRIGGER:-PT10M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:focus-discovery-20261029@badgr-funding.local
-DTSTAMP:20261009T020310Z
-DTSTART;VALUE=DATE:20261029
-DTEND;VALUE=DATE:20261030
+DTSTAMP:20261009T020419Z
+DTSTART;TZID=America/New_York:20261029T080000
+DTEND;TZID=America/New_York:20261029T120000
 SUMMARY:Focus (~240 min): Hold 3-5 customer discovery conversations (retrie
  val reliability pain)
-TRANSP:TRANSPARENT
-DESCRIPTION:Proof of done: Notes per conversation (names kept private)\nhtt
- ps://seedfund.nsf.gov/project-pitch/ | Draft: drafts/nsf_project_pitch.md 
- | One pitch at a time.
-URL:https://seedfund.nsf.gov/project-pitch/
+DESCRIPTION:Proof of done: Notes per conversation (names kept private)\nDon
+ e? Run: python3 -m badgr_funding.cli task done discovery\nhttps://seedfund
+ .nsf.gov/project-pitch/ | Draft: drafts/nsf_project_pitch.md | One pitch a
+ t a time.
 LOCATION:Online
+URL:https://seedfund.nsf.gov/project-pitch/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Focus (~240 min): Hold 3-5 customer discovery conversations (re
+ trieval reliability pain)
+TRIGGER:-PT10M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:focus-prior_art-20261030@badgr-funding.local
-DTSTAMP:20261009T020310Z
-DTSTART;VALUE=DATE:20261030
-DTEND;VALUE=DATE:20261031
+DTSTAMP:20261009T020419Z
+DTSTART;TZID=America/New_York:20261030T080000
+DTEND;TZID=America/New_York:20261030T130000
 SUMMARY:Focus (~300 min): Prior-art review for R&D concept 1
-TRANSP:TRANSPARENT
 DESCRIPTION:Proof of done: Review summary saved\; pitch section 1 revised\n
- https://seedfund.nsf.gov/project-pitch/ | Draft: drafts/nsf_project_pitch.
- md | One pitch at a time.
-URL:https://seedfund.nsf.gov/project-pitch/
+ Done? Run: python3 -m badgr_funding.cli task done prior_art\nhttps://seedf
+ und.nsf.gov/project-pitch/ | Draft: drafts/nsf_project_pitch.md | One pitc
+ h at a time.
 LOCATION:Online
+URL:https://seedfund.nsf.gov/project-pitch/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Focus (~300 min): Prior-art review for R&D concept 1
+TRIGGER:-PT10M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:focus-nsf_pitch-20261102@badgr-funding.local
-DTSTAMP:20261009T020310Z
-DTSTART;VALUE=DATE:20261102
-DTEND;VALUE=DATE:20261103
+DTSTAMP:20261009T020419Z
+DTSTART;TZID=America/New_York:20261102T080000
+DTEND;TZID=America/New_York:20261102T100000
 SUMMARY:Focus (~120 min): Submit NSF Project Pitch (owner submits)
-TRANSP:TRANSPARENT
-DESCRIPTION:Proof of done: Pitch confirmation\nhttps://seedfund.nsf.gov/pro
- ject-pitch/ | Draft: drafts/nsf_project_pitch.md | One pitch at a time.
-URL:https://seedfund.nsf.gov/project-pitch/
+DESCRIPTION:Proof of done: Pitch confirmation\nDone? Run: python3 -m badgr_
+ funding.cli task done nsf_pitch\nhttps://seedfund.nsf.gov/project-pitch/ |
+  Draft: drafts/nsf_project_pitch.md | One pitch at a time.
 LOCATION:Online
+URL:https://seedfund.nsf.gov/project-pitch/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Focus (~120 min): Submit NSF Project Pitch (owner submits)
+TRIGGER:-PT10M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:focus-kiva_story-20261103@badgr-funding.local
-DTSTAMP:20261009T020310Z
-DTSTART;VALUE=DATE:20261103
-DTEND;VALUE=DATE:20261104
+DTSTAMP:20261009T020419Z
+DTSTART;TZID=America/New_York:20261103T080000
+DTEND;TZID=America/New_York:20261103T090000
 SUMMARY:Focus (~60 min): Write Kiva personal story (your own words) and tak
  e the horizontal photo
-TRANSP:TRANSPARENT
-DESCRIPTION:Proof of done: Story + photo saved\nhttps://www.kiva.org/borrow
-  | 0% loans $1\,000-$15\,000\; apply only after the repayment check.
-URL:https://www.kiva.org/borrow
+DESCRIPTION:Proof of done: Story + photo saved\nDone? Run: python3 -m badgr
+ _funding.cli task done kiva_story\nhttps://www.kiva.org/borrow | 0% loans 
+ $1\,000-$15\,000\; apply only after the repayment check.
 LOCATION:Online
+URL:https://www.kiva.org/borrow
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Focus (~60 min): Write Kiva personal story (your own words) and
+  take the horizontal photo
+TRIGGER:-PT10M
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:milestone-2026-11-01@badgr-funding.local
-DTSTAMP:20261009T020310Z
+DTSTAMP:20261009T020419Z
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:Verizon grant: check inbox/spam for notifications@lisc.org
@@ -504,7 +615,7 @@ LOCATION:Email
 END:VEVENT
 BEGIN:VEVENT
 UID:milestone-2026-12-01@badgr-funding.local
-DTSTAMP:20261009T020310Z
+DTSTAMP:20261009T020419Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:Verizon grant: check inbox/spam for notifications@lisc.org
@@ -518,7 +629,7 @@ LOCATION:Email
 END:VEVENT
 BEGIN:VEVENT
 UID:milestone-2026-12-31@badgr-funding.local
-DTSTAMP:20261009T020310Z
+DTSTAMP:20261009T020419Z
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
 SUMMARY:Verizon grant: last monthly finalist round of 2026
@@ -532,7 +643,7 @@ LOCATION:Email
 END:VEVENT
 BEGIN:VEVENT
 UID:milestone-2027-01-12@badgr-funding.local
-DTSTAMP:20261009T020310Z
+DTSTAMP:20261009T020419Z
 DTSTART;VALUE=DATE:20270112
 DTEND;VALUE=DATE:20270113
 SUMMARY:Verizon Digital Ready final decisions due
@@ -547,7 +658,7 @@ LOCATION:Online
 END:VEVENT
 BEGIN:VEVENT
 UID:milestone-2027-01-20@badgr-funding.local
-DTSTAMP:20261009T020310Z
+DTSTAMP:20261009T020419Z
 DTSTART;VALUE=DATE:20270120
 DTEND;VALUE=DATE:20270121
 SUMMARY:2-year mark since formation: confirm ACE and SBA 8(a) criteria with
@@ -563,7 +674,7 @@ LOCATION:Online
 END:VEVENT
 BEGIN:VEVENT
 UID:event-20261015T0900@badgr-funding.local
-DTSTAMP:20261009T020310Z
+DTSTAMP:20261009T020419Z
 DTSTART;TZID=America/New_York:20261015T090000
 DTEND;TZID=America/New_York:20261015T120000
 SUMMARY:GT APEX: Introduction to Government Contracting
@@ -582,7 +693,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:event-20261030T1000@badgr-funding.local
-DTSTAMP:20261009T020310Z
+DTSTAMP:20261009T020419Z
 DTSTART;TZID=America/New_York:20261030T100000
 DTEND;TZID=America/New_York:20261030T113000
 SUMMARY:GT APEX: Mentor-Protege Programs Overview (DoD and SBA)
@@ -599,7 +710,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:event-20261013T1200@badgr-funding.local
-DTSTAMP:20261009T020310Z
+DTSTAMP:20261009T020419Z
 DTSTART;TZID=America/New_York:20261013T120000
 DTEND;TZID=America/New_York:20261013T140000
 SUMMARY:Webinar: The AI scheduler

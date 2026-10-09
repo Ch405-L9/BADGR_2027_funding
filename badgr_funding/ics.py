@@ -113,6 +113,26 @@ def _allday(uid, day, summary, info=None, extra="", stamp=""):
     return ev
 
 
+FOCUS_START = "08:00"   # owner's preferred daily focus time (2026-10-08)
+FOCUS_MIN_MINUTES = 30
+
+
+def _timed(uid, start_dt, minutes, summary, info=None, extra="", stamp="", alarm_min=10):
+    end_dt = start_dt + dt.timedelta(minutes=minutes)
+    desc = "\n".join(x for x in (extra, info["info"] if info else "") if x)
+    ev = ["BEGIN:VEVENT", f"UID:{uid}@badgr-funding.local", f"DTSTAMP:{stamp}",
+          f"DTSTART;TZID=America/New_York:{start_dt:%Y%m%dT%H%M%S}", f"DTEND;TZID=America/New_York:{end_dt:%Y%m%dT%H%M%S}",
+          f"SUMMARY:{escape(summary)}"]
+    if desc:
+        ev.append(f"DESCRIPTION:{escape(desc)}")
+    if info:
+        ev.append(f"LOCATION:{escape(info['location'])}")
+        if info.get("url"):
+            ev.append(f"URL:{info['url']}")
+    ev += ["BEGIN:VALARM", "ACTION:DISPLAY", f"DESCRIPTION:{escape(summary)}", f"TRIGGER:-PT{alarm_min}M", "END:VALARM", "END:VEVENT"]
+    return ev
+
+
 def build(data, start, statuses=None, holidays=None, sam_active=False, now=None, weekly=(), events=None):
     """weekly: optional (weekday code, HH:MM, minutes, summary, description) timed recurring blocks."""
     now = now or dt.datetime.now(dt.timezone.utc)
@@ -130,22 +150,18 @@ def build(data, start, statuses=None, holidays=None, sam_active=False, now=None,
     for d in planner.schedule(data, start, 30, statuses, holidays, sam_active):
         if d["focus"]:
             t = d["focus"]
-            lines += _allday(f"focus-{t['id']}-{d['date']:%Y%m%d}", d["date"], f"Focus (~{t['effort_min']} min): {t['title']}",
-                             TASK_INFO.get(t["id"]), f"Proof of done: {t['evidence']}", stamp)
+            h, m = map(int, FOCUS_START.split(":"))
+            s = dt.datetime(d["date"].year, d["date"].month, d["date"].day, h, m)
+            lines += _timed(f"focus-{t['id']}-{d['date']:%Y%m%d}", s, max(FOCUS_MIN_MINUTES, t["effort_min"]),
+                            f"Focus (~{t['effort_min']} min): {t['title']}", TASK_INFO.get(t["id"]),
+                            f"Proof of done: {t['evidence']}\nDone? Run: python3 -m badgr_funding.cli task done {t['id']}", stamp)
     for day, summary, info, skip_task in MILESTONES:
         if skip_task and statuses.get(skip_task, {}).get("status") == "done":
             continue
         lines += _allday(f"milestone-{day}", dt.date.fromisoformat(day), summary, info, "", stamp)
     for when, minutes, summary, info in events:
         s = dt.datetime.fromisoformat(when)
-        e = s + dt.timedelta(minutes=minutes)
-        ev = ["BEGIN:VEVENT", f"UID:event-{s:%Y%m%dT%H%M}@badgr-funding.local", f"DTSTAMP:{stamp}",
-              f"DTSTART;TZID=America/New_York:{s:%Y%m%dT%H%M%S}", f"DTEND;TZID=America/New_York:{e:%Y%m%dT%H%M%S}",
-              f"SUMMARY:{escape(summary)}", f"DESCRIPTION:{escape(info['info'])}", f"LOCATION:{escape(info['location'])}"]
-        if info.get("url"):
-            ev.append(f"URL:{info['url']}")
-        ev += ["BEGIN:VALARM", "ACTION:DISPLAY", f"DESCRIPTION:{escape(summary)}", "TRIGGER:-PT30M", "END:VALARM", "END:VEVENT"]
-        lines += ev
+        lines += _timed(f"event-{s:%Y%m%dT%H%M}", s, minutes, summary, info, "", stamp, alarm_min=30)
     until = "20270120T235959Z"
     first = {"MO": 0, "TU": 1, "WE": 2, "TH": 3, "FR": 4, "SA": 5, "SU": 6}
     for code, hhmm, minutes, summary, desc in weekly:

@@ -50,6 +50,18 @@ class IcsTests(unittest.TestCase):
         self.assertIn("DTEND;TZID=America/New_York:20261015T120000", unfolded)
         self.assertEqual(unfolded.count("BEGIN:VALARM"), unfolded.count("END:VALARM"))
 
+    def test_focus_days_timed_at_8am_min_30(self):
+        unfolded = self.text.replace("\r\n ", "")
+        blocks = [b for b in unfolded.split("BEGIN:VEVENT") if "UID:focus-" in b]
+        self.assertTrue(blocks)
+        for b in blocks:
+            start = next(l for l in b.split("\r\n") if l.startswith("DTSTART"))
+            end = next(l for l in b.split("\r\n") if l.startswith("DTEND"))
+            self.assertTrue(start.startswith("DTSTART;TZID=America/New_York:") and start.endswith("T080000"), start)
+            mins = (dt.datetime.strptime(end[-15:], "%Y%m%dT%H%M%S") - dt.datetime.strptime(start[-15:], "%Y%m%dT%H%M%S")).seconds // 60
+            self.assertGreaterEqual(mins, 30)
+            self.assertIn("TRIGGER:-PT10M", b)
+
     def test_milestone_skipped_when_task_done(self):
         text = ics.build(self.data, dt.date(2026, 10, 8), {"dr_course2": {"status": "done"}}, {}, False, NOW)
         self.assertNotIn("milestone-2026-12-07@", text.replace("\r\n ", ""))
