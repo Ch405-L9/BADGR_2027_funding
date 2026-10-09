@@ -27,11 +27,12 @@ SAM Registration; State/Local Registration System (GA@WORK); Subcontracting; Cap
 
 ## Registered events
 - 2026-10-30 10:00-11:30 ET: Mentor-Protege Programs Overview (DoD and SBA), online. Contact Jennifer White (404) 894-3512.
-- 2026-10-08: Teaming Agreements, Subcontracts, and Joint Ventures; Federal Innovation Programs (attendance not confirmed).
+- 2026-10-08 Teaming Agreements and Federal Innovation Programs: not attended (owner first learned of GT APEX on 2026-10-08). Retake when offered again.
 - Listed without dates: RFP: Understanding the Basics; Cost and Price Proposal Preparation; Disaster Contracting--Before the Storm. Add to the calendar once dates are known.
 
 ## Review after 2-3 weeks of Bid Match alerts
 Drop any code or keyword that only brings irrelevant notices; confirm codes with the APEX counselor.
 
 ## Missing inputs
-- Dates for the three undated webinars; whether the intro class ("Introduction to Government Contracting") is done.
+- Dates for the three undated webinars.
+- Intro class ("Introduction to Government Contracting") not yet taken; it comes first in APEX onboarding (task apex_class, due 2026-10-15).
