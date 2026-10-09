@@ -29,6 +29,15 @@
   ],
   "tasks": [
     {
+      "id": "email_switch",
+      "title": "Business-domain mailbox (badgrtech.com) bounces: switch the contact email on LISC/Verizon, SBDC, APEX, website, LinkedIn and GitHub to the working Proton or Gmail address",
+      "category": "admin",
+      "effort_min": 30,
+      "due": "2026-10-09",
+      "evidence": "Each account shows a working email; test message received",
+      "escalate": "LISC finalist emails go to the address on the application: contact LISC first if it used the badgrtech.com address"
+    },
+    {
       "id": "sbdc_request",
       "title": "Request an SBDC Gwinnett consulting appointment (online form)",
       "category": "advisor",
